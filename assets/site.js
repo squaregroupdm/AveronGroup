@@ -133,7 +133,7 @@
   }
 
   // The journey: rail, route line, pinned chapters, route plot, orbit
-  var journey = document.getElementById('journey');
+  var journey = document.querySelector('main.journey');
   if (!journey) return;
   var chapters = [].slice.call(journey.querySelectorAll('.ch'));
   var rail = document.getElementById('rail'), railN = document.getElementById('rail-n'), railT = document.getElementById('rail-t');
