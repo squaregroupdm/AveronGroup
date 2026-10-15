@@ -208,9 +208,9 @@
     var caps = document.querySelectorAll('#source-caps .tag');
     if (caps.length) {
       gsap.set(caps, { opacity: 0, y: 14 });
-      ScrollTrigger.create({ trigger: '#source-stage', start: 'top top', end: '+=50%', pin: true, pinSpacing: true, anticipatePin: 1,
-        onEnter: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.7, stagger: 0.14, ease: 'power3.out' }); },
-        onEnterBack: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }); } });
+      // No pin here: the factory scrolls through at natural speed and the labels rise as it fills the screen
+      ScrollTrigger.create({ trigger: '#source-stage', start: 'top 35%', once: true,
+        onEnter: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.7, stagger: 0.14, ease: 'power3.out' }); } });
     }
     // Chapter 03: the material selector holds while the scroll steps through the six materials
     var matSel = document.getElementById('mat-sel');
@@ -218,7 +218,7 @@
     if (matSel && matSelect && window.innerWidth >= 1024) {
       var matCount = mats.length, matIdx = 0;
       var wholeFits = matBlock.offsetHeight < window.innerHeight - 110;
-      ScrollTrigger.create({ trigger: wholeFits ? matBlock : matSel, start: wholeFits ? 'top 90px' : 'center center', end: '+=' + (matCount * 45) + '%', pin: true, anticipatePin: 1, scrub: 0.6, onUpdate: function (s) {
+      ScrollTrigger.create({ trigger: wholeFits ? matBlock : matSel, start: wholeFits ? 'top 90px' : 'center center', end: '+=' + (matCount * 38) + '%', pin: true, scrub: 0.6, onUpdate: function (s) {
         var idx = Math.min(matCount - 1, Math.floor(s.progress * matCount));
         if (idx !== matIdx) { matIdx = idx; matSelect(idx); }
       } });
@@ -228,7 +228,7 @@
     var steps = document.querySelectorAll('#make-steps .step');
     var counter = document.getElementById('make-counter');
     if (frames.length === 3) {
-      ScrollTrigger.create({ trigger: '#make-pin', start: 'top top', end: '+=200%', pin: true, anticipatePin: 1, scrub: 0.8, onUpdate: function (s) {
+      ScrollTrigger.create({ trigger: '#make-pin', start: 'top top', end: '+=200%', pin: true, scrub: 0.8, onUpdate: function (s) {
         var p = s.progress * 3; var idx = Math.min(2, Math.floor(p)); var local = p - idx;
         frames.forEach(function (f, k) { f.style.opacity = k === idx ? 1 : (k === idx + 1 ? Math.max(0, (local - 0.6) * 2.5) : 0); });
         steps.forEach(function (st, k) { st.classList.toggle('is-on', k === idx); var line = st.querySelector('.line i'); if (line) line.style.transform = 'scaleX(' + (k < idx ? 1 : k === idx ? local : 0) + ')'; });
@@ -241,9 +241,10 @@
       var len = route.getTotalLength();
       route.style.strokeDasharray = len; route.style.strokeDashoffset = len;
       var branches = route.parentNode.querySelector('.branches'); if (branches) branches.style.opacity = 0;
-      ScrollTrigger.create({ trigger: route.closest('.map'), start: 'top 80%', end: 'bottom 55%', scrub: 1, onUpdate: function (s) {
-        route.style.strokeDashoffset = len * (1 - s.progress);
-        if (branches) branches.style.opacity = s.progress > 0.9 ? 0.7 * ((s.progress - 0.9) / 0.1) : 0;
+      // Draws in just over a second once the map is on screen, rather than inching along with the scroll
+      ScrollTrigger.create({ trigger: route.closest('.map'), start: 'top 70%', once: true, onEnter: function () {
+        gsap.to(route, { strokeDashoffset: 0, duration: 1.2, ease: 'power2.inOut' });
+        if (branches) gsap.to(branches, { opacity: 0.7, duration: 0.5, delay: 1.0 });
       } });
     }
     // Chapter tracking is created after the pins so the pin spacing is already in the layout
