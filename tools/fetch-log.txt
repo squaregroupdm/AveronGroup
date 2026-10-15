@@ -1,7 +1,3 @@
-cand-sm-1 (1360, 768)
-cand-sm-2 (1168, 880)
-cand-sm-3 (1248, 832)
-cand-sm-4 (1360, 768)
-cand-sm-5 (1248, 832)
-cand-sm-6 (1248, 832)
-fetched 6
+cand-sm-3b (1248, 832)
+cand-sm-4b (1360, 768)
+fetched 2
