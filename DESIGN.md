@@ -34,6 +34,12 @@ typography:
     fontWeight: 400
     lineHeight: 1.3
     letterSpacing: "0.005em"
+  headline-compact:
+    fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
+    fontSize: "clamp(1.6rem, 1.15rem + 1.4vw, 2.3rem)"
+    fontWeight: 500
+    lineHeight: 1.08
+    letterSpacing: "-0.02em"
   title:
     fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
     fontSize: "clamp(1.35rem, 1.1rem + 0.8vw, 2rem)"
@@ -50,11 +56,21 @@ typography:
     fontSize: "clamp(1rem, 0.95rem + 0.15vw, 1.125rem)"
     fontWeight: 400
     lineHeight: 1.6
+  ui:
+    fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
+    fontSize: "0.92rem"
+    fontWeight: 500
+    lineHeight: 1.2
   small:
     fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
     fontSize: "0.875rem"
     fontWeight: 400
     lineHeight: 1.55
+  compact:
+    fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
+    fontSize: "0.82rem"
+    fontWeight: 400
+    lineHeight: 1.5
   label:
     fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
     fontSize: "0.72rem"
