@@ -1,0 +1,36 @@
+{
+  "buildPath": "code",
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "buried-raster",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-15T06:51:23.964Z",
+        "reason": "developer: the second img in each crossfading photograph sits at opacity 0 until a tab is selected; it is aria-hidden and never carries content on its own"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-15T06:51:23.976Z",
+        "reason": "developer: photographs fill their rounded frames edge to edge by design, the positioning strip's rules bound the row, and the route map's graticule runs to the frame"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-15T07:45:00.000Z",
+        "reason": "user confirmed: the October 2026 rebuild brief specifies exactly two labels above headings, the hero eyebrow INTERNATIONAL SOURCING & SUPPLY and QUALITY MANAGEMENT; the detector cannot scope this rule narrower than a file, and the page carries no other kicker"
+      }
+    ]
+  }
+}

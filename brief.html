@@ -6,27 +6,29 @@
 <title>Start a project, Averon Global</title>
 <meta name="description" content="Tell Averon what you are sourcing, the quantity, the material, the market and the date. We reply with the questions a quotation needs.">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/stix-two-text-latin-400-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/archivo-latin-500-normal.woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 <script>document.documentElement.classList.add('js')</script>
 </head>
 <body>
 
-<nav class="nav is-solid on-paper" id="nav" aria-label="Primary" style="background:var(--ivory)">
-  <a class="brand" href="index.html" aria-label="Averon Global, home">
-    <img class="mark-ivory" src="assets/brand/mark-ivory.png" width="800" height="636" alt="Averon Global">
-    <img class="mark-navy" src="assets/brand/mark-navy.png" width="800" height="636" alt="">
-  </a>
-  <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
-  <div class="links" id="navlinks">
-    <a href="index.html#solutions">Solutions</a>
-    <a href="index.html#how">How we work</a>
-    <a href="index.html#network">Network</a>
-    <a href="index.html#industries">Industries</a>
+<nav class="nav is-solid" id="nav" aria-label="Primary">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="Averon Global, home">
+      <img class="mark" src="assets/brand/mark-navy.png" width="800" height="636" alt="">
+      <img src="assets/brand/wordmark-navy.png" width="1600" height="300" alt="Averon Global">
+    </a>
+    <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
+    <div class="links" id="navlinks">
+      <a class="uline" href="index.html#capabilities">Solutions</a>
+      <a class="uline" href="index.html#industries">Industries</a>
+      <a class="uline" href="index.html#how">How We Work</a>
+      <a class="uline" href="index.html#network">Network</a>
+      <a class="uline" href="index.html#about">About</a>
+    </div>
+    <div class="act"><a class="btn ghost" href="index.html">Back to the site</a></div>
   </div>
-  <div class="act"><a class="btn" href="index.html">Back to the site</a></div>
 </nav>
 
 <main class="briefpage wrap">
@@ -105,14 +107,14 @@
 
     <div class="nav-row">
       <button class="btn ghost" type="button" id="prev">Previous</button>
-      <button class="btn" type="button" id="next">Next</button>
+      <button class="btn fill" type="button" id="next">Next</button>
     </div>
 
     <div class="result" id="result" aria-live="polite">
       <pre id="draft"></pre>
       <div class="acts">
-        <a class="btn" id="mail" href="#">Open in your email app</a>
-        <button class="btn btn--ivory" type="button" id="copy">Copy the brief</button>
+        <a class="btn fill" id="mail" href="#">Open in your email app</a>
+        <button class="btn ghost" type="button" id="copy">Copy the brief</button>
       </div>
       <p class="ok" id="ok"></p>
       <p class="help">Attach the files you chose to the email before sending. The address opens in your own mail app; nothing is sent from this page.</p>

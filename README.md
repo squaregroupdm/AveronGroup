@@ -4,7 +4,7 @@ Static site: `index.html` (home) and `brief.html` (the project brief). Styles in
 
 ## Photographs
 
-Every picture on the site is loaded from `assets/photo/<name>.jpg`. The files there now are labelled stand-ins ("Photograph in preparation"). Replace each with the approved photograph of the same name and the site updates by itself. The shot list and names are in `PHOTOS.md`.
+Every picture on the site is loaded from `assets/photo/<name>.jpg` (full size) and `assets/photo/m/<name>.jpg` (960px wide, for phones). The current set was generated from the prompts in `tools/photo-prompts.json`; each file carries its prompt in its metadata. To replace one, save the new photograph under the same name in both folders and the site updates by itself. The shot list is in `PHOTOS.md`.
 
 ## Editing text
 
@@ -14,4 +14,7 @@ Open `index.html` or `brief.html` and search for the sentence. Everything on the
 
 - Replace `enquiries@averonglobal.com` in `brief.html` with the real mailbox
 - Fill in the two office addresses and the contact line in the footer of `index.html`
-- Remove the "Photography in preparation" line in the footer once the real set is in place
+
+## Design record
+
+`PRODUCT.md` holds the product facts, `DESIGN.md` the design system (palette, type, grid, components, rules) derived from the built site. Fonts are self-hosted in `assets/fonts/` (SIL Open Font License, licences included).
