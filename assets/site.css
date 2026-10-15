@@ -164,7 +164,7 @@ p { max-width: 38em; }
 
 /* Journey rail and route */
 .journey { position: relative; }
-.rail { position: fixed; left: calc(var(--edge) - 12px); top: 50%; transform: translateY(-50%); z-index: 30; display: none; flex-direction: column; gap: 6px; align-items: flex-start; opacity: 0; transition: opacity var(--motion-base) var(--ease-editorial), background var(--motion-base) var(--ease-editorial); pointer-events: none; padding: 10px 12px; border-radius: 12px; background: var(--glass-dark); border: 1px solid var(--glass-border); backdrop-filter: blur(var(--glass-blur)); -webkit-backdrop-filter: blur(var(--glass-blur)); }
+.rail { position: fixed; left: max(12px, calc(var(--edge) - 96px)); bottom: 40px; z-index: 30; display: none; flex-direction: column; gap: 6px; align-items: flex-start; opacity: 0; transition: opacity var(--motion-base) var(--ease-editorial), background var(--motion-base) var(--ease-editorial); pointer-events: none; padding: 10px 12px; border-radius: 12px; background: var(--glass-dark); border: 1px solid var(--glass-border); backdrop-filter: blur(var(--glass-blur)); -webkit-backdrop-filter: blur(var(--glass-blur)); }
 .rail.is-on { opacity: 1; }
 .rail .n { font-size: var(--text-xs); letter-spacing: 0.14em; font-weight: 600; color: var(--av-ivory); font-variant-numeric: tabular-nums; }
 .rail .n span { color: var(--soft); font-weight: 400; }
@@ -172,7 +172,7 @@ p { max-width: 38em; }
 .rail.on-light-ground { background: rgba(251, 234, 213, 0.7); border-color: rgba(5, 10, 48, 0.12); }
 .rail.on-light-ground .n { color: var(--av-midnight); } .rail.on-light-ground .n span, .rail.on-light-ground .t { color: var(--av-slate); }
 .route { position: absolute; left: calc(var(--edge) + 5px); top: var(--route-top, 0px); bottom: 0; width: 1.5px; pointer-events: none; z-index: 20; display: none; }
-.route .elbow { position: absolute; top: 0; left: 0; width: calc(var(--rail) - 4px); height: 1.5px; background: var(--av-ivory); opacity: 0; transform-origin: right; transform: scaleX(0); transition: transform var(--motion-slow) var(--ease-editorial), opacity var(--motion-base) var(--ease-editorial); }
+.route .elbow { position: absolute; top: 0; left: 0; width: calc(var(--rail) + 60px); height: 1.5px; background: var(--av-ivory); opacity: 0; transform-origin: right; transform: scaleX(0); transition: transform var(--motion-slow) var(--ease-editorial), opacity var(--motion-base) var(--ease-editorial); }
 .route .elbow.is-on { opacity: 1; transform: none; }
 .route .track { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(251,234,213,0.1), rgba(251,234,213,0.1)); }
 .route .ink { position: absolute; inset: 0; background: var(--av-ivory); transform-origin: top; transform: scaleY(0); }
@@ -289,8 +289,8 @@ p { max-width: 38em; }
 /* Chapter 06 Pack */
 .pack { border-top: 1px solid var(--hair); }
 .pack .grid { align-items: center; }
-.pack .copy { grid-column: 1 / 6; }
-.pack .scale { grid-column: 7 / 13; }
+.pack .copy { grid-column: 1 / 5; }
+.pack .scale { grid-column: 5 / 13; }
 .pack .seq { display: grid; grid-template-columns: 1fr 1.25fr 1.6fr; gap: 12px; align-items: end; }
 .pack .seq figure { position: relative; }
 .pack .seq .ph { aspect-ratio: 4 / 5; }
@@ -315,6 +315,7 @@ p { max-width: 38em; }
 .move .map .legend i { display: inline-block; width: 18px; border-top: 1px solid var(--av-ivory); vertical-align: middle; margin-right: 8px; }
 .move .map .legend i.d { border-top-style: dashed; }
 .move .map .tag { position: absolute; }
+.move .map .lbl-short { display: none; }
 .move .info { grid-column: 9 / 13; border-top: 1px solid var(--hair-d); }
 .move .info li { padding: 20px 0; border-bottom: 1px solid var(--hair-d); }
 .move .info b { display: block; font-weight: 600; font-size: 1.05rem; margin: 4px 0 4px; }
@@ -525,7 +526,6 @@ table.spec td:first-child { font-weight: 600; width: 22%; }
   .move .map .cities text { opacity: 1; }
   .deliver .orbit { width: 160px; }
 }
-.move .map .lbl-short { display: none; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition-duration: 0.01ms !important; animation: none !important; }

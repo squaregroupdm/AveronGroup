@@ -93,6 +93,60 @@
         ],
         "createdAt": "2026-10-15T08:07:24.369Z",
         "reason": "user confirmed: the storytelling brief numbers the process stages; the sequence is the information"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "solutions.html"
+        ],
+        "createdAt": "2026-10-15T08:23:43.857Z",
+        "reason": "user confirmed: Ivory #FBEAD5 is a pinned brand colour in the owner's brief and one of the world's two grounds"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "how-we-work.html"
+        ],
+        "createdAt": "2026-10-15T08:23:43.867Z",
+        "reason": "user confirmed: Ivory #FBEAD5 is a pinned brand colour in the owner's brief and one of the world's two grounds"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "about.html"
+        ],
+        "createdAt": "2026-10-15T08:23:43.878Z",
+        "reason": "user confirmed: Ivory #FBEAD5 is a pinned brand colour in the owner's brief and one of the world's two grounds"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "brief.html"
+        ],
+        "createdAt": "2026-10-15T08:23:43.891Z",
+        "reason": "user confirmed: Ivory #FBEAD5 is a pinned brand colour in the owner's brief and one of the world's two grounds"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "privacy.html"
+        ],
+        "createdAt": "2026-10-15T08:23:43.903Z",
+        "reason": "user confirmed: Ivory #FBEAD5 is a pinned brand colour in the owner's brief and one of the world's two grounds"
+      },
+      {
+        "rule": "cream-palette",
+        "value": "*",
+        "files": [
+          "terms.html"
+        ],
+        "createdAt": "2026-10-15T08:23:43.915Z",
+        "reason": "user confirmed: Ivory #FBEAD5 is a pinned brand colour in the owner's brief and one of the world's two grounds"
       }
     ]
   }

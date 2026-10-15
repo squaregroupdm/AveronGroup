@@ -1,6 +1,6 @@
 # Photograph set
 
-Each line is one file in `assets/photo/` (and a 960px copy in `assets/photo/m/`). The set in place was generated on 15 October 2026 with Higgsfield kling_omni_image from the prompts in `tools/photo-prompts.json`; no real factory, client or person is depicted. To replace a photograph, save the new one as a JPEG with exactly this name in both folders.
+Each line is one file in `assets/photo/` (and a 960px copy in `assets/photo/m/`). The set in place was generated on 15 October 2026 with Higgsfield kling_omni_image from the prompts in `tools/photo-prompts.json` (seven shots recast the same day with Bangladeshi professionals; job ids in `tools/photo-map-recast.json`); no real factory, client or person is depicted. To replace a photograph, save the new one as a JPEG with exactly this name in both folders.
 
 - `hero-press.jpg` (16:9)
 - `journey-brief.jpg` (3:2)
