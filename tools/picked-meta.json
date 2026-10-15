@@ -1,0 +1,38 @@
+{
+ "cat-healthcare": {
+  "photo": "1707570349880-745e000a6d97",
+  "desc": "white boxes gray, Theo Lonic"
+ },
+ "cat-retail": {
+  "photo": "1633414654227-2b5ea828b3ef",
+  "desc": "brown paper bag marble, Brando"
+ },
+ "prod-foil-kraft": {
+  "photo": "1595246007497-15e0ed4b8d96",
+  "desc": "brown box white table, Mildlee"
+ },
+ "prod-cube": {
+  "photo": "1656543802898-41c8c46683a7",
+  "desc": "brown box white bg, Giorgio Trovato"
+ },
+ "prod-tubes": {
+  "photo": "1632452479455-e3d5e3159b63",
+  "desc": "items on table, pmv chamara"
+ },
+ "prod-mailer": {
+  "photo": "1631010231130-5c7828d9a3a7",
+  "desc": "brown box white table, Mediamodifier"
+ },
+ "prod-pouch": {
+  "photo": "1695245503558-5cdb37f49092",
+  "desc": "paper bag white table, With Mahdy"
+ },
+ "prod-blister": {
+  "photo": "1584308666744-24d5c474f2ae",
+  "desc": "blue blister pack, Christine Sandu"
+ },
+ "prod-greyboard": {
+  "photo": "1686632800715-b705ba1b0eb6",
+  "desc": "open box on table, Harper Sunday"
+ }
+}
