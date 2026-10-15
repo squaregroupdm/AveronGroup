@@ -99,7 +99,9 @@
   var prev=document.getElementById('prev'), next=document.getElementById('next'), result=document.getElementById('result');
   var TO='enquiries@averonglobal.com';
   var i=0;
+  var started=false;
   function show(n){
+    if(n>i&&window.averonTrack){ if(!started){ started=true; averonTrack('brief_start'); } averonTrack('step_complete',{step:i+1}); }
     i=Math.max(0,Math.min(steps.length-1,n));
     steps.forEach(function(s,k){ s.classList.toggle('is-on',k===i); });
     bars.forEach(function(b,k){ b.classList.toggle('is-done',k<=i); });
@@ -125,11 +127,12 @@
     document.getElementById('mail').href='mailto:'+TO+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
     document.getElementById('ok').textContent='';
     result.classList.add('is-on'); result.scrollIntoView({behavior:'smooth',block:'nearest'});
+    if(window.averonTrack) averonTrack('brief_submit',{family:radio('family'),market:radio('market')});
   }
   prev.addEventListener('click',function(){ show(i-1); });
   next.addEventListener('click',function(){ if(i===steps.length-1) draft(); else show(i+1); });
   document.getElementById('stepper').addEventListener('submit',function(e){ e.preventDefault(); if(i===steps.length-1) draft(); else show(i+1); });
-  document.getElementById('files').addEventListener('change',function(e){ var f=e.target.files, n=[]; for(var k=0;k<f.length;k++) n.push(f[k].name); document.getElementById('filelist').textContent=n.length?'Chosen: '+n.join(', '):''; });
+  document.getElementById('files').addEventListener('change',function(e){ var f=e.target.files, n=[]; for(var k=0;k<f.length;k++) n.push(f[k].name); document.getElementById('filelist').textContent=n.length?'Chosen: '+n.join(', '):''; if(n.length&&window.averonTrack) averonTrack('file_upload',{files:n.length}); });
   document.getElementById('copy').addEventListener('click',function(){
     var t=document.getElementById('draft').textContent, ok=document.getElementById('ok');
     function fb(){ var r=document.createRange(); r.selectNodeContents(document.getElementById('draft')); var s=window.getSelection(); s.removeAllRanges(); s.addRange(r); ok.textContent='Selected. Press copy on your keyboard.'; }

@@ -13,7 +13,12 @@ for line in open(LIST):
     line = line.strip()
     if not line or line.startswith('#'): continue
     name, url = line.split(None, 1)
-    data = urllib.request.urlopen(url, timeout=120).read()
+    data = urllib.request.urlopen(url, timeout=300).read()
+    if url.split('?')[0].lower().endswith(('.mp4', '.webm')):
+        os.makedirs(os.path.join(ROOT, 'assets', 'video'), exist_ok=True)
+        ext = '.webm' if url.split('?')[0].lower().endswith('.webm') else '.mp4'
+        open(os.path.join(ROOT, 'assets', 'video', name + ext), 'wb').write(data)
+        done += 1; print(name, 'video', len(data) // 1024, 'KB'); continue
     im = ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert('RGB')
     maxw = WIDE.get(name, 1600)
     if im.width > maxw: im = im.resize((maxw, round(im.height * maxw / im.width)), Image.LANCZOS)

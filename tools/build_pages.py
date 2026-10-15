@@ -21,6 +21,7 @@ for f in sorted(os.listdir(S)):
     for k in ['SOLUTIONS', 'HOW', 'ABOUT']:
         n = n.replace('{{CUR_%s}}' % k, 'aria-current="page"' if meta.get('cur') == k.lower() else '')
     n = n.replace(' >', '>')
+    body = body.replace('<main ', '<main id="main" ', 1)
     out = '<!doctype html>\n<html lang="en">\n<head>\n' + h + meta.get('extra', '') + '\n</head>\n<body class="' + meta.get('body', '') + '">\n' + n + body + foot + '\n</body>\n</html>\n'
     open(os.path.join(ROOT, f), 'w').write(out)
     print('built', f)

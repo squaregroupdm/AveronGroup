@@ -21,6 +21,20 @@
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('is-open')) setOpen(false); });
   }
 
+  // Hero film: the still is the first paint; the loop starts after load on capable connections, never under reduced motion
+  var film = document.getElementById('hero-video');
+  if (film && !reduce) {
+    var conn = navigator.connection || {};
+    var slow = conn.saveData || /2g/.test(conn.effectiveType || '');
+    if (!slow) window.addEventListener('load', function () {
+      setTimeout(function () {
+        film.src = film.dataset.src;
+        film.addEventListener('canplay', function () { var p = film.play(); if (p && p.catch) p.catch(function () {}); film.classList.add('is-on'); }, { once: true });
+        film.load();
+      }, 400);
+    });
+  }
+
   // Reveal on scroll, once; nothing stays hidden if the observer never fires
   var items = document.querySelectorAll('[data-reveal]');
   if ('IntersectionObserver' in window) {

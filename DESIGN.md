@@ -13,18 +13,18 @@ colors:
   hair-strong: "rgba(5, 10, 48, 0.34)"
   hair-dark: "rgba(251, 234, 213, 0.18)"
   hair-dark-strong: "rgba(251, 234, 213, 0.4)"
-  glass-dark: "rgba(5, 10, 48, 0.48)"
-  glass-border: "rgba(255, 255, 255, 0.18)"
+  glass-dark: "rgba(5, 10, 48, 0.42)"
+  glass-border: "rgba(255, 255, 255, 0.16)"
 typography:
   display:
     fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
-    fontSize: "clamp(2.75rem, 2rem + 3.2vw, 4.5rem)"
+    fontSize: "clamp(2.75rem, 2rem + 2.9vw, 4.25rem)"
     fontWeight: 500
     lineHeight: 1.02
     letterSpacing: "-0.025em"
   headline:
     fontFamily: "Manrope, Helvetica Neue, Arial, sans-serif"
-    fontSize: "clamp(2rem, 1.5rem + 1.8vw, 3.25rem)"
+    fontSize: "clamp(2rem, 1.5rem + 1.6vw, 3rem)"
     fontWeight: 500
     lineHeight: 1.08
     letterSpacing: "-0.02em"
@@ -94,7 +94,7 @@ spacing:
   md: "24px"
   lg: "40px"
   gutter: "clamp(20px, 4vw, 64px)"
-  section: "clamp(72px, 8vw, 120px)"
+  section: "clamp(64px, 7vw, 96px)"
   rail: "56px"
 components:
   button-primary:
@@ -179,7 +179,7 @@ components:
 
 Averon Global's site is one connected supply journey. A requirement enters at the top of the homepage and travels down through eight chapters (Brief, Source, Material, Make, Verify, Pack, Move, Deliver), carried by a single 1.5px ivory route line that scroll draws down the left margin and that resolves into the Averon orbit at the end. Photographs of real production work are the ground. Two quiet grounds, midnight navy and ivory, sit between the photographs; ink is reserved for the footer and for the base beneath every photograph. Nothing decorates; every surface that is not a photograph is either copy or an instrument that reads the photograph.
 
-The world is editorial and technical at once. Manrope at three weights (400, 500, 600) does all functional work: headlines, body, labels, buttons, tables. Cormorant Garamond italic 400 appears once per chapter as the editorial line that opens it, and once in the footer tagline. Glass (navy at 48 percent, 12px blur, 1px white hairline at 18 percent, 12px radius) exists only as instrumentation laid over photographs: the nav pill, the chapter rail, material specifications, capability tags, production steps. On a flat ground, glass is never used; hairlines and tonal shifts carry structure instead.
+The world is editorial and technical at once. Manrope at three weights (400, 500, 600) does all functional work: headlines, body, labels, buttons, tables. Cormorant Garamond italic 400 appears once per chapter as the editorial line that opens it, and once in the footer tagline. Glass (navy at 48 percent, 10px blur, 1px white hairline at 18 percent, 12px radius) exists only as instrumentation laid over photographs: the nav pill, the chapter rail, material specifications, capability tags, production steps. On a flat ground, glass is never used; hairlines and tonal shifts carry structure instead.
 
 Motion reveals meaning and never loops. Reveals rise 14px through a 6px blur in 520ms, state changes resolve in 220ms, photograph crossfades take 900ms, and the Make chapter pins for two viewports while three production stages replace one another. With prefers-reduced-motion, pins, scrub and blur are removed and every state shows at once. The inner pages (Solutions, How We Work, About, Start a Project, Legal) carry the same tokens on the light ground with ivory and white alternating by band.
 
@@ -248,7 +248,7 @@ A pinned six-colour brand palette (owner's brief) rendered as two grounds plus t
 
 ## Layout
 
-Content sits in a 1280px maximum column (`--content-max`) with a fluid gutter of clamp(20px, 4vw, 64px). Section rhythm is clamp(72px, 8vw, 120px) above and below each band. Inside a band, layout is a 12-column grid with 24px column and row gaps; chapters split roughly 5/7 (Brief, Verify), 4/8 (Pack), 7/4 with a one-column gutter (Move) and 6/5 (Convert). Inner pages use two-column splits at 5fr/7fr with 48px gaps, three-column index grids, and full-width rows divided by Hair rules at 40px vertical padding.
+Content sits in a 1280px maximum column (`--content-max`) with a fluid gutter of clamp(20px, 4vw, 64px). Section rhythm is clamp(64px, 7vw, 96px) above and below each band. Inside a band, layout is a 12-column grid with 24px column and row gaps; chapters split roughly 5/7 (Brief, Verify), 4/8 (Pack), 7/4 with a one-column gutter (Move) and 6/5 (Convert). Inner pages use two-column splits at 5fr/7fr with 48px gaps, three-column index grids, and full-width rows divided by Hair rules at 40px vertical padding.
 
 On the homepage a 56px journey rail (`--rail`) is reserved in the left margin at 1024px and above: the fixed chapter rail (bottom left, a glass instrument), the 1.5px route line at the content edge plus 5px, and 12px chapter markers with a 1.5px ivory ring at each chapter's top. Content inside the journey indents by the rail width (`.wrap.off`). Below 1024px the rail, route and markers hide and a 2px ivory progress bar at the top of the viewport takes over. The opening photograph is 88dvh (92dvh on phones) with copy anchored to the bottom and 140px top padding to clear the nav; the Deliver chapter is 92dvh; pinned stages (Source, Make) are 100dvh. The Source chapter pins for 0.6 viewports, Make for two.
 
@@ -259,7 +259,7 @@ Breakpoints: 1024px (rail and desktop nav links appear; below it the burger and 
 There are no shadows. Depth is conveyed by three means: photographs with a Midnight scrim (bottom-weighted 0 to 62 or 78 percent on the opening and Make, left-weighted 72 to 10 percent on Source, left-weighted 86 to 20 percent on Deliver), glass instruments sitting on those photographs, and 1px derived hairlines on flat grounds. A fixed film grain layer (SVG fractal noise at 3.5 percent opacity, overlay blend, 160px tile) sits above everything except the nav and never scrolls with content.
 
 ### Glass Vocabulary
-- **Glass instrument** (`background: rgba(5,10,48,0.48); border: 1px solid rgba(255,255,255,0.18); backdrop-filter: blur(12px); border-radius: 12px`): the nav pill, the chapter rail, the material spec panel, the Source panel and capability tags, Make intro and steps, brief field labels, route map labels. When the nav has scrolled past 40px or sits on a light page, its tint deepens to Midnight at 92 percent.
+- **Glass instrument** (`background: rgba(5,10,48,0.48); border: 1px solid rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 12px`): the nav pill, the chapter rail, the material spec panel, the Source panel and capability tags, Make intro and steps, brief field labels, route map labels. When the nav has scrolled past 40px or sits on a light page, its tint deepens to Midnight at 92 percent.
 - **Rail on light ground** (`background: rgba(251,234,213,0.7); border-color: rgba(5,10,48,0.12)`): the one glass variant that flips to ivory, so the rail stays legible when the chapter beneath it is on the ivory ground.
 - **Overlay menu** (`background: rgba(5,10,48,0.82); backdrop-filter: blur(24px)`): the full-screen phone menu, the only 24px blur.
 
@@ -305,7 +305,7 @@ Decisive and compact: a flat pill with the arrow carried in its own circle, so t
 - **Progress:** seven 2px bars with 6px gaps; done bars fill Midnight, the rest Hair.
 
 ### Navigation
-- **Floating glass pill:** fixed 18px from the top (12px on phones), centred, 1280px maximum, 56px tall (52px on phones), 18px/10px padding, 999px radius, Glass Dark with Glass Border and 12px blur; deepens to Midnight at 92 percent after 40px of scroll or on any light page over 520ms.
+- **Floating glass pill:** fixed 18px from the top (12px on phones), centred, 1280px maximum, 56px tall (52px on phones), 18px/10px padding, 999px radius, Glass Dark with Glass Border and 10px blur; deepens to Midnight at 92 percent after 40px of scroll or on any light page over 520ms.
 - **Contents:** 22px mark plus 20px wordmark in ivory PNG; links in Manrope 500 at 0.86rem, Ivory Soft at rest, Ivory on hover and when current, with a 1px ivory underline drawing left to right in 220ms; the Start a Project small pill at the right.
 - **Mobile:** below 1024px the links and pill hide and a 44px round burger (two 18px by 1.5px ivory strokes that rotate into a cross) opens a full-screen overlay at Midnight 82 percent with 24px blur; links at clamp(1.8rem, 6vw, 2.6rem), Manrope 500, rising 24px with 50ms stagger; Escape closes; body scroll locks.
 
@@ -326,7 +326,7 @@ Easing `--ease-editorial` cubic-bezier(0.22, 1, 0.36, 1) for opacity, colour and
 ### Do:
 - **Do** place every section on Midnight or Ivory (White alternating with Ivory on inner pages) and reserve Ink for the footer and the base beneath photographs.
 - **Do** build borders and dividers from the ground colours at alpha: Hair 14 percent and Hair Strong 34 percent on light, Hair Dark 18 percent and Hair Dark Strong 40 percent on dark.
-- **Do** use glass (Midnight 48 percent, 12px blur, White 18 percent hairline, 12px radius) only as an instrument over a photograph or as a fixed instrument (nav, rail, overlay).
+- **Do** use glass (Midnight 48 percent, 10px blur, White 18 percent hairline, 12px radius) only as an instrument over a photograph or as a fixed instrument (nav, rail, overlay).
 - **Do** give every call to action the 48px pill with the 32px arrow circle; the second action is the ghost pill without an arrow.
 - **Do** open each chapter or section with one Cormorant Garamond italic line, then a Manrope 500 headline capped at 20ch, then body capped at 38em.
 - **Do** keep motion to 220ms states, 520ms reveals with a 6px blur, 900ms crossfades, and make every state visible at once under prefers-reduced-motion.

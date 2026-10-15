@@ -22,7 +22,7 @@
 
   --content-max: 1280px;
   --page-gutter: clamp(20px, 4vw, 64px);
-  --section-y: clamp(72px, 8vw, 120px);
+  --section-y: clamp(64px, 7vw, 96px);
   --rail: 56px;
   --edge: max(var(--page-gutter), calc((100vw - var(--content-max)) / 2 + var(--page-gutter)));
 
@@ -32,14 +32,14 @@
   --text-sm: 0.875rem;
   --text-body: clamp(1rem, 0.95rem + 0.15vw, 1.125rem);
   --text-h3: clamp(1.35rem, 1.1rem + 0.8vw, 2rem);
-  --text-h2: clamp(2rem, 1.5rem + 1.8vw, 3.25rem);
-  --text-hero: clamp(2.75rem, 2rem + 3.2vw, 4.5rem);
+  --text-h2: clamp(2rem, 1.5rem + 1.6vw, 3rem);
+  --text-hero: clamp(2.75rem, 2rem + 2.9vw, 4.25rem);
   --text-edit: clamp(1.6rem, 1.2rem + 1.6vw, 2.6rem);
 
-  --glass-dark: rgba(5, 10, 48, 0.48);
+  --glass-dark: rgba(5, 10, 48, 0.42);
   --glass-light: rgba(255, 255, 255, 0.11);
-  --glass-border: rgba(255, 255, 255, 0.18);
-  --glass-blur: 12px;
+  --glass-border: rgba(255, 255, 255, 0.16);
+  --glass-blur: 10px;
 
   --ease-editorial: cubic-bezier(0.22, 1, 0.36, 1);
   --ease-spring: cubic-bezier(0.32, 0.72, 0, 1);
@@ -67,6 +67,9 @@ ul, ol { padding: 0; list-style: none; }
 :focus-visible { outline: 2px solid var(--av-ivory); outline-offset: 3px; }
 .on-light :focus-visible, .light :focus-visible { outline-color: var(--av-atlantic); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+.skip { position: absolute; left: 16px; top: -60px; z-index: 70; padding: 12px 16px; border-radius: 999px; background: var(--av-ivory); color: var(--av-midnight); font-weight: 600; font-size: 0.92rem; transition: top var(--motion-fast) var(--ease-editorial); }
+.skip:focus { top: 14px; }
 
 /* Grain: a fixed layer, never on scrolling content */
 .grain { position: fixed; inset: 0; pointer-events: none; z-index: 40; opacity: 0.035; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E"); background-size: 160px 160px; mix-blend-mode: overlay; }
@@ -191,6 +194,8 @@ p { max-width: 38em; }
 .open { position: relative; min-height: 88dvh; display: flex; align-items: flex-end; overflow: hidden; }
 .open .media { position: absolute; inset: 0; }
 .open .media img, .open .media video { width: 100%; height: 100%; object-fit: cover; }
+.open .media video { position: absolute; inset: 0; opacity: 0; transition: opacity 900ms var(--ease-editorial); }
+.open .media video.is-on { opacity: 1; }
 .open .media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(5,10,48,0.18) 0%, rgba(5,10,48,0.05) 30%, rgba(5,10,48,0.78) 100%); }
 .open .wrap { position: relative; z-index: 2; width: 100%; padding-bottom: clamp(48px, 7vw, 96px); padding-top: 140px; }
 .open .copy { max-width: 760px; }
@@ -543,6 +548,7 @@ table.spec td:first-child { font-weight: 600; width: 22%; }
 .open .lead, .brief .copy p:not(.edit), .source .panel p:not(.edit), .material .head p:not(.edit), .verify .copy p:not(.edit), .pack .copy p:not(.edit), .move .info p, .deliver p:not(.edit), .convert .copy p:not(.edit),
 .pagehead .lead, .rowx p, .stagerow p, .split p, .values p, .sum .f p, .prose p, .prose li, .cta p, .about .body p, .footer .c1 p, .briefpage .intro p, .bstep .help, .result .help, .gate span, td {
   text-align: justify;
+  text-align-last: left;
   text-justify: inter-word;
   hyphens: auto;
   -webkit-hyphens: auto;
