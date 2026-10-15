@@ -305,6 +305,13 @@ p { max-width: 38em; }
 .js .pack .seq figure { opacity: 0; transform: translateY(12px) scale(0.98); transition: opacity var(--motion-base) var(--ease-editorial), transform var(--motion-base) var(--ease-spring); }
 .js .pack .seq figure.is-on { opacity: 1; transform: none; }
 
+/* Products */
+.products .head { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: end; margin-bottom: 40px; }
+.products .head p:not(.edit) { justify-self: end; max-width: 30em; font-size: var(--text-sm); }
+.pgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
+.pgrid figcaption { margin-top: 10px; font-size: var(--text-sm); font-weight: 500; }
+.products .ph { background: var(--av-ivory); }
+
 /* Chapter 07 Move */
 .move .loading { position: relative; height: 62dvh; min-height: 420px; overflow: hidden; }
 .move .loading img { width: 100%; height: 100%; object-fit: cover; }
@@ -494,6 +501,9 @@ table.spec td:first-child { font-weight: 600; width: 22%; }
   .sum .r { grid-column: 1 / -1; }
   .cta .wrap { grid-template-columns: 1fr; }
   .ind-grid { grid-template-columns: repeat(2, 1fr); }
+  .pgrid { grid-template-columns: repeat(2, 1fr); }
+  .products .head { grid-template-columns: 1fr; }
+  .products .head p:not(.edit) { justify-self: start; }
 }
 
 /* Phone */
@@ -522,6 +532,7 @@ table.spec td:first-child { font-weight: 600; width: 22%; }
   .sum .f:nth-child(odd) { border-left: 0; }
   .sum .f:nth-child(4) { border-left: 1px solid var(--hair); }
   .ind-grid { grid-template-columns: 1fr; }
+  .pgrid { grid-template-columns: 1fr; }
   .move .map .tag { display: none; }
   .move .map .grat, .move .map .lbl-long { display: none; }
   .move .map .lbl-short { display: block; }
@@ -561,4 +572,4 @@ h2 { max-width: 24ch; }
 @media (max-width: 640px) { h2 { max-width: none; } .pagehead h1 { font-size: 2rem; } }
 .make .edit { max-width: 24ch; }
 
-.ind img[src*="cat-retail"] { object-position: 50% 42%; }
+

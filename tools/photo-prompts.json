@@ -44,17 +44,17 @@
       "fetched": "15 October 2026"
     },
     "cat-healthcare": {
-      "photographer": "National Cancer Institute",
+      "photographer": "Theo Lonic",
       "source": "Unsplash",
       "licence": "Unsplash License (free for commercial use, no attribution required)",
-      "description": "A pharmacist reaching for a medication box on a shelf",
+      "description": "Plain white cartons on a grey surface",
       "fetched": "15 October 2026"
     },
     "cat-retail": {
-      "photographer": "Glodi Miessi",
+      "photographer": "Brando Makes Branding",
       "source": "Unsplash",
       "licence": "Unsplash License (free for commercial use, no attribution required)",
-      "description": "Grey shoe boxes, shallow focus",
+      "description": "A kraft paper carrier bag on marble",
       "fetched": "15 October 2026"
     },
     "cat-premium": {
@@ -69,6 +69,55 @@
       "source": "Unsplash",
       "licence": "Unsplash License (free for commercial use, no attribution required)",
       "description": "A pile of brown cardboard boxes with blue tape",
+      "fetched": "15 October 2026"
+    },
+    "prod-foil-kraft": {
+      "photographer": "Mildlee",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Kraft rigid boxes with a foil mark, studio",
+      "fetched": "15 October 2026"
+    },
+    "prod-cube": {
+      "photographer": "Giorgio Trovato",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A kraft cube box on white",
+      "fetched": "15 October 2026"
+    },
+    "prod-tubes": {
+      "photographer": "pmv chamara",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Cosmetic tubes and bottles with gold caps",
+      "fetched": "15 October 2026"
+    },
+    "prod-mailer": {
+      "photographer": "Mediamodifier",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A kraft mailer box with a blank label",
+      "fetched": "15 October 2026"
+    },
+    "prod-pouch": {
+      "photographer": "With Mahdy",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A kraft stand-up pouch on white",
+      "fetched": "15 October 2026"
+    },
+    "prod-blister": {
+      "photographer": "Christine Sandu",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Blister packs of tablets",
+      "fetched": "15 October 2026"
+    },
+    "prod-greyboard": {
+      "photographer": "Harper Sunday",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "The corner of a greyboard rigid box",
       "fetched": "15 October 2026"
     }
   }
