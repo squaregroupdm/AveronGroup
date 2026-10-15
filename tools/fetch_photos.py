@@ -20,6 +20,11 @@ for line in open(LIST):
         open(os.path.join(ROOT, 'assets', 'video', name + ext), 'wb').write(data)
         done += 1; print(name, 'video', len(data) // 1024, 'KB'); continue
     im = ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert('RGB')
+    if name.startswith('cand-'):
+        # Candidate pictures for review: a 900px copy in tools/candidates, nothing in the site
+        cd = os.path.join(ROOT, 'tools', 'candidates'); os.makedirs(cd, exist_ok=True)
+        c = im.resize((900, round(im.height * 900 / im.width)), Image.LANCZOS) if im.width > 900 else im
+        c.save(os.path.join(cd, name + '.jpg'), quality=80); done += 1; print(name, im.size); continue
     maxw = WIDE.get(name, 1600)
     if im.width > maxw: im = im.resize((maxw, round(im.height * maxw / im.width)), Image.LANCZOS)
     im.save(os.path.join(OUT, name + '.jpg'), quality=80, optimize=True, progressive=True)
