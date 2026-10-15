@@ -1,0 +1,4 @@
+# Hero cover candidates, 15 October 2026 (kling_omni_image)
+cand-hero-1 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_113336_d0767d80-225d-4d17-9d09-7a88d38ff927.png
+cand-hero-2 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_113336_569a3f87-14f3-452e-be47-45ee0649ed72.png
+cand-hero-3 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_113336_c946d1a7-8aaf-4107-a147-515445862df3.png
