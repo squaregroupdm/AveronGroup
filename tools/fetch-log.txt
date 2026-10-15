@@ -1,3 +1,7 @@
-cand-sm-3b (1248, 832)
-cand-sm-4b (1360, 768)
-fetched 2
+cap-manufacturing (2000, 1130)
+gal-print (1168, 880)
+journey-produce (1248, 832)
+hero-3 (2200, 1243)
+factory-manager (1248, 832)
+journey-source (1248, 832)
+fetched 6
