@@ -1,0 +1,3 @@
+# Premium box cover candidates, 15 October 2026
+cand-prem-1 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_114417_908fc3f0-45d7-4b35-9a9e-e6b0eab386e9.png
+cand-prem-2 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_114417_1ae3364e-f839-4ef3-be24-a277cb52fb3f.png
