@@ -37,8 +37,8 @@ Buyers work from a specification, an artwork file, a quantity, a target cost, a 
 - Packaging categories: folding cartons, premium rigid boxes, corrugated, retail and commercial, food packaging, pharmaceutical and healthcare secondary packaging.
 - Industries served: Beauty and Personal Care, Food and Beverage, Healthcare, Fashion, Lifestyle, Luxury, Retail and E-commerce.
 - Network: client coordination in the United Kingdom, manufacturing access in Bangladesh, international supply coordination.
-- Averon does not own factories or presses; capability claims are the network's and are stated as such. Manufacturing partners and their logos are not published until the owner confirms approval (rebuild brief, October 2026).
-- Offices in the United Kingdom and Bangladesh; addresses, telephone and the enquiries mailbox are not yet confirmed (placeholders, labelled).
+- Averon works through trusted manufacturing partnerships in Bangladesh and manages them as one connected team. The owner has rejected defensive wording ("does not own factories", "not a factory owner"): the site uses positive partnership language. Manufacturing partners and their logos are not published until the owner confirms approval.
+- Presence in the United Kingdom and Bangladesh. Addresses, telephone and the enquiries mailbox are not yet supplied; the site shows no "to be confirmed" placeholders (owner's decision, 15 October 2026): footer carries country names and the Start a Project link only.
 - No form backend exists; the primary action gathers a brief in a seven-step form and hands it over by email draft or copy (brief.html).
 - Undecided: legal registration names of the UK and Bangladesh entities; leadership names; indicative pricing and lead times; About content beyond what the profile states.
 
@@ -48,8 +48,10 @@ Buyers work from a specification, an artwork file, a quantity, a target cost, a 
 - Logos supplied: navy "A" monogram with orbit, serif AVERON wordmark (assets/brand).
 - Palette pinned by the owner: Midnight #050A30, Ink #021A38, Ivory #FBEAD5, White #FFFFFF, Slate #667085, Atlantic #164C67 (optional). Avoid gold. Avoid glowing blue SaaS graphics.
 - Voice (owner's instruction): short, direct, professional, nothing that reads as AI-written or inflated. No em dashes anywhere.
-- Owner's binding layout constraints (rebuild brief, October 2026): 12-column grid, maximum content width about 1280px, hero H1 56 to 68px, body 16 to 17px, section padding 88 to 112px, compact 68 to 72px navigation, square or 4 to 8px radii, 42 to 46px buttons, rows and tables over cards, no pinned full-screen sequences, no parallax, no continuous animation.
-- Photography should be 40 to 50% of the visual experience, realistic factory, product, manufacturing and QC imagery; no handshakes, cargo-ship sunsets, globes or robotic factories.
+- Owner's binding direction (storytelling brief, 15 October 2026, supersedes the earlier scale brief where they conflict): the homepage is one connected eight-chapter supply journey (Brief, Source, Material, Make, Verify, Pack, Move, Deliver) ending in conversion; chapters transform into one another via the Averon route line; rhythm immersive, compact, tactile, immersive, technical, compact, immersive, quiet; sticky sequences resolve within 1.5 to 2.5 viewport heights; 85 to 90vh hero with a glass nav; glass used only as instrumentation over photographs (nav, chapter label, material spec, QA status, route label); 1280px content width, gutter clamp(20px, 4vw, 64px), section rhythm clamp(72px, 8vw, 120px); tokens name Manrope as the sans and Cormorant Garamond as an editorial accent serif; motion must reveal meaning and the site must work with every animation disabled; 44px pointer targets; Lighthouse 90+/95+/95+/95+.
+- Navigation: Solutions, Industries, How We Work, Network, About, Insights, with Start a Project as the action. Site areas: Home, Solutions, How We Work, Industries, Materials and Packaging, Global Network, Projects (only when documented), Insights, About, Start a Project, Legal.
+- Stack decision (owner, 15 October 2026): stay on plain HTML, CSS and JavaScript with GSAP ScrollTrigger for the journey; no Astro, no CMS. First round builds the homepage journey plus Solutions, How We Work, About, Start a Project and Legal.
+- Photography is the evidence layer: authentic Bangladeshi professionals doing real work, press, material and QC detail; no handshakes, cargo-ship sunsets, globes or robotic factories. A two-day original Bangladesh shoot is planned; until then the generated set stands in and is labelled as production reference.
 
 ## Evidence on Hand
 

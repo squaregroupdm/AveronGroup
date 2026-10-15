@@ -5,33 +5,47 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Start a project, Averon Global</title>
 <meta name="description" content="Tell Averon what you are sourcing, the quantity, the material, the market and the date. We reply with the questions a quotation needs.">
+<link rel="canonical" href="https://averongroup.pages.dev/brief.html">
+<meta property="og:title" content="Start a project, Averon Global">
+<meta property="og:description" content="Tell Averon what you are sourcing, the quantity, the material, the market and the date. We reply with the questions a quotation needs.">
+<meta property="og:image" content="https://averongroup.pages.dev/assets/photo/m/hero-press.jpg">
+<meta name="theme-color" content="#050A30">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<link rel="preload" as="font" type="font/woff2" href="assets/fonts/stix-two-text-latin-400-normal.woff2" crossorigin>
-<link rel="preload" as="font" type="font/woff2" href="assets/fonts/archivo-latin-500-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="assets/fonts/manrope-latin-500-normal.woff2" crossorigin>
 <link rel="stylesheet" href="assets/site.css">
 <script>document.documentElement.classList.add('js')</script>
-</head>
-<body>
 
-<nav class="nav is-solid" id="nav" aria-label="Primary">
-  <div class="wrap">
+</head>
+<body class="light">
+<div class="progressbar" aria-hidden="true"><i></i></div>
+<nav class="nav" id="nav" aria-label="Primary">
+  <div class="pillbar">
     <a class="brand" href="index.html" aria-label="Averon Global, home">
-      <img class="mark" src="assets/brand/mark-navy.png" width="800" height="636" alt="">
-      <img src="assets/brand/wordmark-navy.png" width="1600" height="300" alt="Averon Global">
+      <img class="mark" src="assets/brand/mark-ivory.png" width="800" height="636" alt="">
+      <img src="assets/brand/wordmark-ivory.png" width="1600" height="300" alt="Averon Global">
     </a>
-    <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
-    <div class="links" id="navlinks">
-      <a class="uline" href="index.html#capabilities">Solutions</a>
-      <a class="uline" href="index.html#industries">Industries</a>
-      <a class="uline" href="index.html#how">How We Work</a>
-      <a class="uline" href="index.html#network">Network</a>
-      <a class="uline" href="index.html#about">About</a>
+    <div class="links">
+      <a href="solutions.html">Solutions</a>
+      <a href="solutions.html#industries">Industries</a>
+      <a href="how-we-work.html">How We Work</a>
+      <a href="index.html#move">Network</a>
+      <a href="about.html">About</a>
     </div>
-    <div class="act"><a class="btn ghost" href="index.html">Back to the site</a></div>
+    <div class="act"><a class="pill" href="brief.html">Start a Project <i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></i></a></div>
+    <button class="burger" type="button" aria-expanded="false" aria-controls="overlay" aria-label="Menu"><span></span><span></span></button>
   </div>
 </nav>
+<div class="overlay" id="overlay" aria-hidden="true">
+  <a href="solutions.html">Solutions</a>
+  <a href="solutions.html#industries">Industries</a>
+  <a href="how-we-work.html">How We Work</a>
+  <a href="index.html#move">Network</a>
+  <a href="about.html">About</a>
+  <a class="pill" href="brief.html">Start a Project <i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></i></a>
+</div>
+<div class="grain" aria-hidden="true"></div>
 
-<main class="briefpage wrap">
+<main class="briefpage wrap on-light">
   <div class="intro">
     <h1>Start a project</h1>
     <p>Seven short questions. Answer what you know; leave the rest. At the end your brief is drafted as an email you can send, with your drawing or artwork attached.</p>
@@ -40,7 +54,7 @@
   <form class="stepper" id="stepper" novalidate>
     <div class="progress" aria-hidden="true"><i class="is-done"></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
 
-    <section class="step is-on" data-step="1">
+    <section class="bstep is-on" data-step="1">
       <h2>What are you sourcing?</h2>
       <p class="help">Pick the closest family. We confirm the exact construction with you.</p>
       <div class="choices">
@@ -55,20 +69,20 @@
       <div class="field"><label for="product">The product it will hold</label><input id="product" name="product" type="text" placeholder="e.g. 50 ml serum, two shoe sizes, 200 g chocolate" autocomplete="off"></div>
     </section>
 
-    <section class="step" data-step="2">
+    <section class="bstep" data-step="2">
       <h2>Estimated quantity</h2>
       <p class="help">A first order and, if you know it, the yearly volume. Rough numbers are fine.</p>
       <div class="field"><label for="qty">First order</label><input id="qty" name="qty" type="text" inputmode="numeric" placeholder="e.g. 10,000" autocomplete="off"></div>
       <div class="field"><label for="annual">Per year</label><input id="annual" name="annual" type="text" inputmode="numeric" placeholder="e.g. 60,000" autocomplete="off"></div>
     </section>
 
-    <section class="step" data-step="3">
+    <section class="bstep" data-step="3">
       <h2>Material or specification, if known</h2>
       <p class="help">Board grade, grammage, print, finishing, size. Skip anything you are not sure of.</p>
       <div class="field"><label for="spec">Specification</label><textarea id="spec" name="spec" placeholder="e.g. FBB 300 gsm, 4 colour plus spot UV, 120 x 60 x 40 mm, crash-lock base"></textarea></div>
     </section>
 
-    <section class="step" data-step="4">
+    <section class="bstep" data-step="4">
       <h2>Target market</h2>
       <p class="help">Where the packaging will be sold or used. It decides the compliance and delivery route.</p>
       <div class="choices">
@@ -82,21 +96,21 @@
       <div class="field"><label for="dest">Delivery destination</label><input id="dest" name="dest" type="text" placeholder="e.g. Manchester warehouse, DAP" autocomplete="off"></div>
     </section>
 
-    <section class="step" data-step="5">
+    <section class="bstep" data-step="5">
       <h2>Target delivery date</h2>
       <p class="help">The date stock is needed at the destination. We work the schedule back from it.</p>
       <div class="field"><label for="date">Needed by</label><input id="date" name="date" type="date"></div>
       <div class="field"><label for="cost">Target cost per unit, if you have one</label><input id="cost" name="cost" type="text" placeholder="e.g. 0.42 GBP" autocomplete="off"></div>
     </section>
 
-    <section class="step" data-step="6">
+    <section class="bstep" data-step="6">
       <h2>Drawing, artwork or reference</h2>
       <p class="help">A dieline, artwork, a photograph of a sample you like, or a competitor pack. Choose the files here; they are attached when the email opens, or you can attach them yourself.</p>
       <div class="field"><label for="files">Files</label><input id="files" name="files" type="file" multiple></div>
       <p class="help" id="filelist"></p>
     </section>
 
-    <section class="step" data-step="7" id="contact">
+    <section class="bstep" data-step="7" id="contact">
       <h2>Contact information</h2>
       <p class="help">Where the reply should go.</p>
       <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name"></div>
@@ -106,26 +120,24 @@
     </section>
 
     <div class="nav-row">
-      <button class="btn ghost" type="button" id="prev">Previous</button>
-      <button class="btn fill" type="button" id="next">Next</button>
+      <button class="pill ghost" type="button" id="prev">Previous</button>
+      <button class="pill navy" type="button" id="next"><span id="next-label">Next</span> <i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></i></button>
     </div>
 
     <div class="result" id="result" aria-live="polite">
       <pre id="draft"></pre>
       <div class="acts">
-        <a class="btn fill" id="mail" href="#">Open in your email app</a>
-        <button class="btn ghost" type="button" id="copy">Copy the brief</button>
+        <a class="pill navy" id="mail" href="#">Open in your email app <i><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 13 13 3M6 3h7v7" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg></i></a>
+        <button class="pill ghost" type="button" id="copy">Copy the brief</button>
       </div>
       <p class="ok" id="ok"></p>
       <p class="help">Attach the files you chose to the email before sending. The address opens in your own mail app; nothing is sent from this page.</p>
     </div>
   </form>
 </main>
-
-<script src="assets/site.js" defer></script>
 <script>
 (function(){
-  var steps=[].slice.call(document.querySelectorAll('.step')), bars=[].slice.call(document.querySelectorAll('.progress i'));
+  var steps=[].slice.call(document.querySelectorAll('.bstep')), bars=[].slice.call(document.querySelectorAll('.progress i'));
   var prev=document.getElementById('prev'), next=document.getElementById('next'), result=document.getElementById('result');
   var TO='enquiries@averonglobal.com';
   var i=0;
@@ -134,7 +146,7 @@
     steps.forEach(function(s,k){ s.classList.toggle('is-on',k===i); });
     bars.forEach(function(b,k){ b.classList.toggle('is-done',k<=i); });
     prev.style.visibility=i===0?'hidden':'visible';
-    next.textContent=i===steps.length-1?'Draft my brief':'Next';
+    document.getElementById('next-label').textContent=i===steps.length-1?'Draft my brief':'Next';
     result.classList.remove('is-on');
     var first=steps[i].querySelector('input:not([type=radio]),textarea'); if(first) setTimeout(function(){ first.focus({preventScroll:true}); },50);
   }
@@ -168,5 +180,50 @@
   if(location.hash==='#contact') show(6); else show(0);
 })();
 </script>
+<footer class="footer">
+  <div class="wrap">
+    <div class="cols">
+      <div class="c1">
+        <img class="wordmark" src="assets/brand/wordmark-ivory.png" width="1600" height="300" alt="Averon Global">
+        <p class="tag-line">Connecting Markets. Managing Supply.</p>
+        <p class="small muted" style="margin-top:14px;max-width:30em">Built through trusted manufacturing partnerships. Managed by one connected team.</p>
+      </div>
+      <div class="c2">
+        <span class="kicker">Site</span>
+        <ul>
+          <li><a href="solutions.html">Solutions</a></li>
+          <li><a href="solutions.html#industries">Industries</a></li>
+          <li><a href="how-we-work.html">How We Work</a></li>
+          <li><a href="index.html#move">Network</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <div class="c3">
+        <span class="kicker">Company</span>
+        <ul>
+          <li><a href="brief.html">Start a Project</a></li>
+          <li><a href="privacy.html">Privacy</a></li>
+          <li><a href="terms.html">Terms</a></li>
+        </ul>
+      </div>
+      <div class="c4">
+        <span class="kicker">Presence</span>
+        <ul>
+          <li>United Kingdom</li>
+          <li>Bangladesh</li>
+          <li>International supply</li>
+        </ul>
+      </div>
+    </div>
+    <div class="legal">
+      <span>Averon Global, 2026</span>
+      <span>Photography: production references ahead of the Averon shoot.</span>
+    </div>
+  </div>
+</footer>
+<script src="assets/vendor/gsap.min.js" defer></script>
+<script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+<script src="assets/site.js" defer></script>
+
 </body>
 </html>

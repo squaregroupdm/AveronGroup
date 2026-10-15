@@ -20,7 +20,7 @@
           "index.html"
         ],
         "createdAt": "2026-10-15T06:51:23.976Z",
-        "reason": "developer: photographs fill their rounded frames edge to edge by design, the positioning strip's rules bound the row, and the route map's graticule runs to the frame"
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
       },
       {
         "rule": "kicker-above-heading",
@@ -30,6 +30,69 @@
         ],
         "createdAt": "2026-10-15T07:45:00.000Z",
         "reason": "user confirmed: the October 2026 rebuild brief specifies exactly two labels above headings, the hero eyebrow INTERNATIONAL SOURCING & SUPPLY and QUALITY MANAGEMENT; the detector cannot scope this rule narrower than a file, and the page carries no other kicker"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "solutions.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.309Z",
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "how-we-work.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.319Z",
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "about.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.329Z",
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "brief.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.338Z",
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "privacy.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.349Z",
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "terms.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.359Z",
+        "reason": "developer: sections and the pill navigation carry their padding on the inner .wrap and via flex centring; photographs fill their frames edge to edge by design"
+      },
+      {
+        "rule": "numbered-section-labels",
+        "value": "*",
+        "files": [
+          "how-we-work.html"
+        ],
+        "createdAt": "2026-10-15T08:07:24.369Z",
+        "reason": "user confirmed: the storytelling brief numbers the process stages; the sequence is the information"
       }
     ]
   }
