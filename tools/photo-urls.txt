@@ -1,7 +1,0 @@
-hero-press https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081759_7b16d394-72c9-4c49-a782-5b871408068b.png
-cap-manufacturing https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081759_6cb38daf-17b9-4b1e-8523-608b43deecdd.png
-journey-verify https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081800_b6c30ed6-ad33-4680-95cf-6ca63313101c.png
-cap-sourcing https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081758_e3b3bbde-9f79-4012-90c2-f3beace9dc16.png
-cap-development https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081759_8a32028c-feba-4fde-a4e0-256b87f39928.png
-journey-produce https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081758_58404efd-c22c-4d23-8fb7-cd847b5a77fa.png
-gal-inspect https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_081758_5a215fae-41c6-4a65-9f17-be983d931d89.png
