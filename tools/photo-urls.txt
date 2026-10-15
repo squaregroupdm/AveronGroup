@@ -1,0 +1,4 @@
+# Hero cover rotation at 2K (bytedance upscale of the kling_omni_image covers), 15 October 2026
+hero-1 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_114028_f19f6da5-75ec-4542-bee1-bf98885ab88c.png
+hero-2 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_114036_6cf6c216-c1e6-4857-bf46-bb83b99d60aa.png
+hero-3 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_114042_ad6b8a30-c360-4d0a-b569-f19e78695f05.png

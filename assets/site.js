@@ -27,6 +27,24 @@
     });
   });
 
+  // Opening: the three covers rotate on a slow crossfade. Still under reduced motion, paused while the tab is hidden.
+  var heroMedia = document.getElementById('hero-media');
+  var covers = heroMedia ? heroMedia.querySelectorAll('picture') : [];
+  if (covers.length > 1 && !reduce) {
+    var ci = 0, ctimer = null;
+    var advance = function () {
+      covers[ci].classList.remove('is-on'); ci = (ci + 1) % covers.length;
+      heroMedia.classList.add('has-rotated'); covers[ci].classList.add('is-on');
+      var img = covers[ci].querySelector('img'); if (img && img.loading === 'lazy') img.loading = 'eager';
+    };
+    var startRot = function () { if (!ctimer) ctimer = setInterval(advance, 6000); };
+    var stopRot = function () { clearInterval(ctimer); ctimer = null; };
+    // Warm the next cover so the first fade is clean
+    setTimeout(function () { var n = covers[1].querySelector('img'); if (n) n.loading = 'eager'; }, 2500);
+    startRot();
+    document.addEventListener('visibilitychange', function () { document.hidden ? stopRot() : startRot(); });
+  }
+
   // Navigation: the pill turns more opaque once scrolled; the overlay menu opens on the phone
   var nav = document.getElementById('nav');
   var overlay = document.getElementById('overlay');
