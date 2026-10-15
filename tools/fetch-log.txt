@@ -1,3 +1,2 @@
-cand-prem-1 (1360, 768)
-cand-prem-2 (1360, 768)
-fetched 2
+hero-2 (2200, 1243)
+fetched 1
