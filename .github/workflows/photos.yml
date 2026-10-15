@@ -1,0 +1,29 @@
+name: Fetch photographs
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['tools/photo-urls.txt']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pillow
+      - run: python tools/fetch_photos.py
+      - name: Commit the photographs
+        run: |
+          git config user.name "averon-site"
+          git config user.email "site@users.noreply.github.com"
+          git rm -q tools/photo-urls.txt
+          git add assets/photo index.html
+          git commit -m "Place the photographic set" || echo "nothing to commit"
+          git push
