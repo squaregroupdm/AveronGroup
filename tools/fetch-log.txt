@@ -1,4 +1,4 @@
-cand-hero-1 (1360, 768)
-cand-hero-2 (1360, 768)
-cand-hero-3 (1360, 768)
+hero-1 (1360, 768)
+hero-2 (1360, 768)
+hero-3 (1360, 768)
 fetched 3
