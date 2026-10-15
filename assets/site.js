@@ -4,6 +4,29 @@
   if (hasGsap) gsap.registerPlugin(ScrollTrigger);
   var EASE = 'cubic-bezier(0.22, 1, 0.36, 1)';
 
+  // Smooth scrolling: Lenis drives the scroll on mouse and trackpad so pins and scrubs ease instead of stepping.
+  // Native scrolling stays on touch screens and under reduced motion.
+  var lenis = null;
+  var fine = window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+  if (hasGsap && !reduce && fine && typeof window.Lenis !== 'undefined') {
+    document.documentElement.style.scrollBehavior = 'auto';
+    lenis = new Lenis({ lerp: 0.085, wheelMultiplier: 1, smoothWheel: true, syncTouch: false });
+    lenis.on('scroll', ScrollTrigger.update);
+    gsap.ticker.add(function (t) { lenis.raf(t * 1000); });
+    gsap.ticker.lagSmoothing(0);
+  }
+  function scrollToTarget(el) {
+    if (lenis) lenis.scrollTo(el, { offset: -72, duration: 1.4, easing: function (x) { return 1 - Math.pow(1 - x, 3); } });
+    else el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
+  }
+  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      var id = a.getAttribute('href').slice(1); if (!id) return;
+      var el = document.getElementById(id); if (!el) return;
+      e.preventDefault(); scrollToTarget(el); if (history.pushState) history.pushState(null, '', '#' + id);
+    });
+  });
+
   // Navigation: the pill turns more opaque once scrolled; the overlay menu opens on the phone
   var nav = document.getElementById('nav');
   var overlay = document.getElementById('overlay');
@@ -31,21 +54,28 @@
 
   // Shared helpers
   function crossfader(front, back) {
-    var busy = false;
-    return function (src, alt) {
-      if (!front || !back || front.currentSrc === src || front.getAttribute('src') === src) return;
-      if (busy) { front.src = src; front.alt = alt; return; }
-      busy = true;
-      back.src = src; back.alt = alt;
+    // Fades the back image in over the front, then promotes it. Requests made mid-fade queue up,
+    // so a fast scroll through the options always ends on the option that is selected.
+    var busy = false, queued = null;
+    function run(src, alt) {
+      busy = true; back.src = src; back.alt = alt;
       var done = function () {
         back.classList.add('is-on');
         setTimeout(function () {
           front.src = src; front.alt = alt; front.removeAttribute('srcset'); front.removeAttribute('sizes');
-          var pic = front.parentElement; if (pic && pic.tagName === 'PICTURE') { var s = pic.querySelector('source'); if (s) s.remove(); }
+          var pic = front.parentElement; if (pic && pic.tagName === 'PICTURE') { var so = pic.querySelector('source'); if (so) so.remove(); }
           back.classList.remove('is-on'); busy = false;
-        }, reduce ? 0 : 960);
+          var next = queued; queued = null;
+          if (next && next.src !== src) run(next.src, next.alt);
+        }, reduce ? 0 : 900);
       };
       if (back.complete && back.naturalWidth) done(); else back.onload = done;
+    }
+    return function (src, alt) {
+      if (!front || !back) return;
+      if (busy) { queued = { src: src, alt: alt }; return; }
+      if (front.getAttribute('src') === src) return;
+      run(src, alt);
     };
   }
   function swapText(el, fn) {
@@ -164,7 +194,7 @@
     placeRoute(); window.addEventListener('resize', placeRoute);
     if (elbow) setTimeout(function () { elbow.classList.add('is-on'); }, 600);
     // Route line and progress bar follow the scroll through the journey
-    ScrollTrigger.create({ trigger: journey, start: 'top top', end: 'bottom bottom', scrub: 0.4, onUpdate: function (s) {
+    ScrollTrigger.create({ trigger: journey, start: 'top top', end: 'bottom bottom', scrub: 0.8, onUpdate: function (s) {
       if (ink) ink.style.transform = 'scaleY(' + s.progress + ')';
       if (bar) bar.style.transform = 'scaleX(' + s.progress + ')';
     } });
@@ -178,7 +208,7 @@
     var caps = document.querySelectorAll('#source-caps .tag');
     if (caps.length) {
       gsap.set(caps, { opacity: 0, y: 14 });
-      ScrollTrigger.create({ trigger: '#source-stage', start: 'top top', end: '+=60%', pin: true, pinSpacing: true, anticipatePin: 1,
+      ScrollTrigger.create({ trigger: '#source-stage', start: 'top top', end: '+=50%', pin: true, pinSpacing: true, anticipatePin: 1,
         onEnter: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.7, stagger: 0.14, ease: 'power3.out' }); },
         onEnterBack: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }); } });
     }
@@ -188,7 +218,7 @@
     if (matSel && matSelect && window.innerWidth >= 1024) {
       var matCount = mats.length, matIdx = 0;
       var wholeFits = matBlock.offsetHeight < window.innerHeight - 110;
-      ScrollTrigger.create({ trigger: wholeFits ? matBlock : matSel, start: wholeFits ? 'top 90px' : 'center center', end: '+=' + (matCount * 45) + '%', pin: true, anticipatePin: 1, scrub: 0.2, onUpdate: function (s) {
+      ScrollTrigger.create({ trigger: wholeFits ? matBlock : matSel, start: wholeFits ? 'top 90px' : 'center center', end: '+=' + (matCount * 45) + '%', pin: true, anticipatePin: 1, scrub: 0.6, onUpdate: function (s) {
         var idx = Math.min(matCount - 1, Math.floor(s.progress * matCount));
         if (idx !== matIdx) { matIdx = idx; matSelect(idx); }
       } });
@@ -198,9 +228,9 @@
     var steps = document.querySelectorAll('#make-steps .step');
     var counter = document.getElementById('make-counter');
     if (frames.length === 3) {
-      ScrollTrigger.create({ trigger: '#make-pin', start: 'top top', end: '+=200%', pin: true, anticipatePin: 1, scrub: 0.3, onUpdate: function (s) {
+      ScrollTrigger.create({ trigger: '#make-pin', start: 'top top', end: '+=200%', pin: true, anticipatePin: 1, scrub: 0.8, onUpdate: function (s) {
         var p = s.progress * 3; var idx = Math.min(2, Math.floor(p)); var local = p - idx;
-        frames.forEach(function (f, k) { f.style.opacity = k === idx ? 1 : (k === idx + 1 ? Math.max(0, (local - 0.75) * 4) : 0); });
+        frames.forEach(function (f, k) { f.style.opacity = k === idx ? 1 : (k === idx + 1 ? Math.max(0, (local - 0.6) * 2.5) : 0); });
         steps.forEach(function (st, k) { st.classList.toggle('is-on', k === idx); var line = st.querySelector('.line i'); if (line) line.style.transform = 'scaleX(' + (k < idx ? 1 : k === idx ? local : 0) + ')'; });
         if (counter) counter.lastChild.textContent = 'Stage ' + (idx + 1) + ' of 3';
       } });
@@ -211,7 +241,7 @@
       var len = route.getTotalLength();
       route.style.strokeDasharray = len; route.style.strokeDashoffset = len;
       var branches = route.parentNode.querySelector('.branches'); if (branches) branches.style.opacity = 0;
-      ScrollTrigger.create({ trigger: route.closest('.map'), start: 'top 80%', end: 'bottom 55%', scrub: 0.5, onUpdate: function (s) {
+      ScrollTrigger.create({ trigger: route.closest('.map'), start: 'top 80%', end: 'bottom 55%', scrub: 1, onUpdate: function (s) {
         route.style.strokeDashoffset = len * (1 - s.progress);
         if (branches) branches.style.opacity = s.progress > 0.9 ? 0.7 * ((s.progress - 0.9) / 0.1) : 0;
       } });
@@ -225,7 +255,24 @@
     if (orbit) {
       ScrollTrigger.create({ trigger: '#deliver', start: 'top 60%', once: true, onEnter: function () { gsap.to(orbit, { strokeDashoffset: 0, duration: 1.6, ease: 'power2.inOut' }); } });
     }
-    window.addEventListener('load', function () { placeRoute(); ScrollTrigger.refresh(); });
+    window.addEventListener('load', function () {
+      placeRoute(); ScrollTrigger.refresh();
+      // Landing on a hash: pin spacers shifted the page after the browser's first jump, so re-seat the target under the nav
+      var hashEl = location.hash && location.hash.length > 1 ? document.getElementById(location.hash.slice(1)) : null;
+      if (hashEl && hashEl.id !== 'main') {
+        var touched = false;
+        ['wheel', 'touchstart', 'keydown'].forEach(function (ev) { window.addEventListener(ev, function () { touched = true; }, { passive: true, once: true }); });
+        var seat = function () {
+          if (touched || location.hash !== '#' + hashEl.id) return;
+          var y = hashEl.getBoundingClientRect().top + window.scrollY - 72;
+          if (Math.abs(y - window.scrollY) < 2) return;
+          if (lenis) lenis.scrollTo(y, { immediate: true, force: true }); else window.scrollTo(0, y);
+        };
+        setTimeout(seat, 120); setTimeout(seat, 700); setTimeout(seat, 1600);
+        ScrollTrigger.addEventListener('refresh', seat);
+        setTimeout(function () { ScrollTrigger.removeEventListener('refresh', seat); }, 2500);
+      }
+    });
   } else {
     // No GSAP or reduced motion: everything visible, chapter tracking by observer only
     if (rail) rail.classList.add('is-on');
