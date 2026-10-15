@@ -14,12 +14,6 @@
     "cap-quality": "A printed packaging sheet held under a colour viewing booth next to a digital proof, an inspector comparing the two with a loupe, D50 light, close detail of the registration marks. Documentary photograph, 35mm, subtle film grain, high dynamic range, realistic proportions, authentic imperfections, no posed smiles, no text or logos printed on anything, muted palette with midnight navy and warm ivory tones, editorial.",
     "cap-compliance": "A desk in a factory office with a folder of inspection reports and certificates open, a person checking a document against a printed specification sheet with a pen, filing cabinets behind, natural light. Documentary photograph, 35mm, subtle film grain, high dynamic range, realistic proportions, authentic imperfections, no posed smiles, no readable text on the documents, muted palette with midnight navy and warm ivory tones, editorial.",
     "cap-freight": "A container yard at dusk with stacked shipping containers in muted colours and a gantry crane, a lone worker in a safety vest walking between rows, wet ground reflecting the sky, wide shot. Documentary photograph, 35mm, available light, subtle film grain, high dynamic range, realistic proportions, authentic imperfections, no readable logos, muted palette with midnight navy and warm ivory tones, editorial.",
-    "cat-folding": "A row of unprinted and plain navy cosmetics folding cartons standing on a pale wooden table in a sample room, soft side window light, one carton open showing its tuck flap, square composition, no text on the cartons. Documentary product photograph, 35mm, subtle film grain, realistic board texture, muted palette with midnight navy and warm ivory tones, editorial.",
-    "cat-premium": "A navy cloth-wrapped rigid magnetic gift box standing open on an ivory linen surface, the lid showing an unprinted blind-embossed rectangle, a paper insert inside, soft daylight, square composition, no text. Documentary product photograph, 35mm, subtle film grain, realistic material texture, muted palette with midnight navy and warm ivory tones, editorial.",
-    "cat-corrugated": "A stack of plain kraft e-commerce mailer boxes with a tear strip, one box open with crinkled kraft paper inside, on a concrete warehouse floor, side light, square composition, no text or logos. Documentary product photograph, 35mm, subtle film grain, realistic corrugated texture, muted palette, editorial.",
-    "cat-retail": "A plain ivory shoe box with its lid off beside a kraft paper carrier bag and two blank hangtags on a grey felt surface, soft daylight, square composition, no text or logos. Documentary product photograph, 35mm, subtle film grain, realistic board and paper texture, muted palette with midnight navy and warm ivory tones, editorial.",
-    "cat-food": "Plain kraft and white bakery cartons and a chocolate box with a clear window on a stainless steel counter in a food packing room, one carton open, soft overhead light, square composition, no text or logos. Documentary product photograph, 35mm, subtle film grain, realistic board texture, muted palette, editorial.",
-    "cat-healthcare": "Plain white pharmaceutical folding cartons of several sizes standing on a white laboratory bench with a folded paper leaflet beside them, clinical cool daylight, square composition, no text or logos on the cartons. Documentary product photograph, 35mm, subtle film grain, realistic board texture, muted palette with midnight navy and warm ivory tones, editorial.",
     "macro-foil": "Extreme macro photograph of a midnight navy packaging board surface with a blind-embossed curve and a stripe of matt ivory hot foil, raking light showing the fibre texture and the emboss depth, very shallow depth of field, no text. 100mm macro, subtle film grain, high dynamic range, realistic material, muted palette with midnight navy and warm ivory tones, editorial.",
     "gal-material": "Tall stacks of packaging board on pallets in a paper warehouse, white, grey and kraft board edges forming horizontal bands, a worker checking a pallet label in the distance, vertical composition, daylight from high windows. Documentary photograph, 35mm, subtle film grain, high dynamic range, realistic proportions, no readable text, muted palette with midnight navy and warm ivory tones, editorial.",
     "gal-print": "Close-up of offset press ink rollers and a plate cylinder in motion with navy ink, a printed sheet emerging, motion blur on the rollers, factory light. Documentary photograph, 35mm, subtle film grain, high dynamic range, realistic machinery, authentic imperfections, no text, muted palette with midnight navy and warm ivory tones, editorial.",
@@ -33,5 +27,49 @@
     "ind-home": "Plain navy and ivory homeware gift boxes of different sizes with a candle box open showing a paper insert, arranged on a pale oak shelf in a studio, soft daylight, square composition, no text or logos. Documentary product photograph, 35mm, subtle film grain, realistic board texture, muted palette with midnight navy and warm ivory tones, editorial.",
     "sust-kraft": "Extreme macro of the torn edge of recycled kraft board showing the layered fibres and flecks, beside the smooth coated white surface of folding boxboard, raking daylight, very shallow depth of field, no text. 100mm macro, subtle film grain, high dynamic range, realistic material, muted palette with midnight navy and warm ivory tones, editorial.",
     "factory-manager": "A factory manager in Bangladesh standing beside a running carton line with a clipboard, looking along the line, seen in three-quarter profile, shallow depth of field, honest workplace portrait, no smile at camera. Documentary photograph, 35mm, available factory light, subtle film grain, high dynamic range, realistic proportions, authentic imperfections, no text, muted palette with midnight navy and warm ivory tones, editorial."
+  },
+  "sourced": {
+    "cat-folding": {
+      "photographer": "Avtar Singh",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Frosted glass jar and box on a light surface",
+      "fetched": "15 October 2026"
+    },
+    "cat-food": {
+      "photographer": "Haberdoedas",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A box of colourful macarons on a wooden board",
+      "fetched": "15 October 2026"
+    },
+    "cat-healthcare": {
+      "photographer": "National Cancer Institute",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A pharmacist reaching for a medication box on a shelf",
+      "fetched": "15 October 2026"
+    },
+    "cat-retail": {
+      "photographer": "Glodi Miessi",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Grey shoe boxes, shallow focus",
+      "fetched": "15 October 2026"
+    },
+    "cat-premium": {
+      "photographer": "Al Rahmaniyah Packaging",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A brown leather box with a gold clasp",
+      "fetched": "15 October 2026"
+    },
+    "cat-corrugated": {
+      "photographer": "Rohit Choudhari",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A pile of brown cardboard boxes with blue tape",
+      "fetched": "15 October 2026"
+    }
   }
 }
