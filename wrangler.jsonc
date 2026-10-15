@@ -1,6 +1,6 @@
 {
   // Cloudflare Workers static site: serves the files in this folder.
-  "name": "nss-global-packaging",
+  "name": "averongroup",
   "compatibility_date": "2026-09-01",
   "assets": { "directory": "./", "not_found_handling": "404-page" }
 }
