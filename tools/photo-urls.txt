@@ -1,7 +1,0 @@
-# Speedmaster-style press candidates, 15 October 2026
-cand-sm-1 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123458_e8ab3136-fa81-4218-8be6-f56bd3108dcb.png
-cand-sm-2 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123456_4700f3e8-a19e-4558-a137-b92a5017b37b.png
-cand-sm-3 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123455_462731b6-d855-4c22-ab82-7319ba28976b.png
-cand-sm-4 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123455_1830b479-2b1d-47cb-b643-044563328f82.png
-cand-sm-5 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123458_a7b8df2b-23e8-4e68-baa0-c88debe7557c.png
-cand-sm-6 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123455_43a032b0-7d3e-44be-abd9-5f52b42bdc3c.png
