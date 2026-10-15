@@ -539,14 +539,20 @@ table.spec td:first-child { font-weight: 600; width: 22%; }
   .route .ink { transform: none; }
 }
 
-/* Owner's instruction (15 October 2026): every piece of text is justified, headings, descriptions, cards, menus, footers and phone layouts included */
-h1, h2, h3, h4, p, li, dt, dd, td, th, figcaption, label, blockquote, summary, legend, address, span.edit, .edit, .lead, .kicker, .caption, .small, .tag, .pill, .textlink, .nav .links a, .overlay a, .rail .t, .chlabel .l, .gate b, .gate span, .footer li, .values b, .sum .f b, .legal span, pre {
+/* Owner's instruction (15 October 2026): justify running text only; headings, labels, menus, buttons and short lines stay left-aligned */
+.open .lead, .brief .copy p:not(.edit), .source .panel p:not(.edit), .material .head p:not(.edit), .verify .copy p:not(.edit), .pack .copy p:not(.edit), .move .info p, .deliver p:not(.edit), .convert .copy p:not(.edit),
+.pagehead .lead, .rowx p, .stagerow p, .split p, .values p, .sum .f p, .prose p, .prose li, .cta p, .about .body p, .footer .c1 p, .briefpage .intro p, .bstep .help, .result .help, .gate span, td {
   text-align: justify;
   text-justify: inter-word;
-}
-p, li, .lead, .edit, td, figcaption, .gate span, .sum .f p, .footer p, .prose p, .prose li, .bstep .help, .result .help {
   hyphens: auto;
   -webkit-hyphens: auto;
   hyphenate-limit-chars: 8 4 4;
 }
-.open .acts, .material .more, .pack .seq figcaption, .make .top, .cta .wrap, .nav .pillbar, .overlay, .footer .legal, .result .acts, .nav-row { text-align: justify; }
+/* Headings hold to one or two lines at every width */
+h2 { max-width: 24ch; }
+.brief .copy h2, .verify .copy h2, .pack .copy h2 { max-width: none; }
+.verify .copy h2, .pack .copy h2 { font-size: clamp(1.6rem, 1.15rem + 1.4vw, 2.3rem); }
+.split h2, .pagehead h1 { max-width: 20ch; }
+.split h2 { font-size: clamp(1.6rem, 1.15rem + 1.4vw, 2.3rem); }
+@media (max-width: 640px) { h2 { max-width: none; } .pagehead h1 { font-size: 1.85rem; } }
+.make .edit { max-width: 24ch; }

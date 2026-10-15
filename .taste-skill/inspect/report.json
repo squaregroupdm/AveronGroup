@@ -1,6 +1,6 @@
 {
  "url": "index.html",
- "at": "2026-10-15T09:08:07.616Z",
+ "at": "2026-10-15T09:18:13.205Z",
  "allow": [
   "palette-cream",
   "glass",
@@ -15,18 +15,18 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.33,
+    0.31,
     0.74,
     0.25,
     0.83,
-    0.54,
+    0.56,
     0.28,
     0.28,
     0.71,
     1,
-    0.44,
-    0.29,
-    0.32
+    0.32,
+    0.28,
+    0.23
    ],
    "motion": {
     "elements": 51,
@@ -42,9 +42,9 @@
      "h": 900
     },
     "page": {
-     "height": 11351,
-     "screens": 12.6,
-     "words": 728,
+     "height": 11187,
+     "screens": 12.4,
+     "words": 725,
      "img": 21,
      "video": 0,
      "canvas": 0,
@@ -228,10 +228,10 @@
       "kind": "heading"
      },
      {
-      "text": "Now the specification becomes physical.",
-      "words": 5,
-      "chars": 39,
-      "lines": 3,
+      "text": "The specification becomes physical.",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
       "size": 41.6,
       "vw": 2.9,
       "font": "Cormorant Garamond",
@@ -243,7 +243,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.2,
+      "widthRatio": 0.29,
       "top": 4226,
       "tag": "p",
       "kind": "statement"
@@ -264,7 +264,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.43,
+      "widthRatio": 0.52,
       "top": 4690,
       "tag": "h2",
       "kind": "heading"
@@ -291,12 +291,12 @@
       "kind": "statement"
      },
      {
-      "text": "Five gates, signed before and during production.",
-      "words": 7,
-      "chars": 48,
-      "lines": 3,
-      "size": 49.9,
-      "vw": 3.5,
+      "text": "Five gates, signed before production.",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 36.8,
+      "vw": 2.6,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -328,7 +328,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.25,
-      "top": 7904,
+      "top": 7821,
       "tag": "p",
       "kind": "statement"
      },
@@ -336,9 +336,9 @@
       "text": "One carton becomes a shipment.",
       "words": 5,
       "chars": 30,
-      "lines": 3,
-      "size": 49.9,
-      "vw": 3.5,
+      "lines": 2,
+      "size": 36.8,
+      "vw": 2.6,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -349,7 +349,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.25,
-      "top": 8024,
+      "top": 7942,
       "tag": "h2",
       "kind": "heading"
      },
@@ -370,7 +370,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 8890,
+      "top": 8725,
       "tag": "p",
       "kind": "statement"
      },
@@ -391,7 +391,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.55,
-      "top": 9950,
+      "top": 9785,
       "tag": "p",
       "kind": "statement"
      },
@@ -412,7 +412,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.3,
-      "top": 10016,
+      "top": 9851,
       "tag": "h2",
       "kind": "heading"
      },
@@ -433,7 +433,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 10607,
+      "top": 10442,
       "tag": "p",
       "kind": "statement"
      },
@@ -454,15 +454,15 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 10673,
+      "top": 10508,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
      "count": 17,
-     "maxLines": 3,
-     "over2Lines": 2,
+     "maxLines": 2,
+     "over2Lines": 0,
      "statements": 9,
      "centered": 0,
      "medianWords": 5,
@@ -492,11 +492,12 @@
       18,
       20,
       22,
+      37,
       42,
       50,
       72
      ],
-     "sizeCount": 12,
+     "sizeCount": 13,
      "notLoaded": [],
      "body": {
       "font": "Manrope",
@@ -574,7 +575,7 @@
      },
      {
       "text": "04",
-      "above": "Now the specification becomes physical.",
+      "above": "The specification becomes physical.",
       "upper": false,
       "tracked": true,
       "mono": false,
@@ -600,7 +601,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 7865
+      "top": 7782
      },
      {
       "text": "07",
@@ -610,7 +611,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8850
+      "top": 8686
      },
      {
       "text": "08",
@@ -620,7 +621,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 9911
+      "top": 9746
      }
     ],
     "numbered": [
@@ -714,7 +715,7 @@
       },
       {
        "color": "#050a30",
-       "top": 8454,
+       "top": 8289,
        "hsl": {
         "h": 233,
         "s": 0.81,
@@ -834,18 +835,18 @@
    "load": "load",
    "screens": 12,
    "filled": [
-    0.34,
+    0.32,
     0.93,
     0.37,
-    0.72,
-    0.66,
+    0.84,
+    0.64,
     0.28,
     0.28,
-    0.43,
+    0.48,
     1,
-    0.87,
-    0.52,
-    0.28
+    0.67,
+    0.55,
+    0.26
    ],
    "motion": {
     "elements": 46,
@@ -861,9 +862,9 @@
      "h": 1024
     },
     "page": {
-     "height": 13899,
-     "screens": 13.6,
-     "words": 714,
+     "height": 13718,
+     "screens": 13.4,
+     "words": 711,
      "img": 21,
      "video": 0,
      "canvas": 0,
@@ -966,7 +967,7 @@
       "text": "A requirement, not a catalogue.",
       "words": 5,
       "chars": 31,
-      "lines": 2,
+      "lines": 1,
       "size": 37.8,
       "vw": 4.9,
       "font": "Manrope",
@@ -977,8 +978,8 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "left",
-      "widthRatio": 0.62,
+      "position": "center",
+      "widthRatio": 0.92,
       "top": 1078,
       "tag": "h2",
       "kind": "heading"
@@ -1000,7 +1001,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.66,
-      "top": 2626,
+      "top": 2585,
       "tag": "p",
       "kind": "statement"
      },
@@ -1021,7 +1022,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 3745,
+      "top": 3705,
       "tag": "p",
       "kind": "statement"
      },
@@ -1029,7 +1030,7 @@
       "text": "The board decides the carton.",
       "words": 5,
       "chars": 29,
-      "lines": 2,
+      "lines": 1,
       "size": 37.8,
       "vw": 4.9,
       "font": "Manrope",
@@ -1041,16 +1042,16 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.62,
-      "top": 3798,
+      "widthRatio": 0.74,
+      "top": 3758,
       "tag": "h2",
       "kind": "heading"
      },
      {
-      "text": "Now the specification becomes physical.",
-      "words": 5,
-      "chars": 39,
-      "lines": 3,
+      "text": "The specification becomes physical.",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
       "size": 31.5,
       "vw": 4.1,
       "font": "Cormorant Garamond",
@@ -1062,8 +1063,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.29,
-      "top": 5099,
+      "widthRatio": 0.43,
+      "top": 5018,
       "tag": "p",
       "kind": "statement"
      },
@@ -1083,8 +1084,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.62,
-      "top": 5707,
+      "widthRatio": 0.74,
+      "top": 5626,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1105,17 +1106,17 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8114,
+      "top": 8033,
       "tag": "p",
       "kind": "statement"
      },
      {
-      "text": "Five gates, signed before and during production.",
-      "words": 7,
-      "chars": 48,
-      "lines": 2,
-      "size": 37.8,
-      "vw": 4.9,
+      "text": "Five gates, signed before production.",
+      "words": 5,
+      "chars": 37,
+      "lines": 1,
+      "size": 29.2,
+      "vw": 3.8,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1124,9 +1125,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "left",
-      "widthRatio": 0.62,
-      "top": 8167,
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8086,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1147,7 +1148,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 9489,
+      "top": 9359,
       "tag": "p",
       "kind": "statement"
      },
@@ -1155,9 +1156,9 @@
       "text": "One carton becomes a shipment.",
       "words": 5,
       "chars": 30,
-      "lines": 2,
-      "size": 37.8,
-      "vw": 4.9,
+      "lines": 1,
+      "size": 29.2,
+      "vw": 3.8,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1166,9 +1167,9 @@
       "italic": false,
       "mono": false,
       "align": "left",
-      "position": "left",
-      "widthRatio": 0.62,
-      "top": 9542,
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9411,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1189,7 +1190,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 10659,
+      "top": 10478,
       "tag": "p",
       "kind": "statement"
      },
@@ -1210,7 +1211,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 12057,
+      "top": 11875,
       "tag": "p",
       "kind": "statement"
      },
@@ -1231,7 +1232,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.43,
-      "top": 12109,
+      "top": 11928,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1252,7 +1253,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 12802,
+      "top": 12621,
       "tag": "p",
       "kind": "statement"
      },
@@ -1272,15 +1273,15 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.62,
-      "top": 12855,
+      "widthRatio": 0.74,
+      "top": 12674,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
      "count": 17,
-     "maxLines": 3,
+     "maxLines": 2,
      "over2Lines": 0,
      "statements": 9,
      "centered": 0,
@@ -1310,11 +1311,12 @@
       17,
       18,
       22,
+      29,
       32,
       38,
       57
      ],
-     "sizeCount": 11,
+     "sizeCount": 12,
      "notLoaded": [],
      "body": {
       "font": "Manrope",
@@ -1378,7 +1380,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 2587
+      "top": 2546
      },
      {
       "text": "03",
@@ -1388,17 +1390,17 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 3706
+      "top": 3666
      },
      {
       "text": "04",
-      "above": "Now the specification becomes physical.",
+      "above": "The specification becomes physical.",
       "upper": false,
       "tracked": true,
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 5060
+      "top": 4979
      },
      {
       "text": "05",
@@ -1408,7 +1410,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8075
+      "top": 7994
      },
      {
       "text": "06",
@@ -1418,7 +1420,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 9450
+      "top": 9319
      },
      {
       "text": "07",
@@ -1428,7 +1430,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 10620
+      "top": 10439
      },
      {
       "text": "08",
@@ -1438,7 +1440,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 12017
+      "top": 11836
      }
     ],
     "numbered": [
@@ -1455,52 +1457,52 @@
      {
       "text": "02",
       "size": 12,
-      "top": 2587
+      "top": 2546
      },
      {
       "text": "03",
       "size": 12,
-      "top": 3706
+      "top": 3666
      },
      {
       "text": "01",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "02",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "03",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "04",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "05",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "06",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "07",
       "size": 11.5,
-      "top": 4006
+      "top": 3925
      },
      {
       "text": "04",
       "size": 12,
-      "top": 5060
+      "top": 4979
      }
     ],
     "color": {
@@ -1523,7 +1525,7 @@
       },
       {
        "color": "#021a38",
-       "top": 1351,
+       "top": 1310,
        "hsl": {
         "h": 213,
         "s": 0.93,
@@ -1532,7 +1534,7 @@
       },
       {
        "color": "#050a30",
-       "top": 10108,
+       "top": 9926,
        "hsl": {
         "h": 233,
         "s": 0.81,
@@ -1617,7 +1619,7 @@
        "count": 3,
        "iconTopped": false,
        "rounded": true,
-       "top": 5772
+       "top": 5691
       }
      ]
     },
@@ -1658,11 +1660,11 @@
     0.7,
     0.56,
     0.56,
-    0.69,
+    0.66,
     1,
     1,
     1,
-    0.35
+    0.39
    ],
    "motion": {
     "elements": 45,
@@ -1678,9 +1680,9 @@
      "h": 844
     },
     "page": {
-     "height": 13103,
+     "height": 13041,
      "screens": 15.5,
-     "words": 673,
+     "words": 670,
      "img": 21,
      "video": 0,
      "canvas": 0,
@@ -1864,10 +1866,10 @@
       "kind": "heading"
      },
      {
-      "text": "Now the specification becomes physical.",
-      "words": 5,
-      "chars": 39,
-      "lines": 3,
+      "text": "The specification becomes physical.",
+      "words": 4,
+      "chars": 35,
+      "lines": 2,
       "size": 25.6,
       "vw": 6.6,
       "font": "Cormorant Garamond",
@@ -1879,7 +1881,7 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.45,
+      "widthRatio": 0.5,
       "top": 4248,
       "tag": "p",
       "kind": "statement"
@@ -1927,12 +1929,12 @@
       "kind": "statement"
      },
      {
-      "text": "Five gates, signed before and during production.",
-      "words": 7,
-      "chars": 48,
-      "lines": 3,
-      "size": 32,
-      "vw": 8.2,
+      "text": "Five gates, signed before production.",
+      "words": 5,
+      "chars": 37,
+      "lines": 2,
+      "size": 25.6,
+      "vw": 6.6,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1964,7 +1966,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 8110,
+      "top": 8062,
       "tag": "p",
       "kind": "statement"
      },
@@ -1973,8 +1975,8 @@
       "words": 5,
       "chars": 30,
       "lines": 2,
-      "size": 32,
-      "vw": 8.2,
+      "size": 25.6,
+      "vw": 6.6,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1985,7 +1987,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 8155,
+      "top": 8107,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2006,7 +2008,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 9776,
+      "top": 9714,
       "tag": "p",
       "kind": "statement"
      },
@@ -2027,7 +2029,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 10980,
+      "top": 10918,
       "tag": "p",
       "kind": "statement"
      },
@@ -2048,7 +2050,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.72,
-      "top": 11025,
+      "top": 10963,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2069,7 +2071,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 11635,
+      "top": 11573,
       "tag": "p",
       "kind": "statement"
      },
@@ -2090,15 +2092,15 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 11680,
+      "top": 11618,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
      "count": 17,
-     "maxLines": 3,
-     "over2Lines": 1,
+     "maxLines": 2,
+     "over2Lines": 0,
      "statements": 9,
      "centered": 0,
      "medianWords": 5,
@@ -2162,7 +2164,7 @@
       "Material",
       "Make"
      ],
-     "upperShare": 0.06,
+     "upperShare": 0.07,
      "centerShare": 0,
      "smallText": 19
     },
@@ -2219,7 +2221,7 @@
      },
      {
       "text": "04",
-      "above": "Now the specification becomes physical.",
+      "above": "The specification becomes physical.",
       "upper": false,
       "tracked": true,
       "mono": false,
@@ -2245,7 +2247,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8071
+      "top": 8023
      },
      {
       "text": "06",
@@ -2255,7 +2257,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8071
+      "top": 8023
      },
      {
       "text": "07",
@@ -2265,7 +2267,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 9737
+      "top": 9675
      },
      {
       "text": "08",
@@ -2275,7 +2277,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 10940
+      "top": 10878
      },
      {
       "text": "08",
@@ -2285,7 +2287,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 10940
+      "top": 10878
      }
     ],
     "numbered": [
@@ -2370,7 +2372,7 @@
       },
       {
        "color": "#050a30",
-       "top": 9359,
+       "top": 9297,
        "hsl": {
         "h": 233,
         "s": 0.81,
@@ -2379,7 +2381,7 @@
       },
       {
        "color": "#021a38",
-       "top": 12207,
+       "top": 12145,
        "hsl": {
         "h": 213,
         "s": 0.93,
@@ -2489,13 +2491,6 @@
  "findings": [
   {
    "level": "FAIL",
-   "id": "headline-lines",
-   "width": 1440,
-   "message": "3 headline(s) wrap past two lines at 1440px: \"Now the specification becomes physical.\" → 3 lines (5 words, 41.6px, a paragraph set above 36px); \"Five gates, signed before and during production.\" → 3 lines (7 words, 49.9px); \"One carton becomes a shipment.\" → 3 lines (5 words, 49.9px)",
-   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
-  },
-  {
-   "level": "FAIL",
    "id": "micro-label",
    "width": 1440,
    "message": "27 tiny uppercase letter-spaced labels (e.g. \"Opening\", \"Opening\", \"Production reference\", \"Brief\").",
@@ -2531,7 +2526,7 @@
    "level": "WARN",
    "id": "size-count",
    "width": 1440,
-   "message": "12 different font sizes (12, 13, 14, 15, 16, 17, 18, 20, 22, 42, 50, 72).",
+   "message": "13 different font sizes (12, 13, 14, 15, 16, 17, 18, 20, 22, 37, 42, 50, 72).",
    "fix": "A page needs about five: display, heading, lead, body, small.",
    "alsoAt": [
     768,
@@ -2582,7 +2577,7 @@
    "level": "WARN",
    "id": "pinned-over-picture",
    "width": 1440,
-   "message": "Pinned large text slides across pictures while the page scrolls: \"Finding capacity is easy. Finding the right fit \" (screen 3, 100% over a picture); \"Now the specification becomes physical.\" (screen 7, 100% over a picture); \"Print. Finish. Convert.\" (screen 7, 100% over a picture)",
+   "message": "Pinned large text slides across pictures while the page scrolls: \"Finding capacity is easy. Finding the right fit \" (screen 3, 100% over a picture); \"The specification becomes physical.\" (screen 7, 100% over a picture); \"Print. Finish. Convert.\" (screen 7, 100% over a picture)",
    "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
    "alsoAt": [
     768,
@@ -2593,7 +2588,7 @@
    "level": "WARN",
    "id": "long-pin",
    "width": 1440,
-   "message": "The same large text stays on screen for 3 screens in a row: \"Now the specification becomes physical.\"; \"Print. Finish. Convert.\"",
+   "message": "The same large text stays on screen for 3 screens in a row: \"The specification becomes physical.\"; \"Print. Finish. Convert.\"",
    "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
   },
   {
@@ -2605,13 +2600,6 @@
    "alsoAt": [
     390
    ]
-  },
-  {
-   "level": "FAIL",
-   "id": "headline-lines",
-   "width": 390,
-   "message": "2 headline(s) wrap past two lines at 390px: \"Now the specification becomes physical.\" → 3 lines (5 words, 25.6px, a paragraph set above 24px); \"Five gates, signed before and during production.\" → 3 lines (7 words, 32px)",
-   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
   }
  ],
  "images": [
