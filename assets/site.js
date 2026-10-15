@@ -19,12 +19,22 @@
     if (lenis) lenis.scrollTo(el, { offset: -72, duration: 1.4, easing: function (x) { return 1 - Math.pow(1 - x, 3); } });
     else el.scrollIntoView({ behavior: reduce ? 'auto' : 'smooth', block: 'start' });
   }
-  document.querySelectorAll('a[href^="#"]').forEach(function (a) {
+  // Any link to a section of the current page (href="#id" or "page.html#id") scrolls smoothly instead of jumping,
+  // otherwise the browser's jump and the smooth scroller fight and the page springs back.
+  var samePath = function (a) { try { return new URL(a.href, location.href).pathname === location.pathname; } catch (err) { return false; } };
+  document.querySelectorAll('a[href*="#"]').forEach(function (a) {
     a.addEventListener('click', function (e) {
-      var id = a.getAttribute('href').slice(1); if (!id) return;
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target === '_blank') return;
+      if (!samePath(a)) return;
+      var id = decodeURIComponent((a.getAttribute('href').split('#')[1] || '')); if (!id) return;
       var el = document.getElementById(id); if (!el) return;
       e.preventDefault(); scrollToTarget(el); if (history.pushState) history.pushState(null, '', '#' + id);
     });
+  });
+  // Typed or back/forward hash changes: stop the smooth scroller before the browser's own jump
+  window.addEventListener('hashchange', function () {
+    var el = location.hash.length > 1 ? document.getElementById(location.hash.slice(1)) : null;
+    if (el) scrollToTarget(el);
   });
 
   // Opening: the three covers rotate on a slow crossfade. Still under reduced motion, paused while the tab is hidden.
