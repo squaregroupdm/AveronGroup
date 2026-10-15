@@ -1,13 +1,7 @@
 {
  "url": "index.html",
- "at": "2026-10-15T09:18:13.205Z",
- "allow": [
-  "palette-cream",
-  "glass",
-  "eyebrow",
-  "numbering",
-  "rules"
- ],
+ "at": "2026-10-15T10:33:11.150Z",
+ "allow": [],
  "viewports": [
   {
    "width": 1440,
@@ -16,22 +10,22 @@
    "screens": 12,
    "filled": [
     0.31,
-    0.74,
+    0.67,
     0.25,
-    0.83,
-    0.56,
-    0.28,
-    0.28,
-    0.71,
-    1,
-    0.32,
-    0.28,
-    0.23
+    0.89,
+    0.99,
+    0.99,
+    0.99,
+    0.3,
+    0.25,
+    0.25,
+    0.93,
+    0.74
    ],
    "motion": {
-    "elements": 51,
+    "elements": 63,
     "css": 0,
-    "transitions": 31,
+    "transitions": 43,
     "scripted": 20,
     "videos": 0,
     "playingVideos": 0
@@ -42,14 +36,14 @@
      "h": 900
     },
     "page": {
-     "height": 11187,
-     "screens": 12.4,
-     "words": 725,
-     "img": 21,
+     "height": 14576,
+     "screens": 16.2,
+     "words": 854,
+     "img": 27,
      "video": 0,
      "canvas": 0,
      "svg": 15,
-     "sections": 9,
+     "sections": 10,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
@@ -61,8 +55,8 @@
       "hero-press.webp",
       "journey-brief.webp",
       "cap-manufacturing.webp",
-      "gal-material.webp",
-      "sust-kraft.jpg",
+      "cat-healthcare.jpg",
+      "mat-fbb.jpg",
       "gal-print.jpg",
       "gal-finish.jpg",
       "gal-convert.jpg"
@@ -77,8 +71,8 @@
      "words": 4,
      "chars": 32,
      "lines": 2,
-     "size": 72,
-     "vw": 5,
+     "size": 68,
+     "vw": 4.7,
      "font": "Manrope",
      "weight": 500,
      "tracking": -0.025,
@@ -89,7 +83,7 @@
      "align": "left",
      "position": "left",
      "widthRatio": 0.53,
-     "top": 387,
+     "top": 395,
      "tag": "h1",
      "kind": "heading"
     },
@@ -97,7 +91,7 @@
      "text": "From requirement to destination.",
      "words": 4,
      "lines": 2,
-     "size": 72,
+     "size": 68,
      "font": "Manrope"
     },
     "headings": [
@@ -106,8 +100,8 @@
       "words": 4,
       "chars": 32,
       "lines": 2,
-      "size": 72,
-      "vw": 5,
+      "size": 68,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.025,
@@ -118,7 +112,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.53,
-      "top": 387,
+      "top": 395,
       "tag": "h1",
       "kind": "heading"
      },
@@ -139,7 +133,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.31,
-      "top": 996,
+      "top": 979,
       "tag": "p",
       "kind": "statement"
      },
@@ -148,8 +142,8 @@
       "words": 5,
       "chars": 31,
       "lines": 2,
-      "size": 49.9,
-      "vw": 3.5,
+      "size": 47,
+      "vw": 3.3,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -160,7 +154,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.31,
-      "top": 1070,
+      "top": 1054,
       "tag": "h2",
       "kind": "heading"
      },
@@ -181,7 +175,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.35,
-      "top": 2146,
+      "top": 2108,
       "tag": "p",
       "kind": "statement"
      },
@@ -202,7 +196,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 3139,
+      "top": 3081,
       "tag": "p",
       "kind": "statement"
      },
@@ -211,8 +205,8 @@
       "words": 5,
       "chars": 29,
       "lines": 2,
-      "size": 49.9,
-      "vw": 3.5,
+      "size": 47,
+      "vw": 3.3,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -223,7 +217,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 3259,
+      "top": 3201,
       "tag": "h2",
       "kind": "heading"
      },
@@ -244,7 +238,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.29,
-      "top": 4226,
+      "top": 6573,
       "tag": "p",
       "kind": "statement"
      },
@@ -253,8 +247,8 @@
       "words": 3,
       "chars": 23,
       "lines": 1,
-      "size": 49.9,
-      "vw": 3.5,
+      "size": 47,
+      "vw": 3.3,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -264,8 +258,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.52,
-      "top": 4690,
+      "widthRatio": 0.49,
+      "top": 7040,
       "tag": "h2",
       "kind": "heading"
      },
@@ -286,7 +280,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.31,
-      "top": 6912,
+      "top": 9240,
       "tag": "p",
       "kind": "statement"
      },
@@ -307,7 +301,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.31,
-      "top": 7032,
+      "top": 9360,
       "tag": "h2",
       "kind": "heading"
      },
@@ -328,7 +322,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.25,
-      "top": 7821,
+      "top": 10110,
       "tag": "p",
       "kind": "statement"
      },
@@ -349,7 +343,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.25,
-      "top": 7942,
+      "top": 10231,
       "tag": "h2",
       "kind": "heading"
      },
@@ -370,7 +364,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.77,
-      "top": 8725,
+      "top": 10995,
       "tag": "p",
       "kind": "statement"
      },
@@ -391,7 +385,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.55,
-      "top": 9785,
+      "top": 12039,
       "tag": "p",
       "kind": "statement"
      },
@@ -400,8 +394,8 @@
       "words": 5,
       "chars": 32,
       "lines": 2,
-      "size": 49.9,
-      "vw": 3.5,
+      "size": 47,
+      "vw": 3.3,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -411,8 +405,50 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.3,
-      "top": 9851,
+      "widthRatio": 0.29,
+      "top": 12105,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What arrives.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 12660,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Packaging Averon sources.",
+      "words": 3,
+      "chars": 25,
+      "lines": 2,
+      "size": 47,
+      "vw": 3.3,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 12726,
       "tag": "h2",
       "kind": "heading"
      },
@@ -433,7 +469,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 10442,
+      "top": 13854,
       "tag": "p",
       "kind": "statement"
      },
@@ -442,8 +478,8 @@
       "words": 7,
       "chars": 41,
       "lines": 2,
-      "size": 49.9,
-      "vw": 3.5,
+      "size": 47,
+      "vw": 3.3,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -454,16 +490,16 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.38,
-      "top": 10508,
+      "top": 13920,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 17,
+     "count": 19,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 9,
+     "statements": 10,
      "centered": 0,
      "medianWords": 5,
      "mixedFontHeadings": 0
@@ -472,12 +508,12 @@
      "families": [
       {
        "family": "Manrope",
-       "share": 0.92,
+       "share": 0.93,
        "mono": false
       },
       {
        "family": "Cormorant Garamond",
-       "share": 0.08,
+       "share": 0.07,
        "mono": false
       }
      ],
@@ -494,8 +530,8 @@
       22,
       37,
       42,
-      50,
-      72
+      47,
+      68
      ],
      "sizeCount": 13,
      "notLoaded": [],
@@ -509,8 +545,8 @@
      },
      "measureChars": 51,
      "max": {
-      "size": 72,
-      "vw": 5,
+      "size": 68,
+      "vw": 4.7,
       "font": "Manrope",
       "text": "From requirement to destination."
      },
@@ -519,7 +555,7 @@
      "monoFamilies": [],
      "monoSamples": [],
      "microLabels": 27,
-     "microLabelShare": 0.053,
+     "microLabelShare": 0.043,
      "microSamples": [
       "Opening",
       "Opening",
@@ -528,9 +564,9 @@
       "Source",
       "Material"
      ],
-     "upperShare": 0.06,
+     "upperShare": 0.05,
      "centerShare": 0,
-     "smallText": 24
+     "smallText": 31
     },
     "eyebrows": [
      {
@@ -541,7 +577,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 340
+      "top": 348
      },
      {
       "text": "01",
@@ -551,7 +587,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 956
+      "top": 940
      },
      {
       "text": "02",
@@ -561,7 +597,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 2107
+      "top": 2069
      },
      {
       "text": "03",
@@ -571,7 +607,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 3100
+      "top": 3042
      },
      {
       "text": "04",
@@ -581,7 +617,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 4187
+      "top": 6533
      },
      {
       "text": "05",
@@ -591,7 +627,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 6873
+      "top": 9200
      },
      {
       "text": "06",
@@ -601,7 +637,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 7782
+      "top": 10071
      },
      {
       "text": "07",
@@ -611,7 +647,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8686
+      "top": 10956
      },
      {
       "text": "08",
@@ -621,7 +657,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 9746
+      "top": 12000
      }
     ],
     "numbered": [
@@ -638,52 +674,52 @@
      {
       "text": "00",
       "size": 12,
-      "top": 340
+      "top": 348
      },
      {
       "text": "01",
       "size": 12,
-      "top": 956
+      "top": 940
      },
      {
       "text": "02",
       "size": 12,
-      "top": 2107
+      "top": 2069
      },
      {
       "text": "03",
       "size": 12,
-      "top": 3100
+      "top": 3042
      },
      {
       "text": "01",
       "size": 11.5,
-      "top": 3425
+      "top": 3361
      },
      {
       "text": "02",
       "size": 11.5,
-      "top": 3476
+      "top": 3412
      },
      {
       "text": "03",
       "size": 11.5,
-      "top": 3527
+      "top": 3464
      },
      {
       "text": "04",
       "size": 11.5,
-      "top": 3579
+      "top": 3515
      },
      {
       "text": "05",
       "size": 11.5,
-      "top": 3630
+      "top": 3566
      },
      {
       "text": "06",
       "size": 11.5,
-      "top": 3681
+      "top": 3617
      }
     ],
     "color": {
@@ -706,7 +742,7 @@
       },
       {
        "color": "#021a38",
-       "top": 3407,
+       "top": 3343,
        "hsl": {
         "h": 213,
         "s": 0.93,
@@ -715,7 +751,7 @@
       },
       {
        "color": "#050a30",
-       "top": 8289,
+       "top": 10559,
        "hsl": {
         "h": 233,
         "s": 0.81,
@@ -725,20 +761,20 @@
      ],
      "textColors": [
       {
-       "color": "#fbe9d5",
-       "share": 0.39
+       "color": "#5b6578",
+       "share": 0.42
       },
       {
-       "color": "#5b6578",
-       "share": 0.32
+       "color": "#fbe9d5",
+       "share": 0.31
       },
       {
        "color": "#fbead5",
-       "share": 0.18
+       "share": 0.15
       },
       {
        "color": "#050a30",
-       "share": 0.1
+       "share": 0.11
       },
       {
        "color": "#fce9d5",
@@ -757,8 +793,8 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 5,
-     "inHero": 4,
+     "count": 6,
+     "inHero": 5,
      "radius": "pill",
      "height": 48,
      "withShadow": 0,
@@ -766,6 +802,7 @@
      "mono": 0,
      "upper": 0,
      "heroLabels": [
+      "Skip to content",
       "Start a Project",
       "Start a Project",
       "Follow the journey"
@@ -790,10 +827,10 @@
      "outlinedBoxes": 8,
      "dashed": 0,
      "blurred": 19,
-     "roundedBoxes": 14,
+     "roundedBoxes": 20,
      "boxRadius": 12,
      "squareMedia": 8,
-     "roundedMedia": 6,
+     "roundedMedia": 12,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": [
@@ -801,7 +838,7 @@
        "count": 3,
        "iconTopped": false,
        "rounded": true,
-       "top": 4768
+       "top": 7115
       }
      ]
     },
@@ -836,22 +873,22 @@
    "screens": 12,
    "filled": [
     0.32,
-    0.93,
+    0.87,
     0.37,
-    0.84,
-    0.64,
+    0.86,
+    0.69,
     0.28,
     0.28,
-    0.48,
+    0.53,
     1,
     0.67,
-    0.55,
-    0.26
+    0.58,
+    0.2
    ],
    "motion": {
-    "elements": 46,
+    "elements": 52,
     "css": 0,
-    "transitions": 26,
+    "transitions": 32,
     "scripted": 20,
     "videos": 0,
     "playingVideos": 0
@@ -862,27 +899,27 @@
      "h": 1024
     },
     "page": {
-     "height": 13718,
-     "screens": 13.4,
-     "words": 711,
-     "img": 21,
+     "height": 15130,
+     "screens": 14.8,
+     "words": 840,
+     "img": 27,
      "video": 0,
      "canvas": 0,
      "svg": 15,
-     "sections": 9,
+     "sections": 10,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
      "uiAbuse": false,
-     "realPictures": 14,
+     "realPictures": 20,
      "videoCount": 0,
      "uiPictures": 0,
      "pictureSamples": [
       "hero-press.webp",
       "journey-brief.webp",
       "cap-manufacturing.webp",
-      "gal-material.webp",
-      "sust-kraft.jpg",
+      "mat-fbb.webp",
+      "mat-corrugated.jpg",
       "gal-print.jpg",
       "gal-finish.jpg",
       "gal-convert.jpg"
@@ -897,8 +934,8 @@
      "words": 4,
      "chars": 32,
      "lines": 2,
-     "size": 56.6,
-     "vw": 7.4,
+     "size": 54.3,
+     "vw": 7.1,
      "font": "Manrope",
      "weight": 500,
      "tracking": -0.025,
@@ -909,7 +946,7 @@
      "align": "left",
      "position": "center",
      "widthRatio": 0.92,
-     "top": 575,
+     "top": 580,
      "tag": "h1",
      "kind": "heading"
     },
@@ -917,7 +954,7 @@
      "text": "From requirement to destination.",
      "words": 4,
      "lines": 2,
-     "size": 56.6,
+     "size": 54.3,
      "font": "Manrope"
     },
     "headings": [
@@ -926,8 +963,8 @@
       "words": 4,
       "chars": 32,
       "lines": 2,
-      "size": 56.6,
-      "vw": 7.4,
+      "size": 54.3,
+      "vw": 7.1,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.025,
@@ -938,7 +975,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 575,
+      "top": 580,
       "tag": "h1",
       "kind": "heading"
      },
@@ -959,7 +996,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 1017,
+      "top": 1009,
       "tag": "p",
       "kind": "statement"
      },
@@ -968,8 +1005,8 @@
       "words": 5,
       "chars": 31,
       "lines": 1,
-      "size": 37.8,
-      "vw": 4.9,
+      "size": 36.3,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -980,7 +1017,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 1078,
+      "top": 1070,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1001,7 +1038,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.66,
-      "top": 2585,
+      "top": 2567,
       "tag": "p",
       "kind": "statement"
      },
@@ -1022,7 +1059,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 3705,
+      "top": 3679,
       "tag": "p",
       "kind": "statement"
      },
@@ -1031,8 +1068,8 @@
       "words": 5,
       "chars": 29,
       "lines": 1,
-      "size": 37.8,
-      "vw": 4.9,
+      "size": 36.3,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1042,8 +1079,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.74,
-      "top": 3758,
+      "widthRatio": 0.71,
+      "top": 3732,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1064,7 +1101,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.43,
-      "top": 5018,
+      "top": 5027,
       "tag": "p",
       "kind": "statement"
      },
@@ -1073,8 +1110,8 @@
       "words": 3,
       "chars": 23,
       "lines": 1,
-      "size": 37.8,
-      "vw": 4.9,
+      "size": 36.3,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1084,8 +1121,8 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.74,
-      "top": 5626,
+      "widthRatio": 0.71,
+      "top": 5637,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1106,7 +1143,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8033,
+      "top": 8034,
       "tag": "p",
       "kind": "statement"
      },
@@ -1127,7 +1164,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 8086,
+      "top": 8087,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1148,7 +1185,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 9359,
+      "top": 9343,
       "tag": "p",
       "kind": "statement"
      },
@@ -1169,7 +1206,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 9411,
+      "top": 9396,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1190,7 +1227,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 10478,
+      "top": 10454,
       "tag": "p",
       "kind": "statement"
      },
@@ -1211,7 +1248,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 11875,
+      "top": 11846,
       "tag": "p",
       "kind": "statement"
      },
@@ -1220,8 +1257,8 @@
       "words": 5,
       "chars": 32,
       "lines": 2,
-      "size": 37.8,
-      "vw": 4.9,
+      "size": 36.3,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1231,8 +1268,50 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.43,
-      "top": 11928,
+      "widthRatio": 0.41,
+      "top": 11898,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What arrives.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 12581,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Packaging Averon sources.",
+      "words": 3,
+      "chars": 25,
+      "lines": 1,
+      "size": 36.3,
+      "vw": 4.7,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.71,
+      "top": 12634,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1253,7 +1332,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.92,
-      "top": 12621,
+      "top": 14044,
       "tag": "p",
       "kind": "statement"
      },
@@ -1262,8 +1341,8 @@
       "words": 7,
       "chars": 41,
       "lines": 2,
-      "size": 37.8,
-      "vw": 4.9,
+      "size": 36.3,
+      "vw": 4.7,
       "font": "Manrope",
       "weight": 500,
       "tracking": -0.02,
@@ -1273,17 +1352,17 @@
       "mono": false,
       "align": "left",
       "position": "left",
-      "widthRatio": 0.74,
-      "top": 12674,
+      "widthRatio": 0.71,
+      "top": 14097,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 17,
+     "count": 19,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 9,
+     "statements": 10,
      "centered": 0,
      "medianWords": 5,
      "mixedFontHeadings": 0
@@ -1292,12 +1371,12 @@
      "families": [
       {
        "family": "Manrope",
-       "share": 0.92,
+       "share": 0.93,
        "mono": false
       },
       {
        "family": "Cormorant Garamond",
-       "share": 0.08,
+       "share": 0.07,
        "mono": false
       }
      ],
@@ -1313,8 +1392,8 @@
       22,
       29,
       32,
-      38,
-      57
+      36,
+      54
      ],
      "sizeCount": 12,
      "notLoaded": [],
@@ -1328,8 +1407,8 @@
      },
      "measureChars": 76,
      "max": {
-      "size": 56.6,
-      "vw": 7.4,
+      "size": 54.3,
+      "vw": 7.1,
       "font": "Manrope",
       "text": "From requirement to destination."
      },
@@ -1338,7 +1417,7 @@
      "monoFamilies": [],
      "monoSamples": [],
      "microLabels": 26,
-     "microLabelShare": 0.053,
+     "microLabelShare": 0.042,
      "microSamples": [
       "Opening",
       "Production reference",
@@ -1347,9 +1426,9 @@
       "Material",
       "Make"
      ],
-     "upperShare": 0.06,
+     "upperShare": 0.05,
      "centerShare": 0,
-     "smallText": 24
+     "smallText": 31
     },
     "eyebrows": [
      {
@@ -1360,7 +1439,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 528
+      "top": 533
      },
      {
       "text": "01",
@@ -1370,7 +1449,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 978
+      "top": 970
      },
      {
       "text": "02",
@@ -1380,7 +1459,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 2546
+      "top": 2528
      },
      {
       "text": "03",
@@ -1390,7 +1469,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 3666
+      "top": 3640
      },
      {
       "text": "04",
@@ -1400,7 +1479,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 4979
+      "top": 4988
      },
      {
       "text": "05",
@@ -1410,7 +1489,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 7994
+      "top": 7995
      },
      {
       "text": "06",
@@ -1420,7 +1499,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 9319
+      "top": 9304
      },
      {
       "text": "07",
@@ -1430,7 +1509,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 10439
+      "top": 10415
      },
      {
       "text": "08",
@@ -1440,69 +1519,69 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 11836
+      "top": 11806
      }
     ],
     "numbered": [
      {
       "text": "00",
       "size": 12,
-      "top": 528
+      "top": 533
      },
      {
       "text": "01",
       "size": 12,
-      "top": 978
+      "top": 970
      },
      {
       "text": "02",
       "size": 12,
-      "top": 2546
+      "top": 2528
      },
      {
       "text": "03",
       "size": 12,
-      "top": 3666
+      "top": 3640
      },
      {
       "text": "01",
       "size": 11.5,
-      "top": 3925
+      "top": 3941
      },
      {
       "text": "02",
       "size": 11.5,
-      "top": 3925
+      "top": 3941
      },
      {
       "text": "03",
       "size": 11.5,
-      "top": 3925
+      "top": 3941
      },
      {
       "text": "04",
       "size": 11.5,
-      "top": 3925
+      "top": 3941
      },
      {
       "text": "05",
       "size": 11.5,
-      "top": 3925
+      "top": 3941
      },
      {
       "text": "06",
       "size": 11.5,
-      "top": 3925
-     },
-     {
-      "text": "07",
-      "size": 11.5,
-      "top": 3925
+      "top": 3941
      },
      {
       "text": "04",
       "size": 12,
-      "top": 4979
+      "top": 4988
+     },
+     {
+      "text": "05",
+      "size": 12,
+      "top": 7995
      }
     ],
     "color": {
@@ -1525,7 +1604,7 @@
       },
       {
        "color": "#021a38",
-       "top": 1310,
+       "top": 1300,
        "hsl": {
         "h": 213,
         "s": 0.93,
@@ -1534,7 +1613,7 @@
       },
       {
        "color": "#050a30",
-       "top": 9926,
+       "top": 9903,
        "hsl": {
         "h": 233,
         "s": 0.81,
@@ -1544,20 +1623,20 @@
      ],
      "textColors": [
       {
-       "color": "#fbe9d5",
-       "share": 0.38
+       "color": "#5b6578",
+       "share": 0.43
       },
       {
-       "color": "#5b6578",
-       "share": 0.33
+       "color": "#fbe9d5",
+       "share": 0.31
       },
       {
        "color": "#fbead5",
-       "share": 0.18
+       "share": 0.16
       },
       {
        "color": "#050a30",
-       "share": 0.1
+       "share": 0.11
       },
       {
        "color": "#fce9d5",
@@ -1576,8 +1655,8 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 4,
-     "inHero": 3,
+     "count": 5,
+     "inHero": 4,
      "radius": "pill",
      "height": 48,
      "withShadow": 0,
@@ -1585,6 +1664,7 @@
      "mono": 0,
      "upper": 0,
      "heroLabels": [
+      "Skip to content",
       "Start a Project",
       "Follow the journey"
      ]
@@ -1608,10 +1688,10 @@
      "outlinedBoxes": 8,
      "dashed": 0,
      "blurred": 17,
-     "roundedBoxes": 14,
+     "roundedBoxes": 20,
      "boxRadius": 12,
      "squareMedia": 8,
-     "roundedMedia": 6,
+     "roundedMedia": 12,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": [
@@ -1619,7 +1699,7 @@
        "count": 3,
        "iconTopped": false,
        "rounded": true,
-       "top": 5691
+       "top": 5700
       }
      ]
     },
@@ -1656,20 +1736,20 @@
     0.43,
     0.93,
     0.61,
-    0.94,
-    0.7,
+    0.83,
+    0.71,
     0.56,
     0.56,
-    0.66,
+    0.64,
     1,
     1,
     1,
     0.39
    ],
    "motion": {
-    "elements": 45,
+    "elements": 51,
     "css": 0,
-    "transitions": 26,
+    "transitions": 32,
     "scripted": 19,
     "videos": 0,
     "playingVideos": 0
@@ -1680,14 +1760,14 @@
      "h": 844
     },
     "page": {
-     "height": 13041,
-     "screens": 15.5,
-     "words": 670,
-     "img": 21,
+     "height": 15583,
+     "screens": 18.5,
+     "words": 799,
+     "img": 27,
      "video": 0,
      "canvas": 0,
      "svg": 15,
-     "sections": 9,
+     "sections": 10,
      "horizontalOverflow": 0,
      "overflowCulprits": [],
      "uiFragments": 0,
@@ -1699,8 +1779,8 @@
       "hero-press.webp",
       "journey-brief.webp",
       "cap-manufacturing.webp",
-      "gal-material.webp",
-      "sust-kraft.jpg",
+      "mat-fbb.webp",
+      "mat-corrugated.jpg",
       "gal-print.jpg",
       "gal-finish.jpg",
       "gal-convert.jpg"
@@ -1777,7 +1857,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 892,
+      "top": 884,
       "tag": "p",
       "kind": "statement"
      },
@@ -1798,7 +1878,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 945,
+      "top": 937,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1819,7 +1899,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.76,
-      "top": 1953,
+      "top": 1937,
       "tag": "p",
       "kind": "statement"
      },
@@ -1840,7 +1920,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 3123,
+      "top": 3099,
       "tag": "p",
       "kind": "statement"
      },
@@ -1861,7 +1941,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 3168,
+      "top": 3144,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1882,7 +1962,7 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.5,
-      "top": 4248,
+      "top": 4282,
       "tag": "p",
       "kind": "statement"
      },
@@ -1903,7 +1983,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 4546,
+      "top": 4580,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1924,7 +2004,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 6723,
+      "top": 6749,
       "tag": "p",
       "kind": "statement"
      },
@@ -1945,7 +2025,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 6801,
+      "top": 6828,
       "tag": "h2",
       "kind": "heading"
      },
@@ -1966,7 +2046,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 8062,
+      "top": 8072,
       "tag": "p",
       "kind": "statement"
      },
@@ -1987,7 +2067,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 8107,
+      "top": 8117,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2008,7 +2088,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 9714,
+      "top": 9716,
       "tag": "p",
       "kind": "statement"
      },
@@ -2029,7 +2109,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 10918,
+      "top": 10912,
       "tag": "p",
       "kind": "statement"
      },
@@ -2050,7 +2130,49 @@
       "align": "left",
       "position": "left",
       "widthRatio": 0.72,
-      "top": 10963,
+      "top": 10957,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "What arrives.",
+      "words": 2,
+      "chars": 13,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11559,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Packaging Averon sources.",
+      "words": 3,
+      "chars": 25,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11604,
       "tag": "h2",
       "kind": "heading"
      },
@@ -2071,7 +2193,7 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 11573,
+      "top": 14122,
       "tag": "p",
       "kind": "statement"
      },
@@ -2092,16 +2214,16 @@
       "align": "left",
       "position": "center",
       "widthRatio": 0.9,
-      "top": 11618,
+      "top": 14168,
       "tag": "h2",
       "kind": "heading"
      }
     ],
     "headingSummary": {
-     "count": 17,
+     "count": 19,
      "maxLines": 2,
      "over2Lines": 0,
-     "statements": 9,
+     "statements": 10,
      "centered": 0,
      "medianWords": 5,
      "mixedFontHeadings": 0
@@ -2110,12 +2232,12 @@
      "families": [
       {
        "family": "Manrope",
-       "share": 0.91,
+       "share": 0.93,
        "mono": false
       },
       {
        "family": "Cormorant Garamond",
-       "share": 0.09,
+       "share": 0.07,
        "mono": false
       }
      ],
@@ -2155,7 +2277,7 @@
      "monoFamilies": [],
      "monoSamples": [],
      "microLabels": 26,
-     "microLabelShare": 0.056,
+     "microLabelShare": 0.044,
      "microSamples": [
       "Opening",
       "Production reference",
@@ -2164,9 +2286,9 @@
       "Material",
       "Make"
      ],
-     "upperShare": 0.07,
+     "upperShare": 0.05,
      "centerShare": 0,
-     "smallText": 19
+     "smallText": 26
     },
     "eyebrows": [
      {
@@ -2187,7 +2309,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 852
+      "top": 844
      },
      {
       "text": "02",
@@ -2197,7 +2319,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 1914
+      "top": 1898
      },
      {
       "text": "03",
@@ -2207,7 +2329,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 3083
+      "top": 3059
      },
      {
       "text": "03",
@@ -2217,7 +2339,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 3083
+      "top": 3059
      },
      {
       "text": "04",
@@ -2227,7 +2349,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 4209
+      "top": 4243
      },
      {
       "text": "05",
@@ -2237,7 +2359,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 6684
+      "top": 6710
      },
      {
       "text": "06",
@@ -2247,7 +2369,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8023
+      "top": 8033
      },
      {
       "text": "06",
@@ -2257,7 +2379,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 8023
+      "top": 8033
      },
      {
       "text": "07",
@@ -2267,7 +2389,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 9675
+      "top": 9677
      },
      {
       "text": "08",
@@ -2277,7 +2399,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 10878
+      "top": 10873
      },
      {
       "text": "08",
@@ -2287,7 +2409,7 @@
       "mono": false,
       "pill": false,
       "size": 12,
-      "top": 10878
+      "top": 10873
      }
     ],
     "numbered": [
@@ -2299,57 +2421,57 @@
      {
       "text": "01",
       "size": 12,
-      "top": 852
+      "top": 844
      },
      {
       "text": "02",
       "size": 12,
-      "top": 1914
+      "top": 1898
      },
      {
       "text": "03",
       "size": 12,
-      "top": 3083
+      "top": 3059
      },
      {
       "text": "01",
       "size": 11.5,
-      "top": 3385
+      "top": 3406
      },
      {
       "text": "02",
       "size": 11.5,
-      "top": 3385
+      "top": 3406
      },
      {
       "text": "03",
       "size": 11.5,
-      "top": 3385
+      "top": 3406
      },
      {
       "text": "04",
       "size": 11.5,
-      "top": 3385
+      "top": 3406
      },
      {
       "text": "05",
       "size": 11.5,
-      "top": 3385
+      "top": 3406
      },
      {
       "text": "06",
       "size": 11.5,
-      "top": 3385
-     },
-     {
-      "text": "07",
-      "size": 11.5,
-      "top": 3385
+      "top": 3406
      },
      {
       "text": "04",
       "size": 12,
-      "top": 4209
+      "top": 4243
+     },
+     {
+      "text": "05",
+      "size": 12,
+      "top": 6710
      }
     ],
     "color": {
@@ -2372,7 +2494,7 @@
       },
       {
        "color": "#050a30",
-       "top": 9297,
+       "top": 9300,
        "hsl": {
         "h": 233,
         "s": 0.81,
@@ -2381,7 +2503,7 @@
       },
       {
        "color": "#021a38",
-       "top": 12145,
+       "top": 14686,
        "hsl": {
         "h": 213,
         "s": 0.93,
@@ -2391,16 +2513,16 @@
      ],
      "textColors": [
       {
-       "color": "#fbe9d5",
-       "share": 0.37
+       "color": "#5b6578",
+       "share": 0.45
       },
       {
-       "color": "#5b6578",
-       "share": 0.35
+       "color": "#fbe9d5",
+       "share": 0.29
       },
       {
        "color": "#fbead5",
-       "share": 0.17
+       "share": 0.15
       },
       {
        "color": "#050a30",
@@ -2423,8 +2545,8 @@
      "lowContrast": []
     },
     "buttons": {
-     "count": 4,
-     "inHero": 3,
+     "count": 5,
+     "inHero": 4,
      "radius": "pill",
      "height": 48,
      "withShadow": 0,
@@ -2432,6 +2554,7 @@
      "mono": 0,
      "upper": 0,
      "heroLabels": [
+      "Skip to content",
       "Start a Project",
       "Follow the journey"
      ]
@@ -2455,10 +2578,10 @@
      "outlinedBoxes": 8,
      "dashed": 0,
      "blurred": 11,
-     "roundedBoxes": 14,
+     "roundedBoxes": 20,
      "boxRadius": 12,
      "squareMedia": 8,
-     "roundedMedia": 7,
+     "roundedMedia": 13,
      "mediaRadius": 12,
      "textShadow": 0,
      "cardRows": []
@@ -2489,6 +2612,28 @@
   }
  ],
  "findings": [
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "9 eyebrow/kicker label(s) above headings: \"00\" above \"From requirement to destination.\"; \"01\" above \"It starts with what you need.\"; \"02\" above \"Finding capacity is easy. Finding the ri\"; \"03\" above \"Before production comes specification.\"; \"04\" above \"The specification becomes physical.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"00\", \"/ 08\", \"00\", \"01\", \"02\", \"03\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
   {
    "level": "FAIL",
    "id": "micro-label",
@@ -2524,9 +2669,31 @@
   },
   {
    "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "19 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (section #fbead5, button #fbead5, text #fbe9d5).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
    "id": "size-count",
    "width": 1440,
-   "message": "13 different font sizes (12, 13, 14, 15, 16, 17, 18, 20, 22, 37, 42, 50, 72).",
+   "message": "13 different font sizes (12, 13, 14, 15, 16, 17, 18, 20, 22, 37, 42, 47, 68).",
    "fix": "A page needs about five: display, heading, lead, body, small.",
    "alsoAt": [
     768,
@@ -2555,7 +2722,7 @@
    "level": "FAIL",
    "id": "small-text",
    "width": 1440,
-   "message": "24 text blocks under 13px.",
+   "message": "31 text blocks under 13px.",
    "fix": "Nothing meant to be read goes below 13px.",
    "alsoAt": [
     768,
@@ -2566,7 +2733,7 @@
    "level": "FAIL",
    "id": "covered-text",
    "width": 1440,
-   "message": "Large text lies under another element at some scroll position: \"From requirement to destination.\" (screen 1, 100% hidden); \"It starts with what you need.\" (screen 2, 100% hidden); \"A requirement, not a catalogue.\" (screen 2, 100% hidden); \"Finding capacity is easy. Finding the right fit \" (screen 4, 50% hidden)",
+   "message": "Large text lies under another element at some scroll position: \"From requirement to destination.\" (screen 1, 100% hidden); \"It starts with what you need.\" (screen 2, 100% hidden); \"A requirement, not a catalogue.\" (screen 2, 100% hidden); \"Finding capacity is easy. Finding the right fit \" (screen 3, 100% hidden)",
    "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
    "alsoAt": [
     768,
@@ -2577,7 +2744,7 @@
    "level": "WARN",
    "id": "pinned-over-picture",
    "width": 1440,
-   "message": "Pinned large text slides across pictures while the page scrolls: \"Finding capacity is easy. Finding the right fit \" (screen 3, 100% over a picture); \"The specification becomes physical.\" (screen 7, 100% over a picture); \"Print. Finish. Convert.\" (screen 7, 100% over a picture)",
+   "message": "Pinned large text slides across pictures while the page scrolls: \"Finding capacity is easy. Finding the right fit \" (screen 3, 100% over a picture); \"The specification becomes physical.\" (screen 10, 100% over a picture); \"Print. Finish. Convert.\" (screen 10, 100% over a picture)",
    "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
    "alsoAt": [
     768,

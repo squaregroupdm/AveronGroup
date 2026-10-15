@@ -119,6 +119,41 @@
       "licence": "Unsplash License (free for commercial use, no attribution required)",
       "description": "The corner of a greyboard rigid box",
       "fetched": "15 October 2026"
+    },
+    "mat-fbb": {
+      "photographer": "Karen Bullaro",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Fanned sheets of white board",
+      "fetched": "15 October 2026"
+    },
+    "mat-corrugated": {
+      "photographer": "Manuel Luikenga",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "A stack of layered corrugated sheets",
+      "fetched": "15 October 2026"
+    },
+    "mat-foil": {
+      "photographer": "Ilya Melnichenko",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Gold foil numerals on black textured board",
+      "fetched": "15 October 2026"
+    },
+    "mat-emboss": {
+      "photographer": "Ian Talmacs",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "An embossed dot pattern on white card",
+      "fetched": "15 October 2026"
+    },
+    "prod-corrugated": {
+      "photographer": "Kadarius Seegars",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Stacked brown corrugated cartons",
+      "fetched": "15 October 2026"
     }
   }
 }

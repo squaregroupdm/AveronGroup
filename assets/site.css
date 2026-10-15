@@ -309,7 +309,9 @@ p { max-width: 38em; }
 .products .head { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; align-items: end; margin-bottom: 40px; }
 .products .head p:not(.edit) { justify-self: end; max-width: 30em; font-size: var(--text-sm); }
 .pgrid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; }
-.pgrid figcaption { margin-top: 10px; font-size: var(--text-sm); font-weight: 500; }
+.pgrid figcaption { margin-top: 10px; font-size: var(--text-sm); }
+.pgrid figcaption b { display: block; font-weight: 600; }
+.pgrid figcaption span { display: block; color: var(--av-slate); font-size: var(--text-xs); margin-top: 2px; }
 .products .ph { background: var(--av-ivory); }
 
 /* Chapter 07 Move */
@@ -384,6 +386,7 @@ p { max-width: 38em; }
 .ind-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px 24px; }
 .ind { display: block; }
 .ind .meta { display: flex; justify-content: space-between; align-items: baseline; padding-top: 12px; border-top: 1px solid var(--hair); margin-top: 12px; font-weight: 500; }
+.ind .meta small { display: block; font-size: var(--text-xs); color: var(--av-slate); font-weight: 400; margin-top: 2px; }
 .ind .meta svg { width: 14px; height: 14px; align-self: center; transition: transform var(--motion-fast) var(--ease-spring); }
 .ind:hover .meta svg { transform: translateX(4px); }
 table.spec { width: 100%; border-collapse: collapse; font-size: var(--text-sm); }

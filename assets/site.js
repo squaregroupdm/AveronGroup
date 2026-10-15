@@ -71,24 +71,25 @@
       });
     });
     btns.forEach(function (b, k) { b.tabIndex = k === 0 ? 0 : -1; });
+    return select;
   }
 
   // Chapter 03: material selector
   var mats = [
-    { h: 'Folding box board', r: 'FBB, SBS, C1S, C2S · 230 to 400 gsm', items: ['Good print surface', 'Strong folding characteristics', 'Premium retail cartons'], img: 'gal-material', alt: 'Pallets of folding box board stacked in a paper warehouse' },
-    { h: 'Corrugated board', r: 'E, B and BC flute · single and double wall', items: ['Shipping and e-commerce strength', 'Litho-laminated or direct printed', 'Kraft or white liners'], img: 'sust-kraft', alt: 'The cut edge of a corrugated sheet in close-up' },
-    { h: 'Rigid greyboard', r: '1.5 to 3 mm · paper or cloth wrapped', items: ['Two-piece, magnetic and drawer formats', 'Wrapped in printed or textured paper', 'Premium and gift packaging'], img: 'prod-greyboard', alt: 'The corner of a greyboard rigid box' },
-    { h: 'Hot and cold foil', r: 'Metallic and pigment foils', items: ['Hot stamped or cold transfer', 'Registered to print and emboss', 'Logos, lines and panels'], img: 'macro-foil', alt: 'A foiled line across a navy textured board in close-up' },
-    { h: 'Emboss and deboss', r: 'Blind, registered or combined with foil', items: ['Raised or recessed detail', 'Combined with foil in one pass', 'Suited to FBB and wrapped board'], img: 'gal-finish', alt: 'A hot foil roll running over a navy carton blank on a stamping unit' },
-    { h: 'Spot UV', r: 'Gloss or textured UV over matt lamination', items: ['Contrast on matt surfaces', 'Registered to logos, lines and panels', 'Suited to FBB and laminated board'], img: 'gal-inspect', alt: 'A printed and varnished sheet inspected under a loupe' },
-    { h: 'Coatings', r: 'Aqueous, UV, matt, gloss and soft touch', items: ['Protects print and colour', 'Matt, gloss and soft-touch finishes', 'Food-contact grades confirmed before quotation'], img: 'gal-print', alt: 'Coating cylinders on a sheetfed press' }
+    { h: 'Folding box board', r: 'FBB, SBS, C1S, C2S · 230 to 400 gsm', items: ['Printability and finishing compatibility', 'Strong folding characteristics', 'Retail, beauty, food and healthcare cartons'], img: 'mat-fbb', alt: 'Fanned sheets of white folding box board' },
+    { h: 'Corrugated board', r: 'E, B and BC flute · single and double wall · kraft or white liners', items: ['Shipping, master and e-commerce cartons', 'Litho-laminated or direct printed', 'Retail-ready packaging, displays and inserts'], img: 'mat-corrugated', alt: 'A stack of layered corrugated board sheets' },
+    { h: 'Rigid greyboard', r: '1.5 to 3 mm · paper or cloth wrapped', items: ['Two-piece, magnetic, drawer and book-style boxes', 'Wrapped in printed or textured paper', 'Premium, gift and presentation packaging'], img: 'prod-greyboard', alt: 'The corner of a greyboard rigid box' },
+    { h: 'Hot and cold foil', r: 'Metallic and pigment foils, hot stamped or cold transfer', items: ['Registered to print and emboss', 'Logos, lines and panels', 'Combined with textured effects'], img: 'mat-foil', alt: 'Gold foil numerals on black textured board' },
+    { h: 'Emboss and deboss', r: 'Blind, registered or combined with foil', items: ['Raised or recessed detail', 'Textured effects on board or wrapped paper', 'One pass with foil where the design allows'], img: 'mat-emboss', alt: 'An embossed dot pattern on white card' },
+    { h: 'Coatings and spot UV', r: 'Aqueous gloss and matt, UV, spot UV, protective coatings', items: ['Protects print and colour', 'Spot UV for contrast on matt', 'Food-contact grades confirmed before quotation'], img: 'cat-healthcare', alt: 'Plain white coated cartons on a grey surface' }
   ];
   var matList = document.querySelector('.material .cats');
+  var matSelect = null;
   if (matList) {
     var matFront = document.querySelector('.material .view .ph picture img') || document.querySelector('.material .view .ph img');
     var matFade = crossfader(matFront, document.getElementById('mat-img-b'));
     var matSpec = document.getElementById('mat-spec');
-    tabs(matList, function (i) {
+    matSelect = tabs(matList, function (i) {
       var m = mats[i];
       matFade('assets/photo/m/' + m.img + '.jpg', m.alt);
       swapText(matSpec, function () {
@@ -180,6 +181,17 @@
       ScrollTrigger.create({ trigger: '#source-stage', start: 'top top', end: '+=60%', pin: true, pinSpacing: true, anticipatePin: 1,
         onEnter: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.7, stagger: 0.14, ease: 'power3.out' }); },
         onEnterBack: function () { gsap.to(caps, { opacity: 1, y: 0, duration: 0.4, ease: 'power3.out' }); } });
+    }
+    // Chapter 03: the material selector holds while the scroll steps through the six materials
+    var matSel = document.getElementById('mat-sel');
+    var matBlock = matSel && matSel.parentElement;
+    if (matSel && matSelect && window.innerWidth >= 1024) {
+      var matCount = mats.length, matIdx = 0;
+      var wholeFits = matBlock.offsetHeight < window.innerHeight - 110;
+      ScrollTrigger.create({ trigger: wholeFits ? matBlock : matSel, start: wholeFits ? 'top 90px' : 'center center', end: '+=' + (matCount * 45) + '%', pin: true, anticipatePin: 1, scrub: 0.2, onUpdate: function (s) {
+        var idx = Math.min(matCount - 1, Math.floor(s.progress * matCount));
+        if (idx !== matIdx) { matIdx = idx; matSelect(idx); }
+      } });
     }
     // Chapter 04: three production stages replace one another over two viewports
     var frames = document.querySelectorAll('#make-frames img');
