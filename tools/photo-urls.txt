@@ -1,25 +1,2 @@
-cand-beauty-1 https://unsplash.com/photos/m-meHZ7tcOE/download?force=true&w=1200
-cand-beauty-2 https://unsplash.com/photos/Msb_JrKlO1I/download?force=true&w=1200
-cand-beauty-3 https://unsplash.com/photos/ryV7X_VK388/download?force=true&w=1200
-cand-beauty-4 https://unsplash.com/photos/V3YnFyZSG5Q/download?force=true&w=1200
-cand-food-1 https://unsplash.com/photos/bWOiRBiEFwo/download?force=true&w=1200
-cand-food-2 https://unsplash.com/photos/7YZJDPtG_lI/download?force=true&w=1200
-cand-food-3 https://unsplash.com/photos/c8ovzYe3z0s/download?force=true&w=1200
-cand-food-4 https://unsplash.com/photos/xEH_fJlVs2Y/download?force=true&w=1200
-cand-health-1 https://unsplash.com/photos/pV5arhEZHiA/download?force=true&w=1200
-cand-health-2 https://unsplash.com/photos/S1v7hVUiCg0/download?force=true&w=1200
-cand-health-3 https://unsplash.com/photos/9EeSiLjxzXQ/download?force=true&w=1200
-cand-health-4 https://unsplash.com/photos/bzOsV-IWGkU/download?force=true&w=1200
-cand-fashion-1 https://unsplash.com/photos/XFV51iCfdrw/download?force=true&w=1200
-cand-fashion-2 https://unsplash.com/photos/DnQSoKrCUbY/download?force=true&w=1200
-cand-fashion-3 https://unsplash.com/photos/3l19r5EOZaw/download?force=true&w=1200
-cand-fashion-4 https://unsplash.com/photos/0oZ3fLhMnWA/download?force=true&w=1200
-cand-luxury-1 https://unsplash.com/photos/vdkAt1S7fCc/download?force=true&w=1200
-cand-luxury-2 https://unsplash.com/photos/L99DoqmExQE/download?force=true&w=1200
-cand-luxury-3 https://unsplash.com/photos/SVngedznQ1Q/download?force=true&w=1200
-cand-luxury-4 https://unsplash.com/photos/5gSAWojmSpQ/download?force=true&w=1200
-cand-ecom-1 https://unsplash.com/photos/qO2ztAz5g7A/download?force=true&w=1200
-cand-ecom-2 https://unsplash.com/photos/6N6EXN0x_E4/download?force=true&w=1200
-cand-ecom-3 https://unsplash.com/photos/K8zVFZja54s/download?force=true&w=1200
-cand-ecom-4 https://unsplash.com/photos/q8kR_ie6WnI/download?force=true&w=1200
-# retry 1792057709
+cand-beauty-1 https://images.unsplash.com/photo-1755606277170-4e89d5847e14?w=1200&q=80
+cand-beauty-1b https://unsplash.com/photos/m-meHZ7tcOE/download?force=true&w=1200

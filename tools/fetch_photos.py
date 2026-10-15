@@ -1,7 +1,12 @@
 """Fetch the generated photographs listed in tools/photo-urls.txt, resize them for the web
 and write assets/photo/<name>.jpg, assets/photo/m/<name>.jpg (960px) and WebP copies of both.
 Runs inside GitHub Actions, which can reach the image host."""
-import os, io, urllib.request
+import os, io, sys, urllib.request
+class Tee:
+    def __init__(self, path): self.f = open(path, 'w')
+    def write(self, t): sys.__stdout__.write(t); self.f.write(t); self.f.flush()
+    def flush(self): sys.__stdout__.flush()
+sys.stdout = Tee(os.path.join(os.path.dirname(__file__), 'fetch-log.txt'))
 from PIL import Image, ImageOps
 ROOT = os.path.join(os.path.dirname(__file__), '..')
 LIST = os.path.join(ROOT, 'tools', 'photo-urls.txt')
