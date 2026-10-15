@@ -23,7 +23,7 @@ jobs:
         run: |
           git config user.name "averon-site"
           git config user.email "site@users.noreply.github.com"
-          git rm -q tools/photo-urls.txt
+          git rm -q tools/photo-urls.txt || true
           git add assets/photo tools/candidates
           git commit -m "Place the photographic set" || echo "nothing to commit"
           git push

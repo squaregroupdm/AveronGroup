@@ -13,13 +13,22 @@ for line in open(LIST):
     line = line.strip()
     if not line or line.startswith('#'): continue
     name, url = line.split(None, 1)
-    data = urllib.request.urlopen(url, timeout=300).read()
+    try:
+        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64) AveronSiteFetcher/1.0', 'Accept': 'image/*,*/*;q=0.8'})
+        data = urllib.request.urlopen(req, timeout=300).read()
+    except Exception as e:
+        print('FAILED', name, repr(e)); continue
+    if data[:1] == b'<':
+        print('FAILED', name, 'got HTML, not an image'); continue
     if url.split('?')[0].lower().endswith(('.mp4', '.webm')):
         os.makedirs(os.path.join(ROOT, 'assets', 'video'), exist_ok=True)
         ext = '.webm' if url.split('?')[0].lower().endswith('.webm') else '.mp4'
         open(os.path.join(ROOT, 'assets', 'video', name + ext), 'wb').write(data)
         done += 1; print(name, 'video', len(data) // 1024, 'KB'); continue
-    im = ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert('RGB')
+    try:
+        im = ImageOps.exif_transpose(Image.open(io.BytesIO(data))).convert('RGB')
+    except Exception as e:
+        print('FAILED', name, 'unreadable image', repr(e)); continue
     if name.startswith('cand-'):
         # Candidate pictures for review: a 900px copy in tools/candidates, nothing in the site
         cd = os.path.join(ROOT, 'tools', 'candidates'); os.makedirs(cd, exist_ok=True)
