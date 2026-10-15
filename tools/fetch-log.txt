@@ -1,0 +1,3 @@
+cand-beauty-1 (1200, 800)
+FAILED cand-beauty-1b <HTTPError 401: 'Unauthorized'>
+fetched 1
