@@ -3,815 +3,271 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<meta name="description" content="NSS Global Packaging: packaging sourcing, development, manufacturing management, quality assurance and freight from Bangladesh to your door. United Kingdom and Bangladesh.">
-<meta property="og:title" content="NSS Global Packaging">
-<meta property="og:description" content="Packaging made in Bangladesh, delivered to your door. One contact from brief to delivery.">
+<title>Averon Global</title>
+<meta name="description" content="Averon Global is an international packaging sourcing and supply organisation. Packaging sourcing, development, manufacturing management, quality assurance, compliance and freight, coordinated from the United Kingdom and Bangladesh.">
+<meta property="og:title" content="Averon Global">
+<meta property="og:description" content="Connecting Markets. Managing Supply. From brief to destination, one accountable partner.">
 <meta property="og:type" content="website">
-<meta property="og:image" content="assets/corrugated.jpg">
+<meta property="og:image" content="assets/photo/hero-press.jpg">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
-<title>NSS Global Packaging</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/photo/hero-press.jpg">
+<link rel="stylesheet" href="assets/site.css">
 <script>document.documentElement.classList.add('js')</script>
-<style>
-/* Layout concept: the board sample book. One 12-column board of flat tiles on 8px gaps; kraft is the ground, board grades are the tile tones, one marine blue on the action. */
-:root{
-  --bg:#C99E64;        /* kraft liner, the page ground */
-  --kraft-deep:#A97E48;/* kraft back, one step darker */
-  --board:#FFFFFF;     /* SBS white */
-  --fbb:#EDE9E1;       /* FBB face, a stone white */
-  --duplex:#B9B5AE;    /* duplex grey back */
-  --flute:#8C6238;     /* corrugated, the darkest brown */
-  --ink:#1E1813;       /* brown-black ink */
-  --muted:#3F2F20;     /* secondary on kraft and on white */
-  --accent:#0D4E8A;    /* marine blue, the action */
-  --accent-ink:#FFFFFF;
-  --gap:8px;
-  --font:"Schibsted Grotesk","Helvetica Neue",Arial,sans-serif;
-  --step-small:0.875rem;
-  --step-body:clamp(1.0625rem,1rem + 0.25vw,1.1875rem);
-  --step-lead:clamp(1.25rem,1.1rem + 0.7vw,1.625rem);
-  --step-head:clamp(2rem,1.3rem + 3.2vw,4rem);
-  --d2:clamp(36px,4vw,58px);  /* section heads */
-  --d3:clamp(30px,2.8vw,40px); /* tile heads */
-  --d4:clamp(22px,2.2vw,32px); /* statements and tile sentences */
-  --ease-out:cubic-bezier(0.22,1,0.36,1);
-  --ease-in-out:cubic-bezier(0.76,0,0.24,1);
-  --ease-soft:cubic-bezier(0.33,1,0.68,1);
-  --t-press:140ms;--t-hover:180ms;--t-ui:240ms;--t-reveal:800ms;
-  color-scheme:light;
-}
-*,*::before,*::after{box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font);font-size:var(--step-body);line-height:1.4;letter-spacing:-0.01em;-webkit-font-smoothing:antialiased;padding-left:max(var(--gap),env(safe-area-inset-left,0px));padding-right:max(var(--gap),env(safe-area-inset-right,0px));padding-block:var(--gap);overflow-x:hidden}
-::selection{background:var(--accent);color:var(--accent-ink)}
-:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
-img{max-width:100%;display:block}
-h1,h2,h3,p{margin:0}
-h1,h2,h3{font-weight:800;letter-spacing:-0.05em;line-height:0.88;text-wrap:balance}
-p{text-wrap:pretty}
-a{color:inherit}
-button,input,select{font:inherit;color:inherit}
-.visually-hidden{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
-
-/* The board */
-.board{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--gap)}
-.tile{background:var(--board);padding:22px;display:flex;flex-direction:column;justify-content:flex-start;min-width:0;position:relative;overflow:hidden}
-.tile--kraft{background:var(--kraft-deep)}
-.tile--duplex{background:var(--duplex)}
-.tile--fbb{background:var(--fbb)}
-.tile--flute{background:var(--flute);color:var(--board)}
-.tile--ink{background:var(--ink);color:var(--board)}
-.tile--accent{background:var(--accent);color:var(--accent-ink)}
-.tile--photo{padding:0}
-.tile--photo img{width:100%;height:100%;object-fit:cover}
-.tile p.big{font-size:clamp(1.5rem,1.1rem + 1.6vw,2.25rem);font-weight:800;letter-spacing:-0.04em;line-height:1}
-.tile .small{font-size:var(--step-small);font-weight:600;color:inherit}
-.muted{color:var(--muted)}
-.tile--ink .muted,.tile--accent .muted,.tile--flute .muted{color:inherit}
-.section{margin-top:clamp(64px,8vw,120px)}
-#make{margin-top:var(--gap)}
-.section>h2{font-size:var(--d2)}
-.statement{font-size:var(--d4);font-weight:600;letter-spacing:-0.03em;line-height:1.18;max-width:40ch}
-.button{display:inline-flex;align-items:center;justify-content:center;background:var(--accent);color:var(--accent-ink);font-weight:600;border:0;padding:14px 22px;cursor:pointer;text-decoration:none;transition:transform var(--t-press) var(--ease-out),background var(--t-hover) ease}
-.button:hover{background:#0B4376}
-.button:active{transform:scale(0.97)}
-.link{text-decoration:none;font-weight:600;transition:transform var(--t-hover) var(--ease-out)}
-.link:hover{text-decoration:underline;text-underline-offset:0.2em;text-decoration-thickness:2px}
-
-/* HERO: name band and rails */
-.hero{min-height:calc(100svh - 2*var(--gap));grid-template-rows:170px 64px minmax(520px,1fr)}
-.band{grid-column:1/-1;background:var(--board);display:flex;align-items:center;justify-content:center;overflow:hidden;padding:0}
-.band h1{font-size:10.8vw;white-space:nowrap;line-height:1;letter-spacing:-0.05em}
-.navtile{grid-column:span 3;height:64px;display:flex;align-items:flex-start;text-decoration:none;font-weight:600;font-size:16px;padding:16px 20px;background:var(--board);transition:background var(--t-hover) ease,transform var(--t-press) var(--ease-out)}
-.navtile:hover{background:var(--fbb)}
-.navtile:active{transform:scale(0.985)}
-.navtile--act{background:var(--accent);color:var(--accent-ink)}
-.navtile--act:hover{background:#0B4376}
-.rail-l{grid-column:1/3;display:grid;grid-template-rows:minmax(0,1.15fr) auto;gap:var(--gap);min-width:0}
-.rail-l .tile--photo{min-height:220px}
-.starter{background:var(--board);padding:20px;display:flex;flex-direction:column;gap:10px}
-.starter h2{font-size:18px;letter-spacing:-0.03em;line-height:1.1;font-weight:800}
-.starter label{font-size:16px;font-weight:600;display:flex;flex-direction:column;gap:4px}
-.starter select,.starter input{width:100%;padding:10px 10px;background:var(--fbb);border:0;border-bottom:2px solid var(--ink);font-size:16px;color:var(--ink);border-radius:0}
-.starter select{appearance:none;-webkit-appearance:none;padding-right:36px;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='14' height='9' viewBox='0 0 14 9'><path d='M1 1l6 6 6-6' fill='none' stroke='%231E1813' stroke-width='2'/></svg>");background-repeat:no-repeat;background-position:right 12px center}
-.starter input::placeholder{color:var(--muted)}
-.starter .button{margin-top:4px;width:100%}
-.centre{grid-column:3/11;display:grid;grid-template-rows:minmax(0,1fr) auto;gap:var(--gap);min-height:420px;min-width:0}
-.centre .pic{position:relative;overflow:hidden;min-height:0}
-.centre .pic img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center bottom;transition:opacity 500ms ease}
-.centre .pic img.is-out{opacity:0}
-.statetile{background:var(--bg);padding:24px;display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:end}
-.statetile .offer{font-size:var(--d4);font-weight:800;letter-spacing:-0.04em;line-height:1.02;max-width:20ch}
-.gradefacts{display:flex;flex-direction:column;gap:6px;font-size:16px;line-height:1.35}
-.gradefacts strong{font-size:var(--step-lead);font-weight:800;letter-spacing:-0.03em;line-height:1}
-.gradefacts .runby{font-weight:600}
-.gradefacts b{font-weight:800;font-variant-numeric:tabular-nums}
-.rail-r{grid-column:11/13;display:grid;grid-template-rows:repeat(6,minmax(0,1fr));gap:var(--gap);min-width:0}
-.swatch{appearance:none;border:0;text-align:left;padding:14px 16px;display:flex;flex-direction:column;justify-content:space-between;cursor:pointer;font-size:16px;font-weight:600;line-height:1.2;transition:transform var(--t-press) var(--ease-out);min-height:64px}
-.swatch .gsm{font-weight:800;font-size:16px;font-variant-numeric:tabular-nums;letter-spacing:-0.01em}
-.swatch[aria-pressed="true"]{transform:translateX(-8px)}
-.swatch[aria-pressed="true"]::after{content:"";position:absolute;right:14px;bottom:14px;width:12px;height:12px;background:currentColor}
-.swatch--sbs{background:var(--board);color:var(--ink)}
-.swatch--fbb{background:var(--fbb);color:var(--ink)}
-.swatch--duplex{background:var(--duplex);color:var(--ink)}
-.swatch--kraft{background:var(--kraft-deep);color:var(--ink)}
-.swatch--flute{background:var(--flute);color:var(--board)}
-.swatch:hover{transform:translateX(-6px)}
-.swatch[aria-pressed="true"]:hover{transform:translateX(-8px)}
-.swatch:active{transform:scale(0.97)}
-.rail-r .button{min-height:64px;font-size:16px}
-
-/* SHOWCASE: one image across tiles */
-.mosaic{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:var(--gap)}
-.mosaic .cell{aspect-ratio:1;position:relative;overflow:hidden;min-width:0}
-.mosaic .cell .piece{position:absolute;inset:0;background-image:var(--img);background-size:600% 400%;background-position:var(--d);background-repeat:no-repeat;transition:transform 600ms var(--ease-soft)}
-.mosaic .cell:hover .piece{transform:scale(1.08)}
-.mosaic .cell.tile{padding:16px}
-.mosaic .cell.tile h2{font-size:var(--d3)}
-.mosaic .cell.tile p{font-size:18px;font-weight:600;line-height:1.3}
-.mosaic .cell .button{margin-top:auto;align-self:flex-start}
-
-/* LIST: giant word, filled bar rows */
-.catalogue{width:min(640px,100%);margin-inline:auto;container-type:inline-size}
-.catalogue h2{font-size:21cqw;line-height:0.95;letter-spacing:-0.06em;white-space:nowrap;padding-bottom:0.06em}
-.bars{display:flex;flex-direction:column;gap:6px;margin-top:20px}
-.bars details{background:var(--fbb)}
-.bars summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;align-items:center;min-height:56px;padding:0 18px;font-weight:600;font-size:16px}
-.bars summary::-webkit-details-marker{display:none}
-.bars summary .plus{font-size:26px;font-weight:400;line-height:1;transition:transform var(--t-ui) var(--ease-out)}
-.bars details[open] summary .plus{transform:rotate(45deg)}
-.bars .panel{padding:4px 20px 20px;display:flex;flex-direction:column;gap:14px;font-size:16px}
-.bars .panel div{display:flex;justify-content:space-between;gap:16px}
-.bars .panel span:last-child{color:var(--ink);font-weight:800;font-variant-numeric:tabular-nums;text-align:right}
-.catalogue .note{margin-top:24px;font-size:var(--step-body);color:var(--ink)}
-
-/* HOW IT WORKS: accordion of tinted panels */
-.how .intro{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--gap);align-items:end}
-.how .intro h2{grid-column:1/6}
-.how .intro p{grid-column:7/12;font-size:var(--step-body)}
-.stages{display:flex;height:520px;margin-top:64px;overflow:hidden}
-.stage{flex:1 1 0;min-width:0;position:relative;overflow:hidden;transition:flex-basis 450ms var(--ease-in-out),flex-grow 450ms var(--ease-in-out);cursor:pointer;color:var(--board)}
-.stage[data-open="true"]{flex:0 0 58%;cursor:default}
-.stage .sliver{position:absolute;left:0;bottom:0;writing-mode:vertical-rl;transform:rotate(180deg);white-space:nowrap;font-size:20px;font-weight:800;letter-spacing:-0.02em;padding:24px 20px 24px 0;opacity:1;transition:opacity var(--t-ui) ease}
-.stage[data-open="true"] .sliver{opacity:0}
-.stage .open{position:absolute;left:0;top:0;bottom:0;width:calc(0.58*(100vw - 2*var(--gap)));opacity:0;visibility:hidden;transition:opacity 320ms ease 180ms,visibility 0s 500ms;display:grid;grid-template-columns:1fr 1fr;padding:28px}
-.stage[data-open="true"] .open{opacity:1;visibility:visible;transition:opacity 320ms ease 180ms,visibility 0s}
-.stage .open h3{font-size:var(--d3);letter-spacing:-0.05em;align-self:start}
-.stage .open p{align-self:end;font-size:var(--step-body);max-width:36ch;line-height:1.4}
-.stage .open .pic{grid-column:2;grid-row:1/3;align-self:stretch;justify-self:stretch;margin:-28px -28px -28px 0;position:relative}
-.stage .open .pic img{width:100%;height:100%;object-fit:cover}
-.stage.s1{background:#3B2A1B}.stage.s2{background:#5A3F26}.stage.s3{background:#7A5633}.stage.s4{background:#85603A}.stage.s5{background:#B98C5A;color:var(--ink)}.stage.s6{background:#D6AD78;color:var(--ink)}
-.stage button{appearance:none;background:none;border:0;position:absolute;inset:0;width:100%;height:100%;cursor:pointer}
-.stage[data-open="true"] button{display:none}
-
-/* The carton: a CSS 3D box that turns slowly, the moving picture */
-.cartonwrap{position:absolute;inset:0;display:grid;place-items:center;perspective:900px;background:#C6975B}
-.carton{width:260px;height:190px;position:relative;transform-style:preserve-3d;animation:turn 22s linear infinite}
-.carton .f{position:absolute;inset:0;background:var(--bg);background-size:cover;background-position:center}
-.carton .f.front{transform:translateZ(95px)}
-.carton .f.back{transform:rotateY(180deg) translateZ(95px)}
-.carton .f.right{width:190px;left:35px;transform:rotateY(90deg) translateZ(130px)}
-.carton .f.left{width:190px;left:35px;transform:rotateY(-90deg) translateZ(130px)}
-.carton .f.top{height:190px;top:0;transform:rotateX(90deg) translateZ(95px)}
-.carton .f.bottom{height:190px;top:0;transform:rotateX(-90deg) translateZ(95px)}
-@media (max-width:1023px){.carton{width:180px;height:132px}.carton .f.front{transform:translateZ(66px)}.carton .f.back{transform:rotateY(180deg) translateZ(66px)}.carton .f.right{width:132px;left:24px;transform:rotateY(90deg) translateZ(90px)}.carton .f.left{width:132px;left:24px;transform:rotateY(-90deg) translateZ(90px)}.carton .f.top{height:132px;transform:rotateX(90deg) translateZ(66px)}.carton .f.bottom{height:132px;transform:rotateX(-90deg) translateZ(66px)}.cartonwrap{min-height:220px}}
-@keyframes turn{from{transform:rotateX(-18deg) rotateY(0)}to{transform:rotateX(-18deg) rotateY(360deg)}}
-
-/* ABOUT: team on colour tiles (the five factories) */
-.factories{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:40px}
-.factory{min-width:0}
-.factory .tint{aspect-ratio:4/5;position:relative;overflow:hidden}
-.factory .tint img{width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.15);mix-blend-mode:multiply;transition:transform 700ms var(--ease-soft)}
-.factory:hover .tint img{transform:scale(1.04)}
-.factory:nth-child(4n+1) .tint{background:var(--kraft-deep)}
-.factory:nth-child(4n+2) .tint{background:var(--accent)}
-.factory:nth-child(4n+3) .tint{background:var(--duplex)}
-.factory:nth-child(4n+4) .tint{background:#6B4A2A}
-.factory .tint .mark{position:absolute;left:16px;top:14px;font-size:var(--d3);font-weight:800;letter-spacing:-0.05em;line-height:0.9;color:var(--ink)}
-.factory:nth-child(4n+2) .tint .mark,.factory:nth-child(4n+4) .tint .mark{color:var(--board)}
-.factory .name{margin-top:10px;font-size:16px;font-weight:600}
-.factory .role{font-size:16px;color:var(--ink);line-height:1.4;max-width:30ch}
-.about .statement{margin-top:56px}
-
-/* PROOF: large marks on tiles */
-.checks{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--gap)}
-.checks .tile{aspect-ratio:3/2;background:var(--kraft-deep);padding:24px}
-.checks .tile h3{font-size:var(--d4);letter-spacing:-0.04em;line-height:0.95}
-.checks .tile.head{grid-column:span 2;aspect-ratio:auto;background:var(--accent);color:var(--accent-ink)}
-.checks .tile.head h2{font-size:var(--d3)}
-.checks .tile.head p{margin-top:auto;font-size:var(--step-body);font-weight:600}
-.proof .statement{margin-top:56px}
-
-/* MARQUEE: the signature move */
-.marquee{margin-top:clamp(64px,8vw,120px);overflow:hidden;white-space:nowrap;background:var(--board);padding:28px 0}
-.marquee .track{display:inline-flex;gap:0;will-change:transform;animation:slide 38s linear infinite}
-.marquee:hover .track{animation-play-state:paused}
-.marquee span{font-size:clamp(56px,9vw,150px);font-weight:800;letter-spacing:-0.05em;line-height:0.9;padding-right:0.5em}
-@keyframes slide{from{transform:translateX(0)}to{transform:translateX(-50%)}}
-
-/* FEATURES: mosaic of unlike tiles */
-.cost{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:96px;gap:var(--gap)}
-.cost .tile{padding:24px}
-.cost .t-head{grid-column:1/7;grid-row:1/4}
-.cost .t-head h2{font-size:var(--d2)}
-.cost .t-head .lead{margin-top:auto;font-size:var(--step-lead);font-weight:600;line-height:1.3;max-width:30ch}
-.cost .t-photo{grid-column:7/13;grid-row:1/6}
-.cost .t-list{grid-column:4/7;grid-row:4/6;background:var(--duplex)}
-.cost .t-list.t-list2{grid-column:1/4;background:var(--accent);color:var(--accent-ink)}
-.cost .t-list ul{list-style:none;margin:0;padding:0;font-size:20px;font-weight:600;line-height:1.3}
-.cost .t-s1{grid-column:1/7;grid-row:6/9;background:var(--kraft-deep)}
-.cost .t-s2{grid-column:7/13;grid-row:6/9;background:var(--ink);color:var(--board)}
-.cost .tile .sentence{font-size:var(--d4);font-weight:600;letter-spacing:-0.03em;line-height:1.12;max-width:22ch}
-
-/* CONTACT: photo strip, three-cell bar */
-.brief{margin-top:clamp(64px,8vw,120px);background:var(--accent);color:var(--accent-ink);min-height:80svh;padding:48px 0 56px}
-.needs{margin-top:32px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:var(--gap)}
-.needs .tile{background:#1C5FA0;color:var(--accent-ink);padding:24px}
-.needs .tile h3{font-size:var(--d4);letter-spacing:-0.03em;line-height:1}
-.needs ul{margin:16px 0 0;padding:0;list-style:none;display:grid;gap:6px;font-size:var(--step-body)}
-.needs .tile--photo{padding:0;background:var(--board)}
-.strip{display:flex;gap:var(--gap);height:150px;overflow:hidden;margin-left:calc(-1*var(--gap));margin-right:calc(-1*var(--gap))}
-.strip img{height:150px;width:auto;flex:0 0 auto;object-fit:cover}
-.brief .inner{padding:0 24px}
-.brief h2{margin-top:72px;font-size:var(--d2)}
-.cells{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap);margin-top:40px}
-.cells .cell{background:#1C5FA0;height:96px;display:flex;align-items:center;justify-content:center;min-width:0;transition:background var(--t-hover) ease}
-.cells .cell:focus-within{background:#FAF9F6;color:var(--ink)}
-.cells input{width:100%;height:100%;background:transparent;border:0;text-align:center;font-size:18px;padding:0 16px;color:inherit}
-.cells input::placeholder{color:inherit;opacity:1}
-.cells .cell:focus-within input::placeholder{color:var(--muted)}
-.cells .send{background:var(--board);color:var(--ink);border:0;font-size:18px;font-weight:600;width:100%;height:100%;cursor:pointer;transition:transform var(--t-press) var(--ease-out),background var(--t-hover) ease}
-.cells .send:hover{background:var(--fbb)}
-.cells .send:active{transform:scale(0.98)}
-.smallprint{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--gap);margin-top:12px;font-size:var(--step-small);font-weight:600}
-.smallprint p{opacity:1}
-.smallprint p:nth-child(2){grid-column:3}
-.draft{margin-top:var(--gap);background:var(--board);color:var(--ink);padding:24px;display:none;grid-template-columns:1fr auto;gap:24px;align-items:start}
-.draft.is-open{display:grid}
-.draft pre{margin:0;white-space:pre-wrap;font:inherit;font-size:16px;line-height:1.45}
-.draft .acts{display:flex;flex-direction:column;gap:8px;min-width:180px}
-.draft .acts .button.ghost{background:var(--fbb);color:var(--ink)}
-.draft .ok{font-size:var(--step-small);font-weight:600;color:var(--accent);min-height:1.4em}
-.draft .to{font-weight:800;font-size:var(--step-lead);letter-spacing:-0.03em;margin-bottom:8px}
-
-/* FOOTER: the mark, built large */
-.foot{margin-top:var(--gap);background:var(--ink);color:var(--board);padding:clamp(32px,4vw,56px) 24px 24px}
-.blocks{display:flex;gap:4px;align-items:flex-end;height:34svh;min-height:200px;width:100%}
-.blocks .block{flex:1 1 0;display:flex;align-items:flex-end;justify-content:center;overflow:hidden;min-width:0}
-.blocks .block span{font-size:clamp(120px,22vw,340px);font-weight:800;line-height:0.74;letter-spacing:-0.06em;color:var(--ink);transform:translateY(0.06em)}
-.blocks .b1{background:var(--board);height:100%}
-.blocks .b2{background:var(--bg);height:82%}
-.blocks .b3{background:var(--accent);height:64%}
-.footgrid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:var(--gap);margin-top:56px;font-size:16px}
-.footgrid .links{grid-column:1/9;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:var(--gap)}
-.footgrid .links a{display:block;text-decoration:none;font-weight:600;padding:4px 0}
-.footgrid .links a:hover{text-decoration:underline;text-underline-offset:0.2em}
-.footgrid .addr{grid-column:9/13;display:flex;flex-direction:column;gap:14px;font-weight:600}
-.footgrid .addr span{display:block;font-weight:400}
-.footrow{display:flex;justify-content:space-between;align-items:center;margin-top:48px;font-size:var(--step-small);font-weight:600;gap:16px;flex-wrap:wrap}
-.footrow .button{padding:10px 16px;font-size:16px}
-
-/* Motion */
-@media (prefers-reduced-motion:no-preference){
-  .js [data-reveal]{opacity:0;transform:translateY(24px);transition:opacity 700ms var(--ease-out),transform 900ms var(--ease-out);transition-delay:calc(var(--i,0)*80ms)}
-  .js [data-reveal].is-in{opacity:1;transform:none}
-  .js [data-rise]{opacity:0;transform:translateY(18px);animation:rise var(--t-reveal) var(--ease-out) forwards;animation-delay:calc(var(--i,0)*90ms + 120ms)}
-  .js .band h1{transform:translateY(110%);animation:bandup 1100ms var(--ease-out) forwards 80ms}
-  .js .centre .pic img{animation:drift 26s var(--ease-soft) infinite alternate}
-  .js [data-count]{font-variant-numeric:tabular-nums}
-}
-@keyframes rise{to{opacity:1;transform:none}}
-@keyframes bandup{to{transform:none}}
-@keyframes drift{from{transform:scale(1)}to{transform:scale(1.07)}}
-@media (prefers-reduced-motion:reduce){
-  .marquee .track{animation:none;transform:none}
-  .carton{animation:none;transform:rotateX(-18deg) rotateY(32deg)}
-  .stage{transition:none}
-}
-
-/* Phone and tablet */
-@media (max-width:1023px){
-  .hero{grid-template-rows:auto auto auto auto auto auto;min-height:0}
-  .band{grid-row:1;height:auto;min-height:110px;padding:10px 0 12px}
-  .band h1{font-size:10.8vw;white-space:nowrap;line-height:1}
-  .navtile{grid-column:span 3}
-  .navtile:nth-of-type(1),.navtile:nth-of-type(2),.navtile:nth-of-type(3),.navtile:nth-of-type(4){grid-row:2}
-  .centre{grid-column:1/-1;grid-row:3;min-height:0;display:flex;flex-direction:column;gap:var(--gap)}
-  .centre .pic{aspect-ratio:4/3}
-  .statetile{grid-template-columns:1fr;gap:16px}
-  .statetile .offer{font-size:clamp(22px,4vw,32px)}
-  .rail-r{grid-column:1/-1;grid-row:4;grid-template-rows:none;grid-template-columns:repeat(6,minmax(0,1fr))}
-  .centre .statetile{padding:20px}
-  .swatch{grid-column:span 2;min-height:84px}
-  .rail-r .button{grid-column:span 6}
-  .rail-l{grid-column:1/-1;grid-row:5;grid-template-rows:none;grid-template-columns:1fr 1fr}
-  .rail-l .tile--photo{aspect-ratio:4/5;min-height:0}
-  .starter h2{font-size:17px}
-  .mosaic{grid-template-columns:repeat(3,minmax(0,1fr))}
-  .mosaic .cell .piece{background-image:var(--img-m);background-size:300% 600%;background-position:var(--m)}
-  .mosaic .cell:nth-child(17),.mosaic .cell:nth-child(n+19){display:none}
-  .mosaic .cell:nth-child(18) .piece{--m:100% 100%}
-  .mosaic .cell:nth-child(n+10):nth-child(-n+15){order:1}
-  .mosaic .cell:nth-child(9){order:2}
-  .mosaic .cell:nth-child(18){order:3}
-  .mosaic .cell:nth-child(1){grid-column:span 2}
-  .mosaic .cell.tile h2{font-size:9vw}
-  .mosaic .cell.tile p{font-size:16px}
-  .mosaic .cell.tile{padding:12px}
-  .mosaic .cell .acc-p{display:none}
-  .mosaic .cell .button{padding:10px 12px;font-size:15px}
-  .stage .sliver{writing-mode:horizontal-tb}
-  .how .intro h2,.how .intro p{grid-column:1/-1}
-  .stages{flex-direction:column;height:auto}
-  .stage{flex:0 0 64px;min-height:64px;transition:none}
-  .stage[data-open="true"]{flex:0 0 auto;min-height:0}
-  .stage .sliver{position:static;transform:none;padding:0;margin:0;display:flex;align-items:center;height:64px;padding-left:20px;font-size:18px}
-  .stage[data-open="true"] .sliver{opacity:1}
-  .stage .open{position:static;opacity:1;display:block;padding:0 20px 24px}
-  .stage .open h3{display:none}
-  .stage .open p{font-size:17px;max-width:none}
-  .stage .open .pic{margin:16px 0 0;aspect-ratio:16/9;grid-column:auto;grid-row:auto}
-  .stage:not([data-open="true"]) .open{display:none}
-  .stage button{display:block}
-  .stage[data-open="true"] button{display:none}
-  .factories{grid-template-columns:1fr 1fr;gap:8px}
-  .factory:last-child{grid-column:1/-1}
-  .factory:last-child .tint{aspect-ratio:8/5}
-  .factory .name{font-size:14px}
-  .checks{grid-template-columns:1fr 1fr;gap:6px}
-  .checks .tile.head{grid-column:1/-1;min-height:120px}
-  .checks .tile h3{font-size:20px}
-  .cost{grid-template-columns:1fr 1fr;grid-auto-rows:auto}
-  .cost .t-head{grid-column:1/-1;grid-row:auto;min-height:160px}
-  .cost .t-photo{grid-column:1/-1;grid-row:auto;aspect-ratio:4/3}
-  .cost .t-list{grid-column:1/-1;grid-row:auto;aspect-ratio:auto}
-  .cost .t-list.t-list2{grid-column:1/-1}
-  .cost .t-list ul{display:grid;grid-template-columns:1fr 1fr;gap:4px 12px}
-  .cost .t-list ul{font-size:17px}
-  .cost .t-s1,.cost .t-s2{grid-column:1/-1;grid-row:auto;min-height:140px}
-  .brief{padding-top:32px}
-  .strip{height:110px;overflow-x:auto;scrollbar-width:none}
-  .strip img{height:110px}
-  .brief h2{margin-top:40px;font-size:9vw}
-  .cells{grid-template-columns:1fr}
-  .cells .cell{height:60px}
-  .smallprint{grid-template-columns:1fr}
-  .smallprint p:nth-child(2){grid-column:auto}
-  .draft{grid-template-columns:1fr}
-  .blocks{height:22svh;min-height:150px}
-  .blocks .block span{font-size:clamp(90px,30vw,160px)}
-  .footgrid .links{grid-column:1/-1;grid-template-columns:1fr 1fr}
-  .footgrid .addr{grid-column:1/-1}
-}
-@media (min-width:700px) and (max-width:1023px){
-  .centre{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:none}
-  .centre .pic{aspect-ratio:auto;min-height:420px}
-  .statetile{background:var(--fbb)}
-  .swatch{grid-column:span 2}
-  .rail-r .button{grid-column:span 2}
-}
-@media (max-width:699px){
-  .band h1{font-size:18.5vw;white-space:normal;text-align:center;line-height:0.95}
-  .band h1 .nowrap{display:block;white-space:nowrap}
-  .band{padding:12px 0 16px}
-  .navtile{grid-column:span 6}
-  .navtile:nth-of-type(3),.navtile:nth-of-type(4){grid-row:3}
-  .hero{grid-template-rows:auto auto auto auto auto auto auto auto}
-  .centre,.statetile{display:contents}
-  .statetile .offer{grid-column:1/-1;grid-row:4;background:var(--board);padding:20px;max-width:none}
-  .rail-r{grid-row:5}
-  .centre .pic{grid-column:1/-1;grid-row:6;aspect-ratio:16/10}
-  .gradefacts{grid-column:1/-1;grid-row:7;background:var(--fbb);padding:20px}
-  .rail-l{grid-row:8}
-  .needs{grid-template-columns:1fr}
-}
-</style>
 </head>
 <body>
 
-<!-- HERO -->
-<header class="board hero" id="top">
-  <div class="band"><h1><span class="nowrap">NSS Global </span><span class="nowrap">Packaging</span></h1></div>
-  <a class="navtile" href="#make">What we make</a>
-  <a class="navtile" href="#how">How it works</a>
-  <a class="navtile" href="#factories">The factories</a>
-  <a class="navtile navtile--act" href="#brief">Send a brief</a>
-
-  <div class="rail-l">
-    <div class="tile tile--photo" data-rise style="--i:1"><img src="assets/stack.jpg" width="1000" height="1250" alt="A stack of packaging board seen edge on: white SBS, cream FBB, grey duplex, brown kraft and corrugated layers"></div>
-    <form class="starter" id="starter" data-rise style="--i:2">
-      <h2>Start your brief</h2>
-      <label>Packaging type
-        <select id="s-type" name="type">
-          <option>Folding cartons</option>
-          <option>Rigid or premium boxes</option>
-          <option>Corrugated cartons</option>
-          <option>Retail packaging and bags</option>
-          <option>Food packaging</option>
-          <option>Pharmaceutical cartons</option>
-        </select>
-      </label>
-      <label>Quantity
-        <input id="s-qty" name="qty" type="text" inputmode="numeric" placeholder="e.g. 10,000" autocomplete="off">
-      </label>
-      <button class="button" type="submit">Send a brief</button>
-    </form>
+<nav class="nav" id="nav" aria-label="Primary">
+  <a class="brand" href="#top" aria-label="Averon Global, home">
+    <img class="mark-ivory" src="assets/brand/mark-ivory.png" width="800" height="636" alt="Averon Global">
+    <img class="mark-navy" src="assets/brand/mark-navy.png" width="800" height="636" alt="">
+  </a>
+  <button class="menu" type="button" aria-expanded="false" aria-controls="navlinks">Menu</button>
+  <div class="links" id="navlinks">
+    <a href="#solutions">Solutions</a>
+    <a href="#how">How we work</a>
+    <a href="#network">Network</a>
+    <a href="#industries">Industries</a>
   </div>
+  <div class="act"><a class="btn" href="brief.html">Start a project</a></div>
+</nav>
 
-  <div class="centre" data-rise style="--i:0">
-    <div class="pic"><img id="grade-pic" src="assets/corrugated.jpg" width="1200" height="900" alt="Corrugated board, liners over a wave of fluting, seen at the cut edge"></div>
-    <div class="statetile">
-      <p class="offer">Packaging made in Bangladesh, delivered to your door.</p>
-      <div class="gradefacts" id="gradefacts" aria-live="polite">
-        <strong id="g-name">Corrugated</strong>
-        <span id="g-desc">Liners over E, B or BC flute. Takes litho lamination or direct flexo print.</span>
-        <span id="g-use"><b>Single or double wall.</b> Shipping cartons, e-commerce mailers, displays and inserts.</span>
-        <span class="runby" id="g-run">Run by ESAR and Miah &amp; Sons</span>
-      </div>
+<header class="hero" id="top">
+  <div class="masthead">
+    <img src="assets/photo/hero-press.jpg" width="2720" height="1536" alt="A sheetfed offset press running printed packaging board, an operator checking a sheet at the console" fetchpriority="high">
+    <div class="scrim"></div>
+    <p class="caption">United Kingdom, Bangladesh, global supply network</p>
+    <span class="scrollmark" aria-hidden="true"></span>
+  </div>
+  <div class="title grid wrap">
+    <h1 class="lines"><span class="line"><span data-line style="--i:0">From brief</span></span><span class="line"><span data-line style="--i:1">to destination.</span></span></h1>
+    <p class="stand" data-rise style="--i:0">Averon connects brands with manufacturing capability and manages sourcing, production, quality and international supply. One accountable partner.</p>
+    <div class="acts" data-rise style="--i:1">
+      <a class="btn" href="brief.html">Start a project</a>
+      <a class="textlink" href="#solutions">Explore our capabilities</a>
     </div>
-  </div>
-
-  <div class="rail-r" role="group" aria-label="Board grades">
-    <button class="swatch swatch--sbs" type="button" data-grade="sbs" aria-pressed="false" data-rise style="--i:1"><span>SBS</span><span class="gsm">250 to 400 gsm</span></button>
-    <button class="swatch swatch--fbb" type="button" data-grade="fbb" aria-pressed="false" data-rise style="--i:2"><span>FBB</span><span class="gsm">230 to 400 gsm</span></button>
-    <button class="swatch swatch--duplex" type="button" data-grade="duplex" aria-pressed="false" data-rise style="--i:3"><span>Duplex</span><span class="gsm">230 to 450 gsm</span></button>
-    <button class="swatch swatch--kraft" type="button" data-grade="kraft" aria-pressed="false" data-rise style="--i:4"><span>Kraft</span><span class="gsm">200 to 400 gsm</span></button>
-    <button class="swatch swatch--flute" type="button" data-grade="corrugated" aria-pressed="true" data-rise style="--i:5"><span>Corrugated</span><span class="gsm">E, B and BC flute</span></button>
-    <a class="button" href="#brief" data-rise style="--i:6">Send a brief</a>
+    <p class="side" data-rise style="--i:2">Connecting Markets. Managing Supply. Packaging sourcing, development, manufacturing management, quality assurance, compliance coordination, freight and international delivery.</p>
   </div>
 </header>
 
-<!-- SHOWCASE: the dieline cut across tiles -->
-<section class="section" id="make" aria-labelledby="make-h">
-  <div class="mosaic" style="--img:url('assets/dieline.jpg');--img-m:url('assets/dieline-p.jpg')">
-    <div class="cell tile" data-reveal style="--i:0"><h2 id="make-h">What we make</h2></div>
-    <div class="cell" data-reveal style="--i:1"><div class="piece" style="--d:20% 0.000%;--m:100% 0%"></div></div>
-    <div class="cell" data-reveal style="--i:2"><div class="piece" style="--d:40% 0.000%;--m:0% 20%"></div></div>
-    <div class="cell" data-reveal style="--i:3"><div class="piece" style="--d:60% 0.000%;--m:50% 20%"></div></div>
-    <div class="cell tile tile--duplex" data-reveal style="--i:4"><p>Cartons, rigid boxes and corrugated.</p></div>
-    <div class="cell" data-reveal style="--i:5"><div class="piece" style="--d:100% 0.000%;--m:0% 40%"></div></div>
-    <div class="cell" data-reveal style="--i:1"><div class="piece" style="--d:0% 33.333%;--m:50% 40%"></div></div>
-    <div class="cell" data-reveal style="--i:2"><div class="piece" style="--d:20% 33.333%;--m:100% 40%"></div></div>
-    <div class="cell tile tile--kraft" data-reveal style="--i:3"><p>Offset, foil, emboss and spot UV.</p></div>
-    <div class="cell" data-reveal style="--i:4"><div class="piece" style="--d:60% 33.333%;--m:50% 60%"></div></div>
-    <div class="cell" data-reveal style="--i:5"><div class="piece" style="--d:80% 33.333%;--m:100% 60%"></div></div>
-    <div class="cell" data-reveal style="--i:0"><div class="piece" style="--d:100% 33.333%;--m:0% 80%"></div></div>
-    <div class="cell" data-reveal style="--i:2"><div class="piece" style="--d:0% 66.667%;--m:50% 80%"></div></div>
-    <div class="cell tile tile--ink" data-reveal style="--i:3"><p>A signed sample before a sheet is printed.</p></div>
-    <div class="cell" data-reveal style="--i:4"><div class="piece" style="--d:40% 66.667%;--m:0% 100%"></div></div>
-    <div class="cell tile tile--accent" data-reveal style="--i:5"><p class="acc-p">Specification, quantity, date, destination.</p><a class="button" href="#brief" style="background:var(--board);color:var(--ink)">Send a brief</a></div>
-    <div class="cell" data-reveal style="--i:0"><div class="piece" style="--d:80% 66.667%;--m:100% 100%"></div></div>
-    <div class="cell" data-reveal style="--i:1"><div class="piece" style="--d:100% 66.667%;--m:0% 120%"></div></div>
-    <div class="cell" data-reveal style="--i:3"><div class="piece" style="--d:0% 100.000%;--m:50% 120%"></div></div>
-    <div class="cell" data-reveal style="--i:4"><div class="piece" style="--d:20% 100.000%;--m:100% 120%"></div></div>
-    <div class="cell" data-reveal style="--i:5"><div class="piece" style="--d:40% 100.000%;--m:0% 140%"></div></div>
-    <div class="cell" data-reveal style="--i:0"><div class="piece" style="--d:60% 100.000%;--m:50% 140%"></div></div>
-    <div class="cell" data-reveal style="--i:1"><div class="piece" style="--d:80% 100.000%;--m:100% 140%"></div></div>
-    <div class="cell" data-reveal style="--i:2"><div class="piece" style="--d:100% 100.000%;--m:0% 160%"></div></div>
+<section class="opening section wrap" aria-label="Opening statement" data-watch>
+  <div class="grid">
+    <p class="state" data-reveal>Manufacturing is one part of the journey. Sourcing, development, production, quality, compliance and freight decide whether packaging arrives on time, to specification, at the planned cost.</p>
+    <div class="words" data-reveal style="--i:1">
+      <span style="--i:0">sourcing</span><span style="--i:1">technical development</span><span style="--i:2">production</span><span style="--i:3">quality</span><span style="--i:4">compliance</span><span style="--i:5">freight</span>
+    </div>
+    <div class="pic lone" data-reveal style="--i:2"><img src="assets/photo/journey-brief.jpg" width="2496" height="1664" alt="A packaging buyer's desk with a dieline drawing, board swatches and a carton sample" loading="lazy"></div>
+    <p class="note" data-reveal style="--i:3">Averon manages all of it as one accountable partner. You define the requirement. We coordinate the route to production and bring it to your door.</p>
   </div>
 </section>
 
-<!-- LIST: the catalogue -->
-<section class="section catalogue" aria-labelledby="cat-h">
-  <h2 id="cat-h" data-reveal>Packaging</h2>
-  <div class="bars">
-    <details open data-reveal style="--i:1">
-      <summary>Folding cartons <span class="plus" aria-hidden="true">+</span></summary>
-      <div class="panel">
-        <div><span>Mono cartons</span><span>FBB, SBS</span></div>
-        <div><span>Straight-line cartons</span><span>FBB, SBS</span></div>
-        <div><span>Auto-lock and crash-lock cartons</span><span>FBB, duplex</span></div>
-        <div><span>Window cartons</span><span>FBB with PET window</span></div>
-        <div><span>Sleeves</span><span>FBB, kraft</span></div>
-        <div><span>Product and retail cartons</span><span>FBB, SBS, duplex</span></div>
-      </div>
-    </details>
-    <details data-reveal style="--i:2">
-      <summary>Premium packaging <span class="plus" aria-hidden="true">+</span></summary>
-      <div class="panel">
-        <div><span>Rigid boxes</span><span>Greyboard, wrapped</span></div>
-        <div><span>Two-piece boxes</span><span>Greyboard, wrapped</span></div>
-        <div><span>Magnetic boxes</span><span>Greyboard, magnet closure</span></div>
-        <div><span>Drawer boxes</span><span>Greyboard, ribbon pull</span></div>
-        <div><span>Book-style boxes</span><span>Greyboard, wrapped</span></div>
-        <div><span>Gift and presentation boxes</span><span>Foil, emboss, spot UV</span></div>
-      </div>
-    </details>
-    <details data-reveal style="--i:3">
-      <summary>Corrugated packaging <span class="plus" aria-hidden="true">+</span></summary>
-      <div class="panel">
-        <div><span>Shipping and master cartons</span><span>B, BC flute</span></div>
-        <div><span>E-commerce boxes</span><span>E, B flute</span></div>
-        <div><span>Retail-ready packaging</span><span>E flute, litho laminated</span></div>
-        <div><span>Die-cut cartons</span><span>E, B flute</span></div>
-        <div><span>Displays and inserts</span><span>E flute, litho laminated</span></div>
-      </div>
-    </details>
-    <details data-reveal style="--i:4">
-      <summary>Retail and commercial <span class="plus" aria-hidden="true">+</span></summary>
-      <div class="panel">
-        <div><span>Shoe boxes</span><span>Duplex, corrugated</span></div>
-        <div><span>Product boxes</span><span>Duplex, FBB</span></div>
-        <div><span>Paper bags</span><span>Kraft, C1S art paper</span></div>
-        <div><span>Hangtags and labels</span><span>C1S, C2S board</span></div>
-        <div><span>Product cards</span><span>C2S board</span></div>
-        <div><span>Promotional packaging</span><span>FBB, duplex</span></div>
-      </div>
-    </details>
-    <details data-reveal style="--i:5">
-      <summary>Food packaging <span class="plus" aria-hidden="true">+</span></summary>
-      <div class="panel">
-        <div><span>Food cartons</span><span>Food-contact FBB</span></div>
-        <div><span>Pizza boxes</span><span>E, B flute, food-contact liner</span></div>
-        <div><span>Ice-cream boxes</span><span>Coated FBB</span></div>
-        <div><span>Chocolate boxes</span><span>FBB, rigid</span></div>
-        <div><span>Bakery packaging</span><span>FBB, kraft</span></div>
-        <div><span>Takeaway packaging</span><span>Kraft, duplex</span></div>
-      </div>
-    </details>
-    <details data-reveal style="--i:6">
-      <summary>Pharmaceutical and healthcare <span class="plus" aria-hidden="true">+</span></summary>
-      <div class="panel">
-        <div><span>Folding cartons</span><span>SBS, FBB</span></div>
-        <div><span>Secondary packaging</span><span>FBB, corrugated</span></div>
-        <div><span>Product boxes</span><span>SBS, FBB</span></div>
-        <div><span>Inserts</span><span>SBS, duplex</span></div>
-        <div><span>Printed components</span><span>C1S, SBS</span></div>
-      </div>
-    </details>
+<section class="journey section wrap" id="how" aria-labelledby="how-h">
+  <div class="grid">
+    <h2 id="how-h" data-reveal>One journey. Managed end to end.</h2>
+    <p class="lead" data-reveal style="--i:1">Six stages, each with an owner at Averon and a checkpoint before the next. Nothing scales before the specification, the sample and the terms are approved.</p>
   </div>
-  <p class="note" data-reveal style="--i:7">Availability depends on the specification, food-contact or product requirements and factory capability. We confirm suitability before quoting.</p>
-</section>
-
-<!-- HOW IT WORKS -->
-<section class="section how" id="how" aria-labelledby="how-h">
-  <div class="intro">
-    <h2 id="how-h" data-reveal>Six stages, one contact</h2>
-    <p data-reveal style="--i:1">Production starts only after the specification, the sample and the commercial terms are approved. Every stage has a named owner at NSS and a checkpoint before the next.</p>
-  </div>
-  <div class="stages" id="stages" data-reveal style="--i:2">
-    <div class="stage s1" data-open="true">
-      <span class="sliver">Brief</span>
-      <div class="open"><h3>Brief</h3><p>Send the product, target market, quantity, budget, delivery date and destination. We reply with the questions a quotation needs.</p></div>
-      <button type="button" aria-label="Open the Brief stage"></button>
+  <div class="stages" id="stages">
+    <div class="pin" aria-hidden="true">
+      <img data-stage="brief" class="is-on" src="assets/photo/journey-brief.jpg" width="2496" height="1664" alt="">
+      <img data-stage="source" src="assets/photo/journey-source.jpg" width="2496" height="1664" alt="" loading="lazy">
+      <img data-stage="develop" src="assets/photo/journey-develop.jpg" width="2496" height="1664" alt="" loading="lazy">
+      <img data-stage="produce" src="assets/photo/journey-produce.jpg" width="2496" height="1664" alt="" loading="lazy">
+      <img data-stage="verify" src="assets/photo/journey-verify.jpg" width="2496" height="1664" alt="" loading="lazy">
+      <img data-stage="deliver" src="assets/photo/journey-deliver.jpg" width="2496" height="1664" alt="" loading="lazy">
+      <span class="which" id="which">Brief</span>
     </div>
-    <div class="stage s2" data-open="false">
-      <span class="sliver">Route</span>
-      <div class="open"><h3>Route</h3><p>Technical review of structure, material and print, then the factory whose machinery, capacity and certification fit the job.</p><div class="pic"><img src="assets/stack.jpg" width="1000" height="1250" alt="Board grades stacked edge on" loading="lazy"></div></div>
-      <button type="button" aria-label="Open the Route stage"></button>
-    </div>
-    <div class="stage s3" data-open="false">
-      <span class="sliver">Cost and sample</span>
-      <div class="open"><h3>Cost and sample</h3><p>A quotation built on the full specification, then prototypes, mock-ups or press samples for approval.</p><div class="pic"><img src="assets/colourbar.jpg" width="1600" height="300" alt="A press colour control strip with CMYK and spot patches" loading="lazy"></div></div>
-      <button type="button" aria-label="Open the Cost and sample stage"></button>
-    </div>
-    <div class="stage s4" data-open="false">
-      <span class="sliver">Order</span>
-      <div class="open"><h3>Order</h3><p>Purchase order, approved artwork, colour references and packing instructions confirmed in writing before a sheet is printed.</p></div>
-      <button type="button" aria-label="Open the Order stage"></button>
-    </div>
-    <div class="stage s5" data-open="false">
-      <span class="sliver">Production</span>
-      <div class="open"><h3>Production</h3><p>We coordinate the factory, hold the agreed checkpoints and report progress against the schedule.</p><div class="pic"><img src="assets/dieline.jpg" width="1800" height="1200" alt="The dieline of a straight tuck carton plotted on kraft board" loading="lazy"></div></div>
-      <button type="button" aria-label="Open the Production stage"></button>
-    </div>
-    <div class="stage s6" data-open="false">
-      <span class="sliver">Ship</span>
-      <div class="open"><h3>Ship</h3><p>Packing, export documents, freight booking, shipment updates and delivery to your destination.</p>
-        <div class="pic"><div class="cartonwrap" aria-hidden="true"><div class="carton">
-          <div class="f front" style="background-image:url('assets/kraft.jpg')"></div>
-          <div class="f back" style="background-image:url('assets/kraft.jpg')"></div>
-          <div class="f right" style="background-image:url('assets/corrugated-e.jpg')"></div>
-          <div class="f left" style="background-image:url('assets/corrugated-e.jpg')"></div>
-          <div class="f top" style="background-image:url('assets/kraft.jpg')"></div>
-          <div class="f bottom" style="background-image:url('assets/kraft.jpg')"></div>
-        </div></div></div>
-      </div>
-      <button type="button" aria-label="Open the Ship stage"></button>
+    <div class="route" aria-hidden="true"><i></i></div>
+    <div class="list">
+      <div class="stage" data-stage="brief"><div class="pic mob"><img src="assets/photo/journey-brief.jpg" width="2496" height="1664" alt="A packaging brief on a buyer's desk" loading="lazy"></div><h3>Brief</h3><p>You define the product, market, quantity, target cost and date. We turn it into a specification a factory can quote.</p></div>
+      <div class="stage" data-stage="source"><div class="pic mob"><img src="assets/photo/journey-source.jpg" width="2496" height="1664" alt="A factory manager and a sourcing specialist walking a converting hall" loading="lazy"></div><h3>Source</h3><p>We select the manufacturing route: the factory whose machinery, capacity and certificate scope fit the job.</p></div>
+      <div class="stage" data-stage="develop"><div class="pic mob"><img src="assets/photo/journey-develop.jpg" width="2496" height="1664" alt="Hands assembling a white sample carton on a cutting mat" loading="lazy"></div><h3>Develop</h3><p>Structure, material and print are resolved. Samples are made and approved before anything scales.</p></div>
+      <div class="stage" data-stage="produce"><div class="pic mob"><img src="assets/photo/journey-produce.jpg" width="2496" height="1664" alt="A press operator inspecting a freshly printed sheet" loading="lazy"></div><h3>Produce</h3><p>Production runs against the approved specification, with checkpoints agreed in advance.</p></div>
+      <div class="stage" data-stage="verify"><div class="pic mob"><img src="assets/photo/journey-verify.jpg" width="2496" height="1664" alt="A quality inspector measuring a carton flap with a caliper" loading="lazy"></div><h3>Verify</h3><p>Colour, construction, dimensions, finish and packing are inspected before shipment readiness is confirmed.</p></div>
+      <div class="stage" data-stage="deliver"><div class="pic mob"><img src="assets/photo/journey-deliver.jpg" width="2496" height="1664" alt="Wrapped pallets being loaded into a shipping container" loading="lazy"></div><h3>Deliver</h3><p>Freight, export documents and delivery are coordinated to your destination, with status along the way.</p></div>
     </div>
   </div>
 </section>
 
-<!-- ABOUT: the factories -->
-<section class="section about" id="factories" aria-labelledby="fac-h">
-  <h2 id="fac-h" data-reveal style="font-size:clamp(28px,3vw,36px)">Five nominated factories</h2>
-  <div class="factories">
-    <div class="factory" data-reveal style="--i:1">
-      <div class="tint"><img src="assets/dieline.jpg" width="1800" height="1200" alt="" loading="lazy"><span class="mark">Genesis</span></div>
-      <p class="name">Genesis Ventures</p>
-      <p class="role">Printing, packaging and apparel trims since 1986. Local and export markets.</p>
-    </div>
-    <div class="factory" data-reveal style="--i:2">
-      <div class="tint"><img src="assets/colourbar.jpg" width="1600" height="300" alt="" loading="lazy"><span class="mark">Bori</span></div>
-      <p class="name">Bori Garment Accessories</p>
-      <p class="role">Export printing and packaging: boxes, gift boxes, labels, hangtags. CTP to finishing in house.</p>
-    </div>
-    <div class="factory" data-reveal style="--i:3">
-      <div class="tint"><img src="assets/corrugated.jpg" width="1200" height="900" alt="" loading="lazy"><span class="mark">ESAR</span></div>
-      <p class="name">ESAR Paper Industries</p>
-      <p class="role">Integrated corrugated and offset: printed cartons, labels, poly bags. GRS recycled capability.</p>
-    </div>
-    <div class="factory" data-reveal style="--i:4">
-      <div class="tint"><img src="assets/stack.jpg" width="1000" height="1250" alt="" loading="lazy"><span class="mark">Uniter</span></div>
-      <p class="name">The Uniter Ltd.</p>
-      <p class="role">Garment accessories since 2020: gum tape, poly bags, leather patches, twill tape, thread.</p>
-    </div>
-    <div class="factory" data-reveal style="--i:5">
-      <div class="tint"><img src="assets/recycled.jpg" width="1200" height="900" alt="" loading="lazy"><span class="mark">Miah &amp; Sons</span></div>
-      <p class="name">Miah &amp; Sons Industries Ltd.</p>
-      <p class="role">Folding cartons, corrugated, heavy duty, food and pharma packaging, shoe boxes. ISO-certified infrastructure.</p>
-    </div>
+<section class="caps section wrap" id="solutions" aria-labelledby="caps-h">
+  <h2 id="caps-h" data-reveal>What Averon does</h2>
+  <p class="lead" data-reveal style="--i:1">Six capabilities, one point of coordination. Each is scoped per project and written into the quotation.</p>
+  <div class="mosaic">
+    <a class="cap cap--a" href="brief.html" data-reveal style="--i:0"><img src="assets/photo/cap-sourcing.jpg" width="2336" height="1760" alt="Two packaging professionals comparing board samples at a factory table" loading="lazy"><span class="veil"></span><span class="text"><h3>Sourcing and supplier management</h3><p>Manufacturing routes matched to specification, quantity, certificate scope and lead time.</p></span></a>
+    <a class="cap cap--b" href="brief.html" data-reveal style="--i:1"><img src="assets/photo/cap-development.jpg" width="1760" height="2336" alt="A designer at a flatbed sample cutting table" loading="lazy"><span class="veil"></span><span class="text"><h3>Development</h3><p>Structure, material, artwork and samples resolved before production.</p></span></a>
+    <a class="cap cap--c" href="brief.html" data-reveal style="--i:2"><img src="assets/photo/cap-manufacturing.jpg" width="2720" height="1536" alt="A folder-gluer line with cartons streaming onto a conveyor" loading="lazy"><span class="veil"></span><span class="text"><h3>Manufacturing management</h3><p>Approved specifications communicated, progress monitored against the schedule.</p></span></a>
+    <a class="cap cap--d" href="brief.html" data-reveal style="--i:3"><img src="assets/photo/cap-quality.jpg" width="2336" height="1760" alt="A printed sheet compared with a proof under a colour viewing booth" loading="lazy"><span class="veil"></span><span class="text"><h3>Quality assurance</h3><p>Inspection points agreed before production, held during it, documented after.</p></span></a>
+    <a class="cap cap--e" href="brief.html" data-reveal style="--i:4"><img src="assets/photo/cap-compliance.jpg" width="2336" height="1760" alt="Inspection reports checked against a specification sheet" loading="lazy"><span class="veil"></span><span class="text"><h3>Compliance</h3><p>Customer and market requirements reviewed; certificates verified for holder, scope and validity.</p></span></a>
+    <a class="cap cap--f" href="brief.html" data-reveal style="--i:5"><img src="assets/photo/cap-freight.jpg" width="2720" height="1536" alt="A container yard at dusk with a gantry crane" loading="lazy"><span class="veil"></span><span class="text"><h3>Freight and logistics</h3><p>Quotations compared, shipments planned and booked, export documents coordinated, delivery managed.</p></span></a>
   </div>
-  <p class="statement" data-reveal style="--i:6">One job rarely needs one factory. We match the specification to machinery, capacity, certificate scope and lead time, and tell you which factory will run it.</p>
 </section>
 
-<!-- PROOF: checkpoints -->
-<section class="section proof" id="quality" aria-labelledby="q-h">
-  <div class="checks">
-    <div class="tile head" data-reveal style="--i:0"><h2 id="q-h">Checked three times</h2><p>Before, during and after production, on a plan agreed with you.</p></div>
-    <div class="tile" data-reveal style="--i:1"><h3>Artwork and dieline approved</h3></div>
-    <div class="tile" data-reveal style="--i:2"><h3>Colour references agreed</h3></div>
-    <div class="tile" data-reveal style="--i:3"><h3>Sample signed off</h3></div>
-    <div class="tile" data-reveal style="--i:4"><h3>Packing instructions written</h3></div>
-    <div class="tile" data-reveal style="--i:5"><h3>Registration and colour on press</h3></div>
-    <div class="tile" data-reveal style="--i:6"><h3>Die-cut and crease accuracy</h3></div>
-    <div class="tile" data-reveal style="--i:7"><h3>Folding, gluing and dimensions</h3></div>
-    <div class="tile" data-reveal style="--i:8"><h3>Final inspection, AQL sampling</h3></div>
-    <div class="tile" data-reveal style="--i:9"><h3>Carton marking and shipment readiness</h3></div>
-    <div class="tile" data-reveal style="--i:10"><h3>Outcome documented</h3></div>
-  </div>
-  <p class="statement" data-reveal>Certificates belong to the factory, not to NSS. Before one appears in a quotation we check who holds it, who issued it, what it covers and whether it is still valid.</p>
-</section>
-
-<!-- MARQUEE -->
-<div class="marquee" aria-hidden="true"><div class="track"><span>Global packaging. Sourced smarter.</span><span>Global packaging. Sourced smarter.</span><span>Global packaging. Sourced smarter.</span><span>Global packaging. Sourced smarter.</span></div></div>
-
-<!-- FEATURES: landed cost -->
-<section class="section cost" id="cost" aria-labelledby="cost-h" style="margin-top:var(--gap)">
-  <div class="tile t-head" data-reveal style="--i:0"><h2 id="cost-h">Landed cost, not factory price</h2><p class="lead">A lower factory price does not mean a lower total cost. We quote on the whole chain, from sheet to your door, and these eight things decide it.</p></div>
-  <div class="tile tile--photo t-photo" data-reveal style="--i:1"><img src="assets/foil.jpg" width="1200" height="900" alt="Gold hot foil on deep blue board" loading="lazy"></div>
-  <div class="tile t-list" data-reveal style="--i:3"><ul><li>Material usage</li><li>Printing and finishing</li><li>Carton and pallet fit</li><li>Container utilisation</li></ul></div>
-  <div class="tile t-s1" data-reveal style="--i:4"><p class="sentence">A cheap sheet that ships half-empty containers is not cheap.</p></div>
-  <div class="tile t-s2" data-reveal style="--i:5"><p class="sentence">Bangladesh offers competitive manufacturing. We show you where the saving really sits.</p></div>
-  <div class="tile t-list t-list2" data-reveal style="--i:2"><ul><li>Freight and transit</li><li>Lead time and stock</li><li>Rejection risk</li><li>Repeat-order consistency</li></ul></div>
-</section>
-
-<!-- CONTACT: the brief -->
-<section class="brief" id="brief" aria-labelledby="brief-h">
-  <div class="strip" aria-hidden="true">
-    <img src="assets/sbs.jpg" width="200" height="150" alt="" loading="lazy" style="width:200px">
-    <img src="assets/kraft.jpg" width="150" height="150" alt="" loading="lazy" style="width:150px">
-    <img src="assets/corrugated.jpg" width="112" height="150" alt="" loading="lazy" style="width:112px">
-    <img src="assets/colourbar.jpg" width="225" height="150" alt="" loading="lazy" style="width:225px">
-    <img src="assets/duplex.jpg" width="150" height="150" alt="" loading="lazy" style="width:150px">
-    <img src="assets/dieline.jpg" width="225" height="150" alt="" loading="lazy" style="width:225px">
-    <img src="assets/foil.jpg" width="112" height="150" alt="" loading="lazy" style="width:112px">
-    <img src="assets/fbb.jpg" width="200" height="150" alt="" loading="lazy" style="width:200px">
-    <img src="assets/recycled.jpg" width="150" height="150" alt="" loading="lazy" style="width:150px">
-    <img src="assets/corrugated-e.jpg" width="225" height="150" alt="" loading="lazy" style="width:225px">
-    <img src="assets/stack.jpg" width="112" height="150" alt="" loading="lazy" style="width:112px">
-    <img src="assets/c1s.jpg" width="200" height="150" alt="" loading="lazy" style="width:200px">
-    <img src="assets/kraft.jpg" width="225" height="150" alt="" loading="lazy" style="width:225px">
-    <img src="assets/sbs.jpg" width="150" height="150" alt="" loading="lazy" style="width:150px">
-  </div>
-  <div class="inner">
-    <h2 id="brief-h" data-reveal>Send a brief</h2>
-    <form class="cells" id="briefform" data-reveal style="--i:1">
-      <div class="cell"><label class="visually-hidden" for="b-email">Your email</label><input id="b-email" name="email" type="email" placeholder="Your email" autocomplete="email" required></div>
-      <div class="cell"><label class="visually-hidden" for="b-what">Packaging and quantity</label><input id="b-what" name="what" type="text" placeholder="e.g. 10,000 folding cartons" autocomplete="off" required></div>
-      <div class="cell"><button class="send" type="submit">Send a brief</button></div>
-    </form>
-    <div class="smallprint" data-reveal style="--i:2">
-      <p>Attach the specification, dieline and artwork when you reply to our email.</p>
-      <p>Offices in the United Kingdom and Bangladesh.</p>
+<section class="explore" id="explore" aria-labelledby="ex-h" data-watch>
+  <div class="plate"><div class="pic"><img id="ex-pic" src="assets/photo/cat-folding.jpg" width="2048" height="2048" alt="Plain navy folding cartons on a sample-room table" loading="lazy"></div></div>
+  <div class="panel">
+    <div class="tabs" role="tablist" aria-label="Packaging categories">
+      <button role="tab" aria-selected="true" data-cat="folding">Folding cartons</button>
+      <button role="tab" aria-selected="false" data-cat="premium">Premium packaging</button>
+      <button role="tab" aria-selected="false" data-cat="corrugated">Corrugated</button>
+      <button role="tab" aria-selected="false" data-cat="retail">Retail</button>
+      <button role="tab" aria-selected="false" data-cat="food">Food</button>
+      <button role="tab" aria-selected="false" data-cat="healthcare">Healthcare</button>
     </div>
-    <div class="needs" data-reveal style="--i:3">
-      <div class="tile"><h3>What a brief needs</h3><ul><li>The product and its target market</li><li>Packaging type, size and board in mind</li><li>Quantity, now and per year</li><li>Target cost per unit, if you have one</li><li>Delivery date and destination</li><li>Artwork and dieline, when they exist</li></ul></div>
-      <div class="tile tile--photo"><img src="assets/corrugated-e.jpg" width="1200" height="900" alt="E-flute corrugated board at its cut edge" loading="lazy"></div>
+    <div class="mid" aria-live="polite">
+      <h3 id="ex-h">Folding cartons</h3>
+      <p id="ex-desc">Mono, straight-line, auto-lock and window cartons on FBB and SBS, with offset print and the finishing the brand calls for.</p>
+      <ul class="items" id="ex-items"></ul>
     </div>
-    <p class="statement" data-reveal style="--i:4;margin-top:32px;max-width:44ch">Your brief reaches both offices. We reply with the questions a quotation needs, not a sales call.</p>
-    <div class="draft" id="draft" aria-live="polite">
-      <div>
-        <p class="to">Your brief, ready to send</p>
-        <pre id="draft-text"></pre>
-      </div>
-      <div class="acts">
-        <a class="button" id="draft-mail" href="#">Open in your email app</a>
-        <button class="button ghost" type="button" id="draft-copy">Copy the brief</button>
-        <p class="ok" id="draft-ok"></p>
-      </div>
+    <div class="cells">
+      <button class="cell c1" type="button" id="ex-more" aria-expanded="false" aria-controls="ex-items">Explore category</button>
+      <a class="cell c2" href="brief.html">Start a project</a>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="foot">
-  <div class="blocks" aria-hidden="true">
-    <div class="block b1"><span>N</span></div>
-    <div class="block b2"><span>S</span></div>
-    <div class="block b3"><span>S</span></div>
+<section class="macro" aria-labelledby="macro-h">
+  <img id="macro-img" src="assets/photo/macro-foil.jpg" width="2720" height="1536" alt="Macro view of embossed navy board with a stripe of matt ivory foil" loading="lazy">
+  <div class="over">
+    <div class="scrim" aria-hidden="true"></div>
+    <h2 id="macro-h" data-reveal>Details matter before production begins.</h2>
+    <p data-reveal style="--i:1">Material, colour, structure and finishing are approved on samples and written into the specification. The press runs to what was signed, not to what was assumed.</p>
   </div>
-  <div class="footgrid">
-    <nav class="links" aria-label="Footer">
-      <a href="#make">What we make</a>
-      <a href="#how">How it works</a>
-      <a href="#factories">The factories</a>
-      <a href="#quality">Quality</a>
-    </nav>
-    <div class="addr">
-      <p>United Kingdom office <span>Address to be confirmed</span></p>
-      <p>Bangladesh office <span>Address to be confirmed</span></p>
-      <p>www.nssglobalpackaging.com</p>
+</section>
+
+<section class="network section wrap" id="network" aria-labelledby="net-h">
+  <div class="grid">
+    <h2 id="net-h" data-reveal>Local access. International coordination.</h2>
+    <p class="lead" data-reveal style="--i:1">Client coordination in the United Kingdom. A nominated manufacturing network in Bangladesh. One route, plotted and managed, to the market you sell in.</p>
+  </div>
+  <div class="plotwrap">
+    <div class="pic port" data-reveal><img src="assets/photo/network-port.jpg" width="3104" height="1312" alt="A container terminal at blue hour with gantry cranes along the quay" loading="lazy"></div>
+    <div class="plot" data-reveal style="--i:1">
+      <svg viewBox="0 0 520 330" role="img" aria-labelledby="plot-t"><title id="plot-t">Route plot from the Bangladesh manufacturing network to the United Kingdom and onward markets</title>
+        <path id="routepath" d="M452 258 C 380 262, 330 220, 300 186 S 250 150, 196 148 S 120 130, 74 70" fill="none" stroke="#FBEAD5" stroke-width="2.5" stroke-dasharray="8 6"/>
+        <path d="M74 70 C 100 50, 130 40, 160 34" fill="none" stroke="#FBEAD5" stroke-width="1.5" stroke-dasharray="3 6"/>
+        <path d="M74 70 C 40 90, 20 140, 24 190" fill="none" stroke="#FBEAD5" stroke-width="1.5" stroke-dasharray="3 6"/>
+        <path d="M452 258 C 470 230, 490 200, 500 170" fill="none" stroke="#FBEAD5" stroke-width="1.5" stroke-dasharray="3 6"/>
+        <g fill="#FBEAD5" font-family="STIX Two Text, Georgia, serif" font-size="15">
+          <rect x="446" y="252" width="12" height="12"/><text x="414" y="288">Chattogram</text><text x="368" y="306" fill="#C9C2B6">Manufacturing network</text>
+          <rect x="294" y="180" width="12" height="12"/><text x="310" y="178">Suez</text>
+          <rect x="190" y="142" width="12" height="12"/><text x="150" y="134">Mediterranean</text>
+          <rect x="68" y="64" width="12" height="12"/><text x="86" y="60">United Kingdom</text><text x="86" y="78" fill="#C9C2B6">Client coordination</text>
+          <circle cx="160" cy="34" r="4"/><text x="170" y="38" fill="#C9C2B6">Northern Europe</text>
+          <circle cx="24" cy="190" r="4"/><text x="34" y="206" fill="#C9C2B6">North America</text>
+          <circle cx="500" cy="170" r="4"/><text x="430" y="164" fill="#C9C2B6">Middle East</text>
+        </g>
+      </svg>
+      <p class="legend"><strong>Plotted, not promised.</strong> Routes, transit times and freight are quoted per shipment. The line shows the corridor most Averon programmes travel.</p>
     </div>
   </div>
-  <div class="footrow">
-    <span>NSS Global Packaging, 2026</span>
-    <a class="button" href="#brief">Send a brief</a>
+  <div class="nodes">
+    <div data-reveal style="--i:0"><strong>United Kingdom</strong>Client coordination, specification, commercial terms.</div>
+    <div data-reveal style="--i:1"><strong>Bangladesh</strong>Nominated factories, sampling, production, inspection.</div>
+    <div data-reveal style="--i:2"><strong>Freight</strong>Sea and air options compared, booked and documented.</div>
+    <div data-reveal style="--i:3"><strong>Destination</strong>Delivery to the agreed terms, in the market you sell in.</div>
   </div>
+</section>
+
+<section class="industries section" id="industries" aria-labelledby="ind-h">
+  <div class="head wrap">
+    <h2 id="ind-h" data-reveal>Industries we work in</h2>
+    <p class="count" data-reveal style="--i:1">Seven sectors</p>
+  </div>
+  <div class="row" data-drag>
+    <div class="ind" data-reveal style="--i:0"><img src="assets/photo/cat-folding.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Beauty and personal care</h3></div>
+    <div class="ind" data-reveal style="--i:1"><img src="assets/photo/cat-food.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Food and beverage</h3></div>
+    <div class="ind" data-reveal style="--i:2"><img src="assets/photo/cat-healthcare.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Pharmaceutical and healthcare</h3></div>
+    <div class="ind" data-reveal style="--i:3"><img src="assets/photo/cat-retail.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Fashion and footwear</h3></div>
+    <div class="ind" data-reveal style="--i:4"><img src="assets/photo/ind-home.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Home and lifestyle</h3></div>
+    <div class="ind" data-reveal style="--i:5"><img src="assets/photo/cat-premium.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Luxury and premium</h3></div>
+    <div class="ind" data-reveal style="--i:6"><img src="assets/photo/cat-corrugated.jpg" width="2048" height="2048" alt="" loading="lazy"><span class="veil"></span><h3>Retail and e-commerce</h3></div>
+  </div>
+</section>
+
+<section class="why section wrap" aria-labelledby="why-h">
+  <div class="grid">
+    <h2 id="why-h" data-reveal>Why Averon</h2>
+    <div class="cols">
+      <div data-reveal style="--i:0"><h3>One point of coordination</h3><p>Client requirement through shipment, with a named owner at every stage.</p></div>
+      <div data-reveal style="--i:1"><h3>Multi-factory sourcing</h3><p>Manufacturing routes matched to project requirements, not every order forced through one facility.</p></div>
+      <div data-reveal style="--i:2"><h3>Quality planned before production</h3><p>Specifications, artwork, colour references, samples and inspection points established before scale production.</p></div>
+      <div data-reveal style="--i:3"><h3>Commercial visibility</h3><p>Factory price considered alongside quality, freight, lead time and landed cost.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="gallery section" aria-labelledby="gal-h">
+  <div class="head">
+    <h2 id="gal-h" data-reveal>Production, in order</h2>
+    <p class="count" data-reveal style="--i:1">Nine photographs</p>
+  </div>
+  <div class="row" data-drag>
+    <div class="mod tall" data-reveal style="--i:0"><span class="word">Material</span><div class="pic"><img src="assets/photo/gal-material.jpg" width="1760" height="2336" alt="Stacks of packaging board on pallets in a paper warehouse" loading="lazy"></div></div>
+    <div class="mod pair" data-reveal style="--i:1"><div class="pic"><span class="word">Print</span><img src="assets/photo/gal-print.jpg" width="2336" height="1760" alt="Offset press rollers and a plate cylinder with navy ink" loading="lazy"></div><div class="pic"><span class="word">Finish</span><img src="assets/photo/gal-finish.jpg" width="2336" height="1760" alt="A hot foil stamping machine with a roll of ivory foil" loading="lazy"></div></div>
+    <div class="mod wide" data-reveal style="--i:2"><span class="word">Convert</span><div class="pic"><img src="assets/photo/gal-convert.jpg" width="2496" height="1664" alt="A die-cutting press with carton blanks beside it" loading="lazy"></div></div>
+    <div class="mod pair" data-reveal style="--i:3"><div class="pic"><span class="word">Inspect</span><img src="assets/photo/gal-inspect.jpg" width="2336" height="1760" alt="An operator checking registration marks with a loupe" loading="lazy"></div><div class="pic"><span class="word">Pack</span><img src="assets/photo/gal-pack.jpg" width="2336" height="1760" alt="Folding cartons packed into corrugated shipping cases" loading="lazy"></div></div>
+    <div class="mod tall" data-reveal style="--i:4"><span class="word">Ship</span><div class="pic"><img src="assets/photo/gal-ship.jpg" width="1760" height="2336" alt="A gantry crane lifting a container at a port" loading="lazy"></div></div>
+    <div class="mod wide" data-reveal style="--i:5"><span class="word">Manage</span><div class="pic"><img src="assets/photo/factory-manager.jpg" width="2496" height="1664" alt="A factory manager beside a running carton line" loading="lazy"></div></div>
+  </div>
+</section>
+
+<section class="quality" aria-labelledby="q-h" data-watch>
+  <div class="pic" data-reveal><img src="assets/photo/quality-macro.jpg" width="1760" height="2336" alt="A digital caliper measuring the crease of a navy carton flap" loading="lazy"></div>
+  <div class="text">
+    <h2 id="q-h" data-reveal>Quality is designed in.</h2>
+    <p data-reveal style="--i:1">Define the standard. Approve the specification. Monitor the process. Document the outcome. Where agreed, inspection follows AQL sampling or your own procedure.</p>
+    <ul data-reveal style="--i:2">
+      <li style="--i:0"><i></i>Material</li>
+      <li style="--i:1"><i></i>Artwork</li>
+      <li style="--i:2"><i></i>Colour</li>
+      <li style="--i:3"><i></i>Construction</li>
+      <li style="--i:4"><i></i>Dimensions</li>
+      <li style="--i:5"><i></i>Finish</li>
+      <li style="--i:6"><i></i>Packing</li>
+      <li style="--i:7"><i></i>Shipment readiness</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sustain section wrap" aria-labelledby="sus-h">
+  <div class="grid">
+    <div class="pic" data-reveal><img src="assets/photo/sust-kraft.jpg" width="2720" height="1536" alt="The torn edge of recycled kraft board beside coated white folding boxboard" loading="lazy"></div>
+    <div class="text">
+      <h2 id="sus-h" data-reveal>Less material, better used.</h2>
+      <p data-reveal style="--i:1">Sustainability on a packaging programme is a set of decisions, not a claim. Where the product and the destination market allow, Averon reviews:</p>
+      <ul data-reveal style="--i:2">
+        <li>material efficiency in the structure and the layout</li>
+        <li>recyclable, fibre-based alternatives</li>
+        <li>certified materials, where suitable and supported by valid supplier evidence</li>
+        <li>structural optimisation of the pack and the case</li>
+        <li>carton, pallet and container utilisation</li>
+      </ul>
+      <p data-reveal style="--i:3">Environmental claims are supported by material data or supplier documentation, or they are not made.</p>
+    </div>
+  </div>
+</section>
+
+<section class="close wrap" id="contact" aria-labelledby="close-h">
+  <div class="bg" aria-hidden="true"><img src="assets/photo/macro-foil.jpg" width="2720" height="1536" alt="" loading="lazy"></div>
+  <h2 id="close-h" data-reveal><span class="nowrap">Have a product</span><br><span class="nowrap">to source?</span></h2>
+  <div class="foot">
+    <p data-reveal style="--i:1">Tell us what you need. We reply with the questions a quotation needs, not a sales call.</p>
+    <div class="acts" data-reveal style="--i:2"><a class="btn btn--ivory" href="brief.html">Start your brief</a><a class="textlink" href="brief.html#contact">Speak to Averon</a></div>
+  </div>
+</section>
+
+<footer class="footer wrap">
+  <div class="cols">
+    <div><strong>Averon Global</strong><span>Connecting Markets. Managing Supply.</span><span>United Kingdom office, address to be confirmed</span><span>Bangladesh office, address to be confirmed</span></div>
+    <div><strong>Site</strong><a href="#solutions">Solutions</a><br><a href="#how">How we work</a><br><a href="#network">Network</a><br><a href="#industries">Industries</a></div>
+    <div><strong>Projects</strong><span>Case studies are in preparation. Each will document the challenge, product, specification, materials, manufacturing route, quality requirements, result and delivery.</span></div>
+    <div><strong>Contact</strong><a href="brief.html">Start a project</a><br><span>Email and telephone to be confirmed</span></div>
+  </div>
+  <div class="wordmark"><img src="assets/brand/logo-ivory.png" width="1600" height="1024" alt="Averon Global. Connecting Markets. Managing Supply." loading="lazy"></div>
+  <p class="legal"><span>Averon Global, 2026</span><span>Photography in preparation; images shown are production stand-ins until the photographic set is approved.</span></p>
 </footer>
 
-<script>
-(function(){
-  var grades = {
-    sbs:{name:"SBS",img:"assets/sbs.jpg",alt:"Solid bleached board, white through the sheet, shown with its cut edge",desc:"Solid bleached board. Bright white through the sheet; the cleanest print surface we offer.",gsm:"250 to 400 gsm.",use:"Cosmetics cartons, pharmaceutical cartons, premium food.",run:"Run by Genesis Ventures and Miah & Sons"},
-    fbb:{name:"FBB",img:"assets/fbb.jpg",alt:"Folding boxboard, a white coated face over a cream core",desc:"Folding boxboard. A coated white face on a cream mechanical-pulp core, so it is stiff and light.",gsm:"230 to 400 gsm.",use:"Retail cartons, confectionery, healthcare.",run:"Run by Genesis Ventures, Bori and Miah & Sons"},
-    duplex:{name:"Duplex",img:"assets/duplex.jpg",alt:"Duplex board, a white coated face with a grey back",desc:"White coated face, grey back. The economical carton board.",gsm:"230 to 450 gsm.",use:"Shoe boxes, product cartons, sleeves and inserts.",run:"Run by Bori and Miah & Sons"},
-    kraft:{name:"Kraft",img:"assets/kraft.jpg",alt:"Natural brown kraft board with a fibrous matt surface",desc:"Unbleached natural brown board. Strong fibre and a matt, tactile surface.",gsm:"200 to 400 gsm.",use:"Paper bags, hangtags, natural and food-grade packaging.",run:"Run by Bori and ESAR"},
-    corrugated:{name:"Corrugated",img:"assets/corrugated.jpg",alt:"Corrugated board, liners over a wave of fluting, seen at the cut edge",desc:"Liners over E, B or BC flute. Takes litho lamination or direct flexo print.",gsm:"Single or double wall.",use:"Shipping cartons, e-commerce mailers, displays and inserts.",run:"Run by ESAR and Miah & Sons"}
-  };
-  var pic = document.getElementById('grade-pic');
-  var current = 'corrugated';
-  function show(key){
-    var g = grades[key]; if(!g || key===current) return; current = key;
-    document.querySelectorAll('.swatch').forEach(function(b){ b.setAttribute('aria-pressed', b.dataset.grade===key ? 'true':'false'); });
-    pic.classList.add('is-out');
-    setTimeout(function(){ pic.src = g.img; pic.alt = g.alt; pic.classList.remove('is-out'); }, 220);
-    document.getElementById('g-name').textContent = g.name;
-    document.getElementById('g-desc').textContent = g.desc;
-    document.getElementById('g-use').innerHTML = '<b></b> ';
-    document.getElementById('g-use').querySelector('b').textContent = g.gsm;
-    document.getElementById('g-use').appendChild(document.createTextNode(g.use));
-    document.getElementById('g-run').textContent = g.run;
-  }
-  document.querySelectorAll('.swatch').forEach(function(b){ b.addEventListener('click', function(){ show(b.dataset.grade); }); });
-
-  // Hero brief starter hands its values to the brief builder
-  var starter = document.getElementById('starter');
-  starter.addEventListener('submit', function(e){
-    e.preventDefault();
-    var t = document.getElementById('s-type').value, q = document.getElementById('s-qty').value.trim();
-    var what = document.getElementById('b-what');
-    what.value = (q ? q + ' ' : '') + t.toLowerCase();
-    document.getElementById('brief').scrollIntoView({behavior:'smooth'});
-    setTimeout(function(){ document.getElementById('b-email').focus({preventScroll:true}); }, 700);
-  });
-
-  // Accordion of stages
-  var stages = document.querySelectorAll('.stage');
-  stages.forEach(function(s){ s.querySelector('button').addEventListener('click', function(){ stages.forEach(function(x){ x.dataset.open = (x===s) ? 'true':'false'; }); }); });
-
-  // The brief builder drafts the email
-  var form = document.getElementById('briefform'), draft = document.getElementById('draft');
-  var TO = 'enquiries@nssglobalpackaging.com';
-  form.addEventListener('submit', function(e){
-    e.preventDefault();
-    var email = document.getElementById('b-email').value.trim(), what = document.getElementById('b-what').value.trim();
-    var g = grades[current];
-    var body = 'Hello NSS,\n\nI would like a technical and commercial review for ' + (what || 'packaging') + '.\n'
-      + 'Board in mind: ' + g.name + ' (' + g.gsm.replace(/\.$/,'') + ').\n'
-      + 'Target delivery date: \nDestination market: \nTarget cost per unit: \n\n'
-      + 'I will attach the specification, dieline and artwork.\n\nReply to: ' + email + '\n';
-    document.getElementById('draft-text').textContent = 'To: ' + TO + '\nSubject: Packaging brief, ' + (what || 'new project') + '\n\n' + body;
-    document.getElementById('draft-mail').href = 'mailto:' + TO + '?subject=' + encodeURIComponent('Packaging brief, ' + (what || 'new project')) + '&body=' + encodeURIComponent(body);
-    draft.classList.add('is-open');
-    document.getElementById('draft-ok').textContent = '';
-    draft.scrollIntoView({behavior:'smooth', block:'nearest'});
-  });
-  document.getElementById('draft-copy').addEventListener('click', function(){
-    var txt = document.getElementById('draft-text').textContent, ok = document.getElementById('draft-ok');
-    function fallback(){ var r = document.createRange(); r.selectNodeContents(document.getElementById('draft-text')); var s = window.getSelection(); s.removeAllRanges(); s.addRange(r); ok.textContent = 'Selected. Press copy on your keyboard.'; }
-    try { navigator.clipboard.writeText(txt).then(function(){ ok.textContent = 'Copied to your clipboard.'; }, fallback); } catch(err){ fallback(); }
-  });
-
-  // Reveal on scroll, once; nothing stays hidden if the observer never fires
-  var items = document.querySelectorAll('[data-reveal]');
-  if ('IntersectionObserver' in window) {
-    var io = new IntersectionObserver(function(entries){ entries.forEach(function(en){ if(en.isIntersecting){ en.target.classList.add('is-in'); io.unobserve(en.target); } }); }, {rootMargin:'0px 0px -10% 0px', threshold:0.08});
-    items.forEach(function(el){ io.observe(el); });
-  } else { items.forEach(function(el){ el.classList.add('is-in'); }); }
-  setTimeout(function(){ items.forEach(function(el){ el.classList.add('is-in'); }); }, 6000);
-
-  // The figure counts up once when seen
-  var fig = document.querySelector('[data-count]');
-  if (fig && 'IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches) {
-    var target = parseInt(fig.dataset.count, 10); fig.textContent = '0';
-    var fo = new IntersectionObserver(function(en){ if(en[0].isIntersecting){ fo.disconnect(); var t0 = null; function step(ts){ if(!t0) t0 = ts; var p = Math.min(1,(ts-t0)/900); fig.textContent = Math.round(target * (1 - Math.pow(1-p,3))); if(p<1) requestAnimationFrame(step); } requestAnimationFrame(step); } }, {threshold:0.5});
-    fo.observe(fig);
-  }
-})();
-</script>
-
+<script src="assets/site.js" defer></script>
 </body>
 </html>
