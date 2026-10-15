@@ -11,7 +11,7 @@ from PIL import Image, ImageOps
 ROOT = os.path.join(os.path.dirname(__file__), '..')
 LIST = os.path.join(ROOT, 'tools', 'photo-urls.txt')
 OUT = os.path.join(ROOT, 'assets', 'photo')
-WIDE = {'hero-press': 2200, 'macro-foil': 2200, 'network-port': 2400, 'sust-kraft': 2000, 'cap-manufacturing': 2000, 'cap-freight': 2000}
+WIDE = {'hero-press': 2200, 'hero-1': 2200, 'hero-2': 2200, 'hero-3': 2200, 'macro-foil': 2200, 'network-port': 2400, 'sust-kraft': 2000, 'cap-manufacturing': 2000, 'cap-freight': 2000}
 os.makedirs(os.path.join(OUT, 'm'), exist_ok=True)
 done = 0
 for line in open(LIST):
