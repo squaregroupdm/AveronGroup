@@ -1,0 +1,2647 @@
+{
+ "url": "index.html",
+ "at": "2026-10-15T09:08:07.616Z",
+ "allow": [
+  "palette-cream",
+  "glass",
+  "eyebrow",
+  "numbering",
+  "rules"
+ ],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.33,
+    0.74,
+    0.25,
+    0.83,
+    0.54,
+    0.28,
+    0.28,
+    0.71,
+    1,
+    0.44,
+    0.29,
+    0.32
+   ],
+   "motion": {
+    "elements": 51,
+    "css": 0,
+    "transitions": 31,
+    "scripted": 20,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 11351,
+     "screens": 12.6,
+     "words": 728,
+     "img": 21,
+     "video": 0,
+     "canvas": 0,
+     "svg": 15,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-press.webp",
+      "journey-brief.webp",
+      "cap-manufacturing.webp",
+      "gal-material.webp",
+      "sust-kraft.jpg",
+      "gal-print.jpg",
+      "gal-finish.jpg",
+      "gal-convert.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "From requirement to destination.",
+     "words": 4,
+     "chars": 32,
+     "lines": 2,
+     "size": 72,
+     "vw": 5,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.53,
+     "top": 387,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "From requirement to destination.",
+     "words": 4,
+     "lines": 2,
+     "size": 72,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "From requirement to destination.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 72,
+      "vw": 5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.53,
+      "top": 387,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "It starts with what you need.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 996,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "A requirement, not a catalogue.",
+      "words": 5,
+      "chars": 31,
+      "lines": 2,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 1070,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Finding capacity is easy. Finding the right fit is harder.",
+      "words": 10,
+      "chars": 58,
+      "lines": 2,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 2146,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Before production comes specification.",
+      "words": 4,
+      "chars": 38,
+      "lines": 2,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 3139,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The board decides the carton.",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 3259,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Now the specification becomes physical.",
+      "words": 5,
+      "chars": 39,
+      "lines": 3,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.2,
+      "top": 4226,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Print. Finish. Convert.",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 4690,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality is agreed before it is inspected.",
+      "words": 7,
+      "chars": 41,
+      "lines": 2,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 6912,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Five gates, signed before and during production.",
+      "words": 7,
+      "chars": 48,
+      "lines": 3,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.31,
+      "top": 7032,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built to arrive as specified.",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 7904,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One carton becomes a shipment.",
+      "words": 5,
+      "chars": 30,
+      "lines": 3,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.25,
+      "top": 8024,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Production finished. Coordination continues.",
+      "words": 4,
+      "chars": 44,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 8890,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Arrived as specified.",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.55,
+      "top": 9950,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One journey. One connected team.",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.3,
+      "top": 10016,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell us what you're working on.",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 41.6,
+      "vw": 2.9,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 10607,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Start a project in seven short questions.",
+      "words": 7,
+      "chars": 41,
+      "lines": 2,
+      "size": 49.9,
+      "vw": 3.5,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 10673,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 17,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 9,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      20,
+      22,
+      42,
+      50,
+      72
+     ],
+     "sizeCount": 12,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 14,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 51,
+     "max": {
+      "size": 72,
+      "vw": 5,
+      "font": "Manrope",
+      "text": "From requirement to destination."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 27,
+     "microLabelShare": 0.053,
+     "microSamples": [
+      "Opening",
+      "Opening",
+      "Production reference",
+      "Brief",
+      "Source",
+      "Material"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0,
+     "smallText": 24
+    },
+    "eyebrows": [
+     {
+      "text": "00",
+      "above": "From requirement to destination.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 340
+     },
+     {
+      "text": "01",
+      "above": "It starts with what you need.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 956
+     },
+     {
+      "text": "02",
+      "above": "Finding capacity is easy. Finding the ri",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2107
+     },
+     {
+      "text": "03",
+      "above": "Before production comes specification.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3100
+     },
+     {
+      "text": "04",
+      "above": "Now the specification becomes physical.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4187
+     },
+     {
+      "text": "05",
+      "above": "Quality is agreed before it is inspected",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6873
+     },
+     {
+      "text": "06",
+      "above": "Built to arrive as specified.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 7865
+     },
+     {
+      "text": "07",
+      "above": "Production finished. Coordination contin",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8850
+     },
+     {
+      "text": "08",
+      "above": "Arrived as specified.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9911
+     }
+    ],
+    "numbered": [
+     {
+      "text": "00",
+      "size": 12,
+      "top": 806
+     },
+     {
+      "text": "/ 08",
+      "size": 12,
+      "top": 806
+     },
+     {
+      "text": "00",
+      "size": 12,
+      "top": 340
+     },
+     {
+      "text": "01",
+      "size": 12,
+      "top": 956
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 2107
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 3100
+     },
+     {
+      "text": "01",
+      "size": 11.5,
+      "top": 3425
+     },
+     {
+      "text": "02",
+      "size": 11.5,
+      "top": 3476
+     },
+     {
+      "text": "03",
+      "size": 11.5,
+      "top": 3527
+     },
+     {
+      "text": "04",
+      "size": 11.5,
+      "top": 3579
+     },
+     {
+      "text": "05",
+      "size": 11.5,
+      "top": 3630
+     },
+     {
+      "text": "06",
+      "size": 11.5,
+      "top": 3681
+     }
+    ],
+    "color": {
+     "bodyBg": "#050a30",
+     "bodyBgHsl": {
+      "h": 233,
+      "s": 0.81,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#fbead5",
+       "top": 792,
+       "hsl": {
+        "h": 33,
+        "s": 0.83,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#021a38",
+       "top": 3407,
+       "hsl": {
+        "h": 213,
+        "s": 0.93,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#050a30",
+       "top": 8454,
+       "hsl": {
+        "h": 233,
+        "s": 0.81,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#fbe9d5",
+       "share": 0.39
+      },
+      {
+       "color": "#5b6578",
+       "share": 0.32
+      },
+      {
+       "color": "#fbead5",
+       "share": 0.18
+      },
+      {
+       "color": "#050a30",
+       "share": 0.1
+      },
+      {
+       "color": "#fce9d5",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#fbead5",
+      "hsl": {
+       "h": 33,
+       "s": 0.83,
+       "l": 0.91
+      },
+      "fg": "#050a30"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start a Project",
+      "Start a Project",
+      "Follow the journey"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 21,
+     "hairlineSamples": [
+      "ul#mat-list 318px",
+      "li 318px",
+      "li 318px",
+      "li 318px",
+      "ul#gates.gates.is-in 542px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 19,
+     "roundedBoxes": 14,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 6,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 4768
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.88
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "cormorant garamond"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.34,
+    0.93,
+    0.37,
+    0.72,
+    0.66,
+    0.28,
+    0.28,
+    0.43,
+    1,
+    0.87,
+    0.52,
+    0.28
+   ],
+   "motion": {
+    "elements": 46,
+    "css": 0,
+    "transitions": 26,
+    "scripted": 20,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 13899,
+     "screens": 13.6,
+     "words": 714,
+     "img": 21,
+     "video": 0,
+     "canvas": 0,
+     "svg": 15,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-press.webp",
+      "journey-brief.webp",
+      "cap-manufacturing.webp",
+      "gal-material.webp",
+      "sust-kraft.jpg",
+      "gal-print.jpg",
+      "gal-finish.jpg",
+      "gal-convert.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "From requirement to destination.",
+     "words": 4,
+     "chars": 32,
+     "lines": 2,
+     "size": 56.6,
+     "vw": 7.4,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 575,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "From requirement to destination.",
+     "words": 4,
+     "lines": 2,
+     "size": 56.6,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "From requirement to destination.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 56.6,
+      "vw": 7.4,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 575,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "It starts with what you need.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1017,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "A requirement, not a catalogue.",
+      "words": 5,
+      "chars": 31,
+      "lines": 2,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 1078,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Finding capacity is easy. Finding the right fit is harder.",
+      "words": 10,
+      "chars": 58,
+      "lines": 2,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 2626,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Before production comes specification.",
+      "words": 4,
+      "chars": 38,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 3745,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The board decides the carton.",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 3798,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Now the specification becomes physical.",
+      "words": 5,
+      "chars": 39,
+      "lines": 3,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.29,
+      "top": 5099,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Print. Finish. Convert.",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 5707,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality is agreed before it is inspected.",
+      "words": 7,
+      "chars": 41,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 8114,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Five gates, signed before and during production.",
+      "words": 7,
+      "chars": 48,
+      "lines": 2,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 8167,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built to arrive as specified.",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 9489,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One carton becomes a shipment.",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 9542,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Production finished. Coordination continues.",
+      "words": 4,
+      "chars": 44,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 10659,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Arrived as specified.",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 12057,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One journey. One connected team.",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 12109,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell us what you're working on.",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 31.5,
+      "vw": 4.1,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 12802,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Start a project in seven short questions.",
+      "words": 7,
+      "chars": 41,
+      "lines": 2,
+      "size": 37.8,
+      "vw": 4.9,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.62,
+      "top": 12855,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 17,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 9,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      32,
+      38,
+      57
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 14,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 76,
+     "max": {
+      "size": 56.6,
+      "vw": 7.4,
+      "font": "Manrope",
+      "text": "From requirement to destination."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 26,
+     "microLabelShare": 0.053,
+     "microSamples": [
+      "Opening",
+      "Production reference",
+      "Brief",
+      "Source",
+      "Material",
+      "Make"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0,
+     "smallText": 24
+    },
+    "eyebrows": [
+     {
+      "text": "00",
+      "above": "From requirement to destination.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 528
+     },
+     {
+      "text": "01",
+      "above": "It starts with what you need.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 978
+     },
+     {
+      "text": "02",
+      "above": "Finding capacity is easy. Finding the ri",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 2587
+     },
+     {
+      "text": "03",
+      "above": "Before production comes specification.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3706
+     },
+     {
+      "text": "04",
+      "above": "Now the specification becomes physical.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 5060
+     },
+     {
+      "text": "05",
+      "above": "Quality is agreed before it is inspected",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8075
+     },
+     {
+      "text": "06",
+      "above": "Built to arrive as specified.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9450
+     },
+     {
+      "text": "07",
+      "above": "Production finished. Coordination contin",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 10620
+     },
+     {
+      "text": "08",
+      "above": "Arrived as specified.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 12017
+     }
+    ],
+    "numbered": [
+     {
+      "text": "00",
+      "size": 12,
+      "top": 528
+     },
+     {
+      "text": "01",
+      "size": 12,
+      "top": 978
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 2587
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 3706
+     },
+     {
+      "text": "01",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "02",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "03",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "04",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "05",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "06",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "07",
+      "size": 11.5,
+      "top": 4006
+     },
+     {
+      "text": "04",
+      "size": 12,
+      "top": 5060
+     }
+    ],
+    "color": {
+     "bodyBg": "#050a30",
+     "bodyBgHsl": {
+      "h": 233,
+      "s": 0.81,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#fbead5",
+       "top": 901,
+       "hsl": {
+        "h": 33,
+        "s": 0.83,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#021a38",
+       "top": 1351,
+       "hsl": {
+        "h": 213,
+        "s": 0.93,
+        "l": 0.11
+       }
+      },
+      {
+       "color": "#050a30",
+       "top": 10108,
+       "hsl": {
+        "h": 233,
+        "s": 0.81,
+        "l": 0.1
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#fbe9d5",
+       "share": 0.38
+      },
+      {
+       "color": "#5b6578",
+       "share": 0.33
+      },
+      {
+       "color": "#fbead5",
+       "share": 0.18
+      },
+      {
+       "color": "#050a30",
+       "share": 0.1
+      },
+      {
+       "color": "#fce9d5",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#fbead5",
+      "hsl": {
+       "h": 33,
+       "s": 0.83,
+       "l": 0.91
+      },
+      "fg": "#050a30"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start a Project",
+      "Follow the journey"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 20,
+     "hairlineSamples": [
+      "ul#mat-list 665px",
+      "li 665px",
+      "li 665px",
+      "li 665px",
+      "ul#gates.gates.is-in 707px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 17,
+     "roundedBoxes": 14,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 6,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5772
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.88
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 56,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "cormorant garamond"
+    ]
+   },
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.43,
+    0.93,
+    0.61,
+    0.94,
+    0.7,
+    0.56,
+    0.56,
+    0.69,
+    1,
+    1,
+    1,
+    0.35
+   ],
+   "motion": {
+    "elements": 45,
+    "css": 0,
+    "transitions": 26,
+    "scripted": 19,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 13103,
+     "screens": 15.5,
+     "words": 673,
+     "img": 21,
+     "video": 0,
+     "canvas": 0,
+     "svg": 15,
+     "sections": 9,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 14,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "hero-press.webp",
+      "journey-brief.webp",
+      "cap-manufacturing.webp",
+      "gal-material.webp",
+      "sust-kraft.jpg",
+      "gal-print.jpg",
+      "gal-finish.jpg",
+      "gal-convert.jpg"
+     ],
+     "blendText": 0,
+     "sideScrollers": 1,
+     "brokenImages": [],
+     "emoji": []
+    },
+    "hero": {
+     "text": "From requirement to destination.",
+     "words": 4,
+     "chars": 32,
+     "lines": 2,
+     "size": 40,
+     "vw": 10.3,
+     "font": "Manrope",
+     "weight": 500,
+     "tracking": -0.025,
+     "leading": 1.02,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.9,
+     "top": 407,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "From requirement to destination.",
+     "words": 4,
+     "lines": 2,
+     "size": 40,
+     "font": "Manrope"
+    },
+    "headings": [
+     {
+      "text": "From requirement to destination.",
+      "words": 4,
+      "chars": 32,
+      "lines": 2,
+      "size": 40,
+      "vw": 10.3,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.025,
+      "leading": 1.02,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 407,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "It starts with what you need.",
+      "words": 6,
+      "chars": 29,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 892,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "A requirement, not a catalogue.",
+      "words": 5,
+      "chars": 31,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 945,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Finding capacity is easy. Finding the right fit is harder.",
+      "words": 10,
+      "chars": 58,
+      "lines": 2,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.76,
+      "top": 1953,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Before production comes specification.",
+      "words": 4,
+      "chars": 38,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3123,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "The board decides the carton.",
+      "words": 5,
+      "chars": 29,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3168,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Now the specification becomes physical.",
+      "words": 5,
+      "chars": 39,
+      "lines": 3,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.45,
+      "top": 4248,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Print. Finish. Convert.",
+      "words": 3,
+      "chars": 23,
+      "lines": 1,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 4546,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quality is agreed before it is inspected.",
+      "words": 7,
+      "chars": 41,
+      "lines": 2,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6723,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Five gates, signed before and during production.",
+      "words": 7,
+      "chars": 48,
+      "lines": 3,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6801,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Built to arrive as specified.",
+      "words": 5,
+      "chars": 29,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8110,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One carton becomes a shipment.",
+      "words": 5,
+      "chars": 30,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 8155,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Production finished. Coordination continues.",
+      "words": 4,
+      "chars": 44,
+      "lines": 2,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 9776,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Arrived as specified.",
+      "words": 3,
+      "chars": 21,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 10980,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "One journey. One connected team.",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.72,
+      "top": 11025,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Tell us what you're working on.",
+      "words": 6,
+      "chars": 31,
+      "lines": 1,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Cormorant Garamond",
+      "weight": 400,
+      "tracking": 0.005,
+      "leading": 1.3,
+      "upper": false,
+      "italic": true,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11635,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Start a project in seven short questions.",
+      "words": 7,
+      "chars": 41,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Manrope",
+      "weight": 500,
+      "tracking": -0.02,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 11680,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 17,
+     "maxLines": 3,
+     "over2Lines": 1,
+     "statements": 9,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Manrope",
+       "share": 0.91,
+       "mono": false
+      },
+      {
+       "family": "Cormorant Garamond",
+       "share": 0.09,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      22,
+      26,
+      32,
+      40
+     ],
+     "sizeCount": 11,
+     "notLoaded": [],
+     "body": {
+      "font": "Manrope",
+      "size": 14,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 44,
+     "max": {
+      "size": 40,
+      "vw": 10.3,
+      "font": "Manrope",
+      "text": "From requirement to destination."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 26,
+     "microLabelShare": 0.056,
+     "microSamples": [
+      "Opening",
+      "Production reference",
+      "Brief",
+      "Source",
+      "Material",
+      "Make"
+     ],
+     "upperShare": 0.06,
+     "centerShare": 0,
+     "smallText": 19
+    },
+    "eyebrows": [
+     {
+      "text": "00",
+      "above": "From requirement to destination.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 360
+     },
+     {
+      "text": "01",
+      "above": "It starts with what you need.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 852
+     },
+     {
+      "text": "02",
+      "above": "Finding capacity is easy. Finding the ri",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 1914
+     },
+     {
+      "text": "03",
+      "above": "Before production comes specification.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3083
+     },
+     {
+      "text": "03",
+      "above": "The board decides the carton.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 3083
+     },
+     {
+      "text": "04",
+      "above": "Now the specification becomes physical.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 4209
+     },
+     {
+      "text": "05",
+      "above": "Quality is agreed before it is inspected",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 6684
+     },
+     {
+      "text": "06",
+      "above": "Built to arrive as specified.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8071
+     },
+     {
+      "text": "06",
+      "above": "One carton becomes a shipment.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 8071
+     },
+     {
+      "text": "07",
+      "above": "Production finished. Coordination contin",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 9737
+     },
+     {
+      "text": "08",
+      "above": "Arrived as specified.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 10940
+     },
+     {
+      "text": "08",
+      "above": "One journey. One connected team.",
+      "upper": false,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 12,
+      "top": 10940
+     }
+    ],
+    "numbered": [
+     {
+      "text": "00",
+      "size": 12,
+      "top": 360
+     },
+     {
+      "text": "01",
+      "size": 12,
+      "top": 852
+     },
+     {
+      "text": "02",
+      "size": 12,
+      "top": 1914
+     },
+     {
+      "text": "03",
+      "size": 12,
+      "top": 3083
+     },
+     {
+      "text": "01",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "02",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "03",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "04",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "05",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "06",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "07",
+      "size": 11.5,
+      "top": 3385
+     },
+     {
+      "text": "04",
+      "size": 12,
+      "top": 4209
+     }
+    ],
+    "color": {
+     "bodyBg": "#050a30",
+     "bodyBgHsl": {
+      "h": 233,
+      "s": 0.81,
+      "l": 0.1
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#fbead5",
+       "top": 776,
+       "hsl": {
+        "h": 33,
+        "s": 0.83,
+        "l": 0.91
+       }
+      },
+      {
+       "color": "#050a30",
+       "top": 9359,
+       "hsl": {
+        "h": 233,
+        "s": 0.81,
+        "l": 0.1
+       }
+      },
+      {
+       "color": "#021a38",
+       "top": 12207,
+       "hsl": {
+        "h": 213,
+        "s": 0.93,
+        "l": 0.11
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#fbe9d5",
+       "share": 0.37
+      },
+      {
+       "color": "#5b6578",
+       "share": 0.35
+      },
+      {
+       "color": "#fbead5",
+       "share": 0.17
+      },
+      {
+       "color": "#050a30",
+       "share": 0.11
+      },
+      {
+       "color": "#fce9d5",
+       "share": 0
+      }
+     ],
+     "button": {
+      "bg": "#fbead5",
+      "hsl": {
+       "h": 33,
+       "s": 0.83,
+       "l": 0.91
+      },
+      "fg": "#050a30"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 4,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 48,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Start a Project",
+      "Follow the journey"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 22,
+     "hairlineSamples": [
+      "ul#mat-list 308px",
+      "li 308px",
+      "li 308px",
+      "li 308px",
+      "ul#gates.gates.is-in 350px"
+     ],
+     "outlinedBoxes": 8,
+     "dashed": 0,
+     "blurred": 11,
+     "roundedBoxes": 14,
+     "boxRadius": 12,
+     "squareMedia": 8,
+     "roundedMedia": 7,
+     "mediaRadius": 12,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 0.92
+     }
+    ],
+    "nav": {
+     "links": 1,
+     "fixed": true,
+     "height": 52,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "manrope",
+     "cormorant garamond"
+    ]
+   },
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "3 headline(s) wrap past two lines at 1440px: \"Now the specification becomes physical.\" → 3 lines (5 words, 41.6px, a paragraph set above 36px); \"Five gates, signed before and during production.\" → 3 lines (7 words, 49.9px); \"One carton becomes a shipment.\" → 3 lines (5 words, 49.9px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "27 tiny uppercase letter-spaced labels (e.g. \"Opening\", \"Opening\", \"Production reference\", \"Brief\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "21 thin rule(s)/divider line(s): ul#mat-list 318px | li 318px | li 318px | li 318px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "8 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "12 different font sizes (12, 13, 14, 15, 16, 17, 18, 20, 22, 42, 50, 72).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 14px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "24 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 1440,
+   "message": "Large text lies under another element at some scroll position: \"From requirement to destination.\" (screen 1, 100% hidden); \"It starts with what you need.\" (screen 2, 100% hidden); \"A requirement, not a catalogue.\" (screen 2, 100% hidden); \"Finding capacity is easy. Finding the right fit \" (screen 4, 50% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "pinned-over-picture",
+   "width": 1440,
+   "message": "Pinned large text slides across pictures while the page scrolls: \"Finding capacity is easy. Finding the right fit \" (screen 3, 100% over a picture); \"Now the specification becomes physical.\" (screen 7, 100% over a picture); \"Print. Finish. Convert.\" (screen 7, 100% over a picture)",
+   "fix": "Jurors read a pinned title crossing drawings or photographs as a collision. Keep the pictures in the column the title does not occupy, or unpin it.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "long-pin",
+   "width": 1440,
+   "message": "The same large text stays on screen for 3 screens in a row: \"Now the specification becomes physical.\"; \"Print. Finish. Convert.\"",
+   "fix": "A pinned element earns two screens, and something must change at each. Shorten the run or give every screen its own content."
+  },
+  {
+   "level": "WARN",
+   "id": "side-scroll",
+   "width": 768,
+   "message": "1 row(s) scroll sideways with content past their edge.",
+   "fix": "Jurors and most visitors read a row cut at the edge as clipped, not as scrollable. Wrap it onto more lines, or end it inside the grid.",
+   "alsoAt": [
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"Now the specification becomes physical.\" → 3 lines (5 words, 25.6px, a paragraph set above 24px); \"Five gates, signed before and during production.\" → 3 lines (7 words, 32px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/claude/averongroup/.taste-skill/inspect/desktop-fold.jpg",
+   "pages": [
+    "/home/claude/averongroup/.taste-skill/inspect/desktop-page-01.jpg",
+    "/home/claude/averongroup/.taste-skill/inspect/desktop-page-02.jpg",
+    "/home/claude/averongroup/.taste-skill/inspect/desktop-page-03.jpg"
+   ]
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/claude/averongroup/.taste-skill/inspect/tablet-fold.jpg",
+   "pages": [
+    "/home/claude/averongroup/.taste-skill/inspect/tablet-page-01.jpg",
+    "/home/claude/averongroup/.taste-skill/inspect/tablet-page-02.jpg"
+   ]
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/claude/averongroup/.taste-skill/inspect/mobile-fold.jpg",
+   "pages": [
+    "/home/claude/averongroup/.taste-skill/inspect/mobile-page-01.jpg",
+    "/home/claude/averongroup/.taste-skill/inspect/mobile-page-02.jpg"
+   ]
+  }
+ ]
+}
