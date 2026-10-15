@@ -1,6 +1,0 @@
-cat-folding https://images.unsplash.com/photo-1779437141537-62577b216307?w=1600&q=82
-cat-food https://images.unsplash.com/photo-1771333297902-1a05063aec2e?w=1600&q=82
-cat-healthcare https://images.unsplash.com/photo-1580281657527-47f249e8f4df?w=1600&q=82
-cat-retail https://images.unsplash.com/photo-1568597396622-85be9c2f9b65?w=1600&q=82
-cat-premium https://images.unsplash.com/photo-1780744871777-fec13139d281?w=1600&q=82
-cat-corrugated https://images.unsplash.com/photo-1766040923580-16ad32fae8b4?w=1600&q=82
