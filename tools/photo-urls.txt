@@ -1,0 +1,7 @@
+# Speedmaster-style press set, 15 October 2026 (kling_omni_image; the two full-bleed ones upscaled to 2K)
+cap-manufacturing https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123839_e04b3be2-d4dd-4254-b3a7-421289323145.png
+gal-print https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123456_4700f3e8-a19e-4558-a137-b92a5017b37b.png
+journey-produce https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123832_381c86d7-83f3-459e-84f7-a6a372fd1001.png
+hero-3 https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_124145_3a1edb16-d324-4633-9479-a82975e86412.png
+factory-manager https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123458_a7b8df2b-23e8-4e68-baa0-c88debe7557c.png
+journey-source https://d8j0ntlcm91z4.cloudfront.net/user_3FwZJWKX5p80NSSKU24hiCBgUHT/hf_20261015_123455_43a032b0-7d3e-44be-abd9-5f52b42bdc3c.png
