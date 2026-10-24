@@ -21,15 +21,15 @@ Both are B2B, commercially literate, risk-aware, and judge trust before price. T
 
 ## Product Purpose
 
-Averon Global (formerly NSS Global Packaging) is an international packaging sourcing and supply partner, UK-fronted and Bangladesh-backed. It gives a client one accountable point of contact from the first brief through specification, costing, sampling, manufacturing management, quality planning, compliance coordination, freight and delivery. The site exists to make a buyer trust Averon enough to send a brief (specification, quantity, delivery date, destination). Success is a brief received.
+UK Plug Sourcing Limited (formerly Averon Global, formerly NSS Global Packaging; rebranded 24 October 2026 from the UK Plug company profile) is a UK-based international packaging sourcing and supply-chain company with a local operational entity, UK Plug Sourcing Bangladesh Limited. It gives a client one accountable point of contact from the first brief through specification, costing, sampling, manufacturing management, quality planning, compliance coordination, freight and delivery. The site exists to make a buyer trust Averon enough to send a brief (specification, quantity, delivery date, destination). Success is a brief received.
 
 ## Positioning
 
-Averon manages the route between requirement and delivery: sourcing, manufacturing management, quality and international supply through one accountable point of contact. The honest claim is total landed value (factory price plus materials, packing, freight, lead time and risk), not the factory price. A single factory cannot truthfully say it matches projects across facilities; a generic sourcing agent cannot truthfully say it owns the chain to the destination.
+UK Plug manages the route between requirement and delivery: sourcing, manufacturing management, quality and international supply through one accountable point of contact. The honest claim is total landed value (factory price plus materials, packing, freight, lead time and risk), not the factory price. A single factory cannot truthfully say it matches projects across facilities; a generic sourcing agent cannot truthfully say it owns the chain to the destination.
 
 ## Operating Context
 
-Buyers work from a specification, an artwork file, a quantity, a target cost, a delivery date and a destination market. The Averon process runs in six stages: Brief, Source, Develop, Approve, Produce, Deliver. Materials are FBB (230 to 400 gsm), SBS, C1S/C2S, kraft, duplex, recycled and corrugated board (E, B, BC flute). Printing is sheetfed offset with CMYK and Pantone, CTP workflows; finishing includes aqueous and UV coating, spot UV, hot and cold foil, embossing and debossing; converting includes die-cutting, creasing, folding, gluing, window patching. Quality is agreed before production (material specification, artwork, colour references, samples) and checked in production and at final (registration, finishing, construction, packing, shipment readiness), with AQL sampling where agreed. Certifications belong to the partner factories, not to Averon, and must be verified per project.
+Buyers work from a specification, an artwork file, a quantity, a target cost, a delivery date and a destination market. The UK Plug commercial model runs in eight steps (requirement, sourcing, technical development, commercial terms, manufacturing, quality, export, delivery) and the quality approach in six stages; the homepage still tells it as the eight-chapter journey. Original note: the Averon process ran in six stages: Brief, Source, Develop, Approve, Produce, Deliver. Materials are FBB (230 to 400 gsm), SBS, C1S/C2S, kraft, duplex, recycled and corrugated board (E, B, BC flute). Printing is sheetfed offset with CMYK and Pantone, CTP workflows; finishing includes aqueous and UV coating, spot UV, hot and cold foil, embossing and debossing; converting includes die-cutting, creasing, folding, gluing, window patching. Quality is agreed before production (material specification, artwork, colour references, samples) and checked in production and at final (registration, finishing, construction, packing, shipment readiness), with AQL sampling where agreed. Certifications belong to the partner factories, not to Averon, and must be verified per project.
 
 ## Capabilities and Constraints
 
@@ -37,7 +37,7 @@ Buyers work from a specification, an artwork file, a quantity, a target cost, a 
 - Packaging categories: folding cartons, premium rigid boxes, corrugated, retail and commercial, food packaging, pharmaceutical and healthcare secondary packaging.
 - Industries served: Beauty and Personal Care, Food and Beverage, Healthcare, Fashion, Lifestyle, Luxury, Retail and E-commerce.
 - Network: client coordination in the United Kingdom, manufacturing access in Bangladesh, international supply coordination.
-- Averon works through trusted manufacturing partnerships in Bangladesh and manages them as one connected team. The owner has rejected defensive wording ("does not own factories", "not a factory owner"): the site uses positive partnership language. The owner supplied the company profile on 15 October 2026 with the instruction to use it for the website; the five nominated partners (Genesis Ventures, Bori Garment Accessories, ESAR Paper Industries, The Uniter Ltd., Miah & Sons Industries Ltd.) are described on the About page from their own published profiles, with the profile's certification caveat. No partner logos are shown.
+- UK Plug works through qualified manufacturing partners in Bangladesh and manages them as one connected team. The owner has rejected defensive wording ("does not own factories", "not a factory owner"): the site uses positive partnership language. The owner supplied the company profile on 15 October 2026 with the instruction to use it for the website; the five nominated partners (Genesis Ventures, Bori Garment Accessories, ESAR Paper Industries, The Uniter Ltd., Miah & Sons Industries Ltd.) are described on the About page from their own published profiles, with the profile's certification caveat. No partner logos are shown.
 - Presence in the United Kingdom and Bangladesh. Addresses, telephone and the enquiries mailbox are not yet supplied; the site shows no "to be confirmed" placeholders (owner's decision, 15 October 2026): footer carries country names and the Start a Project link only.
 - No form backend exists; the primary action gathers a brief in a seven-step form and hands it over by email draft or copy (brief.html).
 - Undecided: legal registration names of the UK and Bangladesh entities; leadership names; indicative pricing and lead times; About content beyond what the profile states.
@@ -62,7 +62,7 @@ Buyers work from a specification, an artwork file, a quantity, a target cost, a 
 ## Product Principles
 
 1. Trust is proven by precision: real process steps, real materials, real inspection points, stated plainly.
-2. Say what Averon does and what the partners do, and never blur the two.
+2. Say what UK Plug does and what the partners do, and never blur the two.
 3. One ask on every screen: start a project.
 4. Total landed value is the argument; the factory price is the bait a competitor uses.
 5. Bangladesh is presented as a capable manufacturing country, not a cheap one.
@@ -71,3 +71,8 @@ Buyers work from a specification, an artwork file, a quantity, a target cost, a 
 ## Accessibility & Inclusion
 
 Buyers read on laptops in offices and on phones between meetings. Standard WCAG AA contrast and keyboard operation; reduced-motion respected.
+
+
+## Rebrand note (24 October 2026)
+
+The site was rebuilt as UK Plug Sourcing Limited from the "UK Plug Sourcing Company Profile" PDF: ten product categories (hang tags and labels, stickers, folding cartons, apparel and RMG, food-service and takeaway, pizza boxes, corrugated, master and export cartons, rigid and luxury, paper cups), eight industries (FMCG, food and beverage, cosmetics and personal care, tobacco, electronics, footwear, jewellery, RMG), six core services, six-stage quality approach, supplier qualification (ISO 9001, ISO 14001, GMI, FSC, FSSC 22000, SQF, SEDEX, SMETA, assessed per project, never assumed), and the two-entity structure. No manufacturing partners are named. The logo is the owner's white wordmark (assets/brand/ukplug-white.png); palette moved to the profile's navy #0F2233, cream #F6F1E8 and amber #D9822B. Contact details were not in the profile (marked to be confirmed) and are left out; brief.html still carries a placeholder mailbox. Photographs supplied with the profile are in assets/photo (provenance embedded as supplied); some carry third-party brand names and are the owner's responsibility.

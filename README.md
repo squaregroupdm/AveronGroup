@@ -1,4 +1,4 @@
-# Averon Global website
+# UK Plug Sourcing Limited website
 
 Static site, deployed by Cloudflare Pages from this repository's `main` branch.
 
@@ -21,6 +21,6 @@ Static site, deployed by Cloudflare Pages from this repository's `main` branch.
 
 ## Before launch
 
-- Replace `enquiries@averonglobal.com` in `tools/pages/brief.html` (and `brief.html`) with the real mailbox.
+- Replace `enquiries@ukplugsourcing.com` in `tools/pages/brief.html` (and `brief.html`) with the real mailbox.
 - Add the office addresses and a contact line to the footer partial when they are confirmed; the site currently shows country names only.
-- Replace the production-reference photographs with the Averon shoot as it is delivered, keeping the file names.
+- Replace generated production-reference photographs with the company's own shoot as it is delivered, keeping the file names.

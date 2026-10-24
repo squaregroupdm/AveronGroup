@@ -1,13 +1,13 @@
 ---
-name: Averon Global
+name: UK Plug Sourcing Limited
 description: The supply journey is the interface. Photographs are the ground; midnight and ivory are the quiet grounds between them.
 colors:
-  midnight: "#050A30"
+  midnight: "#0F2233"  # UK Plug navy, 24 October 2026
   ink: "#021A38"
-  ivory: "#FBEAD5"
+  ivory: "#F6F1E8"
   white: "#FFFFFF"
   slate: "#5B6578"
-  atlantic: "#164C67"
+  atlantic: "#A85A14"
   ivory-soft: "rgba(251, 234, 213, 0.74)"
   hair: "rgba(5, 10, 48, 0.14)"
   hair-strong: "rgba(5, 10, 48, 0.34)"
@@ -171,13 +171,13 @@ components:
     padding: "7px 10px"
 ---
 
-# Design System: Averon Global
+# Design System: UK Plug Sourcing Limited
 
 ## Overview
 
 **Creative North Star: "The Route Line"**
 
-Averon Global's site is one connected supply journey. A requirement enters at the top of the homepage and travels down through eight chapters (Brief, Source, Material, Make, Verify, Pack, Move, Deliver), carried by a single 1.5px ivory route line that scroll draws down the left margin and that resolves into the Averon orbit at the end. Photographs of real production work are the ground. Two quiet grounds, midnight navy and ivory, sit between the photographs; ink is reserved for the footer and for the base beneath every photograph. Nothing decorates; every surface that is not a photograph is either copy or an instrument that reads the photograph.
+UK Plug Sourcing Limited's site is one connected supply journey. A requirement enters at the top of the homepage and travels down through eight chapters (Brief, Source, Material, Make, Verify, Pack, Move, Deliver), carried by a single 1.5px ivory route line that scroll draws down the left margin and that resolves into the Averon orbit at the end. Photographs of real production work are the ground. Two quiet grounds, midnight navy and ivory, sit between the photographs; ink is reserved for the footer and for the base beneath every photograph. Nothing decorates; every surface that is not a photograph is either copy or an instrument that reads the photograph.
 
 The world is editorial and technical at once. Manrope at three weights (400, 500, 600) does all functional work: headlines, body, labels, buttons, tables. Cormorant Garamond italic 400 appears once per chapter as the editorial line that opens it, and once in the footer tagline. Glass (navy at 48 percent, 10px blur, 1px white hairline at 18 percent, 12px radius) exists only as instrumentation laid over photographs: the nav pill, the chapter rail, material specifications, capability tags, production steps. On a flat ground, glass is never used; hairlines and tonal shifts carry structure instead.
 
@@ -197,14 +197,14 @@ Motion reveals meaning and never loops. Reveals rise 14px through a 6px blur in 
 A pinned six-colour brand palette (owner's brief) rendered as two grounds plus translucent hairlines and glass derived from the same two hues.
 
 ### Primary
-- **Midnight** (#050A30): the dark ground. Body background on the homepage, the Move chapter, the conversion band, the material spec panel on tablet, the selected choice chip on the brief form, and the dark pill button on light ground. Every scrim and glass tint is Midnight at reduced alpha.
-- **Ivory** (#FBEAD5): the light ground and the text colour on Midnight. Body ground on inner pages, the pagehead and alternating bands, the primary pill button, the route line, the progress bar, chapter markers, focus rings on dark ground, and the nested arrow circle. Ivory Soft (Ivory at 74 percent) is the secondary text on dark ground: leads, captions, chapter titles, nav links at rest.
+- **Midnight** (#0F2233): the dark ground. Body background on the homepage, the Move chapter, the conversion band, the material spec panel on tablet, the selected choice chip on the brief form, and the dark pill button on light ground. Every scrim and glass tint is Midnight at reduced alpha.
+- **Ivory** (#F6F1E8): the light ground and the text colour on Midnight. Body ground on inner pages, the pagehead and alternating bands, the primary pill button, the route line, the progress bar, chapter markers, focus rings on dark ground, and the nested arrow circle. Ivory Soft (Ivory at 74 percent) is the secondary text on dark ground: leads, captions, chapter titles, nav links at rest.
 
 ### Secondary
 - **Ink** (#021A38): the footer ground, the base colour beneath every photograph while it loads, and the fill of the route map SVG. Never a text colour.
 
 ### Tertiary
-- **Atlantic** (#164C67): the focus ring on light grounds only (2px solid, 3px offset). Not used for fills or text.
+- **Amber** (#D9822B on dark ground, #A85A14 as Amber Ink on light ground): the single accent, from the UK Plug profile. The route line, the progress bar, chapter numbers, the map route and focus rings on light grounds. Never a fill behind text.
 
 ### Neutral
 - **White** (#FFFFFF): alternating light band ground on inner pages (`.on-light`), the field background on the brief form, and the hue of the glass hairline (White at 18 percent).
@@ -259,9 +259,9 @@ Breakpoints: 1024px (rail and desktop nav links appear; below it the burger and 
 There are no shadows. Depth is conveyed by three means: photographs with a Midnight scrim (bottom-weighted 0 to 62 or 78 percent on the opening and Make, left-weighted 72 to 10 percent on Source, left-weighted 86 to 20 percent on Deliver), glass instruments sitting on those photographs, and 1px derived hairlines on flat grounds. A fixed film grain layer (SVG fractal noise at 3.5 percent opacity, overlay blend, 160px tile) sits above everything except the nav and never scrolls with content.
 
 ### Glass Vocabulary
-- **Glass instrument** (`background: rgba(5,10,48,0.48); border: 1px solid rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 12px`): the nav pill, the chapter rail, the material spec panel, the Source panel and capability tags, Make intro and steps, brief field labels, route map labels. When the nav has scrolled past 40px or sits on a light page, its tint deepens to Midnight at 92 percent.
-- **Rail on light ground** (`background: rgba(251,234,213,0.7); border-color: rgba(5,10,48,0.12)`): the one glass variant that flips to ivory, so the rail stays legible when the chapter beneath it is on the ivory ground.
-- **Overlay menu** (`background: rgba(5,10,48,0.82); backdrop-filter: blur(24px)`): the full-screen phone menu, the only 24px blur.
+- **Glass instrument** (`background: rgba(15,34,51,0.48); border: 1px solid rgba(255,255,255,0.18); backdrop-filter: blur(10px); border-radius: 12px`): the nav pill, the chapter rail, the material spec panel, the Source panel and capability tags, Make intro and steps, brief field labels, route map labels. When the nav has scrolled past 40px or sits on a light page, its tint deepens to Midnight at 92 percent.
+- **Rail on light ground** (`background: rgba(246,241,232,0.7); border-color: rgba(15,34,51,0.12)`): the one glass variant that flips to ivory, so the rail stays legible when the chapter beneath it is on the ivory ground.
+- **Overlay menu** (`background: rgba(15,34,51,0.82); backdrop-filter: blur(24px)`): the full-screen phone menu, the only 24px blur.
 
 ### Named Rules
 **The Instrument Rule.** Glass sits over a photograph or over the page as a fixed instrument (nav, rail, overlay). It never frames copy on a flat Midnight or Ivory ground; there, use a Hair border on a 12px radius instead (the conversion mini form, the brief result panel, the summary table). When the material spec panel moves off the photograph on tablet it becomes solid Midnight and drops its blur.
@@ -310,7 +310,7 @@ Decisive and compact: a flat pill with the arrow carried in its own circle, so t
 - **Mobile:** below 1024px the links and pill hide and a 44px round burger (two 18px by 1.5px ivory strokes that rotate into a cross) opens a full-screen overlay at Midnight 82 percent with 24px blur; links at clamp(1.8rem, 6vw, 2.6rem), Manrope 500, rising 24px with 50ms stagger; Escape closes; body scroll locks.
 
 ### The Route Line and Chapter Rail (signature)
-A 1.5px line fixed at the content edge plus 5px runs from beneath the opening's primary button to the end of the journey. Its track is Ivory at 10 percent; the ink layer is solid Ivory, scaled on the Y axis by scroll progress with a 0.4 second scrub. A horizontal elbow (rail width plus 60px) draws from the button into the margin 600ms after load. Each chapter carries a 12px marker with a 1.5px ivory ring that fills ivory once reached. The rail, a small glass instrument fixed bottom left, shows the chapter number in Chapter Number style (00 / 08, the denominator in Ivory Soft at 400) over the chapter title in Label style; it flips to the ivory variant when the chapter beneath is on the light ground. At the Deliver chapter an ellipse (1.5px ivory stroke) draws around the Averon mark in 1.6 seconds, resolving the line into the orbit. Below 1024px the rail and route are replaced by a 2px ivory progress bar at the top of the viewport.
+A 1.5px line fixed at the content edge plus 5px runs from beneath the opening's primary button to the end of the journey. Its track is Ivory at 10 percent; the ink layer is Amber, scaled on the Y axis by scroll progress with a 0.4 second scrub. A horizontal elbow (rail width plus 60px) draws from the button into the margin 600ms after load. Each chapter carries a 12px marker with a 1.5px ivory ring that fills ivory once reached. The rail, a small glass instrument fixed bottom left, shows the chapter number in Chapter Number style (00 / 08, the denominator in Ivory Soft at 400) over the chapter title in Label style; it flips to the ivory variant when the chapter beneath is on the light ground. At the Deliver chapter an ellipse (1.5px ivory stroke) draws around the UK Plug mark in 1.6 seconds, resolving the line into the orbit. Below 1024px the rail and route are replaced by a 2px ivory progress bar at the top of the viewport.
 
 ### Chapter Label (signature)
 Inline: numeral in Chapter Number style, a 28px by 1px bar at 40 percent opacity, the title in Label style (Ivory Soft on dark, Slate on light); 20px below (28px in the opening). Numbers run 00 (Opening) to 08 (Deliver). Owner-sanctioned; it is the one place a small tracked label leads a heading.
