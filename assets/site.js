@@ -134,12 +134,12 @@
 
   // Chapter 03: material selector
   var mats = [
-    { h: 'Folding box board', r: 'FBB, SBS, C1S, C2S · 230 to 400 gsm', items: ['Printability and finishing compatibility', 'Strong folding characteristics', 'Retail, beauty, food and healthcare cartons'], img: 'mat-fbb', alt: 'Fanned sheets of white folding box board' },
-    { h: 'Corrugated board', r: 'E, B and BC flute · single and double wall · kraft or white liners', items: ['Shipping, master and e-commerce cartons', 'Litho-laminated or direct printed', 'Retail-ready packaging, displays and inserts'], img: 'mat-corrugated', alt: 'A stack of layered corrugated board sheets' },
-    { h: 'Rigid greyboard', r: '1.5 to 3 mm · paper or cloth wrapped', items: ['Two-piece, magnetic, drawer and book-style boxes', 'Wrapped in printed or textured paper', 'Premium, gift and presentation packaging'], img: 'prod-greyboard', alt: 'The corner of a greyboard rigid box' },
-    { h: 'Hot and cold foil', r: 'Metallic and pigment foils, hot stamped or cold transfer', items: ['Registered to print and emboss', 'Logos, lines and panels', 'Combined with textured effects'], img: 'mat-foil', alt: 'Gold foil numerals on black textured board' },
-    { h: 'Emboss and deboss', r: 'Blind, registered or combined with foil', items: ['Raised or recessed detail', 'Textured effects on board or wrapped paper', 'One pass with foil where the design allows'], img: 'mat-emboss', alt: 'An embossed dot pattern on white card' },
-    { h: 'Coatings and spot UV', r: 'Aqueous gloss and matt, UV, spot UV, protective coatings', items: ['Protects print and colour', 'Spot UV for contrast on matt', 'Food-contact grades confirmed before quotation'], img: 'cat-healthcare', alt: 'Plain white coated cartons on a grey surface' }
+    { h: 'C2S paperboard', r: 'Coated two sides · 200 to 600 GSM', items: ['Print on both faces, inside and out', 'Folding cartons, hang tags, premium retail packaging', 'Takes lamination, foil, emboss and spot UV'], img: 'mat-fbb', alt: 'Fanned sheets of white coated paperboard' },
+    { h: 'C1S paperboard', r: 'Coated one side · 200 to 600 GSM', items: ['Printed coated face, uncoated glueable reverse', 'Cartons, tags, labels and rigid box wraps', 'Economical where only one face is seen'], img: 'cat-healthcare', alt: 'Plain white cartons on a grey surface' },
+    { h: 'Virgin kraft paperboard', r: 'Unbleached kraft · food-contact grades available', items: ['Natural brown fibre, strong folding characteristics', 'Takeaway boxes, trays, cups and kraft cartons', 'Food-contact paperboard, barrier and coating systems'], img: 'prod-cube', alt: 'A kraft folding carton on white' },
+    { h: 'Corrugated board', r: 'E and F flute for retail · A and B flute for export', items: ['Corrugated, virgin or customised liner combinations', 'Shoe, electronics and protective boxes', 'Master cartons to bursting-strength and ECT requirements'], img: 'mat-corrugated', alt: 'A stack of layered corrugated board sheets' },
+    { h: 'Specialty and textured paper', r: 'Textured, premium and specialty stocks', items: ['Rigid box wraps, hang tags and presentation boxes', 'Fabric and paper lining, custom inserts', 'Embossing, debossing and special texture finishes'], img: 'mat-emboss', alt: 'An embossed dot pattern on white card' },
+    { h: 'Foil, lamination and spot UV', r: 'Thermal, BOPP, matte, gloss and cold lamination · hot and cold foil', items: ['Metallic embellishment registered to print', 'Spot UV for contrast on matte', 'UV, aqueous and drip-off coatings'], img: 'mat-foil', alt: 'Gold foil numerals on black textured board' }
   ];
   var matList = document.querySelector('.material .cats');
   var matSelect = null;

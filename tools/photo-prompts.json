@@ -157,6 +157,58 @@
       "licence": "Unsplash License (free for commercial use, no attribution required)",
       "description": "Stacked brown corrugated cartons",
       "fetched": "15 October 2026"
+    },
+    "prod-takeaway": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Kraft takeaway food boxes"
+    },
+    "prod-cups": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Printed paper coffee cups"
+    },
+    "prod-export": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Palletised export cartons and forklifts in a distribution warehouse"
+    },
+    "prod-woven": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Woven garment labels held in a hand"
+    },
+    "prod-luxury": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "A range of rigid presentation boxes with drawers, lids and inserts"
+    },
+    "cap-convert": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "An operator feeding corrugated sheets into a converting machine"
+    },
+    "prod-fmcg": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Printed folding cartons for coffee, soap, cosmetics, snacks and electronics"
+    },
+    "ind-cosmetics": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "A black perfume box with a satin-lined base"
+    },
+    "prod-hangtag": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Two printed paper hang tags on black cord"
+    },
+    "prod-luxe-dark": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Black and gold rigid gift boxes with a satin ribbon"
+    },
+    "cap-print": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Printed sheet emerging from a wide press"
+    },
+    "cap-labels": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "A label press running printed label stock in a Bangladesh factory"
+    },
+    "cap-structure": {
+      "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
+      "description": "Scored, folded and die-cut structural packaging samples"
     }
   }
 }

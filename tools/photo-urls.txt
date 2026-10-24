@@ -1,0 +1,10 @@
+# UK Plug category photographs, Unsplash, 24 October 2026
+prod-pizza https://images.unsplash.com/photo-1630466913899-31fb06c6110e?w=1600&q=82
+cand-pizza-2 https://images.unsplash.com/photo-1642795339995-11ca488515fc?w=1600&q=82
+ind-footwear https://images.unsplash.com/photo-1568597396622-85be9c2f9b65?w=1600&q=82
+cand-shoe-2 https://images.unsplash.com/photo-1700079102106-1771913dbd1c?w=1600&q=82
+cand-shoe-3 https://images.unsplash.com/photo-1607166452427-7e4477079cb9?w=1600&q=82
+prod-apparel https://images.unsplash.com/photo-1714317437445-785581e4ff7a?w=1600&q=82
+ind-electronics https://images.unsplash.com/photo-1778755712120-65ee7711429a?w=1600&q=82
+cand-elec-2 https://images.unsplash.com/photo-1778755744218-307e58ea3f77?w=1600&q=82
+cand-elec-3 https://images.unsplash.com/photo-1631010231130-5c7828d9a3a7?w=1600&q=82
