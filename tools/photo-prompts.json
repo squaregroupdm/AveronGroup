@@ -209,6 +209,38 @@
     "cap-structure": {
       "source": "Supplied by UK Plug Sourcing Limited with its company profile, 24 October 2026",
       "description": "Scored, folded and die-cut structural packaging samples"
+    },
+    "prod-pizza": {
+      "photographer": "Girl with red hat",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Pizza in a printed kraft pizza box",
+      "page": "https://unsplash.com/photos/pizza-on-brown-cardboard-box-eIFtVhr75vs",
+      "fetched": "24 October 2026"
+    },
+    "ind-footwear": {
+      "photographer": "Christopher Bill",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Plain kraft box with a lid on a white surface",
+      "page": "https://unsplash.com/photos/brown-cardboard-box-on-white-surface-3l19r5EOZaw",
+      "fetched": "24 October 2026"
+    },
+    "prod-apparel": {
+      "photographer": "TuanAnh Blue",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Folded garments in a kraft box",
+      "page": "https://unsplash.com/photos/a-box-of-folded-clothes-on-a-white-background-4eWG_UFOjCk",
+      "fetched": "24 October 2026"
+    },
+    "ind-electronics": {
+      "photographer": "Mediamodifier",
+      "source": "Unsplash",
+      "licence": "Unsplash License (free for commercial use, no attribution required)",
+      "description": "Kraft mailer box with a blank white label",
+      "page": "https://unsplash.com/photos/brown-cardboard-box-on-white-table-isA8_lAgDjE",
+      "fetched": "24 October 2026"
     }
   }
 }

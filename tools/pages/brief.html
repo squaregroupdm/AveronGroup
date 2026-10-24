@@ -1,5 +1,5 @@
-<!-- title: Start a project, Averon Global -->
-<!-- desc: Tell Averon what you are sourcing, the quantity, the material, the market and the date. We reply with the questions a quotation needs. -->
+<!-- title: Start a project, UK Plug Sourcing Limited -->
+<!-- desc: Tell UK Plug what you are sourcing, the quantity, the material, the market and the date. We reply with the questions a quotation needs. -->
 <!-- cur: brief -->
 <!-- body: light -->
 <!-- body -->
@@ -17,15 +17,19 @@
       <h2>What are you sourcing?</h2>
       <p class="help">Pick the closest family. We confirm the exact construction with you.</p>
       <div class="choices">
+        <label><input type="radio" name="family" value="Hang tags and garment labels">Hang tags and garment labels</label>
+        <label><input type="radio" name="family" value="Stickers and adhesive labels">Stickers and adhesive labels</label>
         <label><input type="radio" name="family" value="Folding cartons" checked>Folding cartons</label>
-        <label><input type="radio" name="family" value="Premium or rigid packaging">Premium or rigid packaging</label>
-        <label><input type="radio" name="family" value="Corrugated cartons">Corrugated cartons</label>
-        <label><input type="radio" name="family" value="Retail packaging, bags, tags">Retail packaging, bags, tags</label>
-        <label><input type="radio" name="family" value="Food packaging">Food packaging</label>
-        <label><input type="radio" name="family" value="Healthcare packaging">Healthcare packaging</label>
+        <label><input type="radio" name="family" value="Apparel and RMG packaging">Apparel and RMG packaging</label>
+        <label><input type="radio" name="family" value="Food-service and takeaway packaging">Food-service and takeaway packaging</label>
+        <label><input type="radio" name="family" value="Pizza boxes and food delivery">Pizza boxes and food delivery</label>
+        <label><input type="radio" name="family" value="Corrugated packaging">Corrugated packaging</label>
+        <label><input type="radio" name="family" value="Master and export cartons">Master and export cartons</label>
+        <label><input type="radio" name="family" value="Rigid boxes and luxury packaging">Rigid boxes and luxury packaging</label>
+        <label><input type="radio" name="family" value="Paper cups">Paper cups</label>
         <label><input type="radio" name="family" value="Something else">Something else</label>
       </div>
-      <div class="field"><label for="product">The product it will hold</label><input id="product" name="product" type="text" placeholder="e.g. 50 ml serum, two shoe sizes, 200 g chocolate" autocomplete="off"></div>
+      <div class="field"><label for="product">The product it will hold</label><input id="product" name="product" type="text" placeholder="e.g. 50 ml perfume, a shirt in three sizes, 12-inch pizza" autocomplete="off"></div>
     </section>
 
     <section class="bstep" data-step="2">
@@ -98,11 +102,11 @@
 (function(){
   var steps=[].slice.call(document.querySelectorAll('.bstep')), bars=[].slice.call(document.querySelectorAll('.progress i'));
   var prev=document.getElementById('prev'), next=document.getElementById('next'), result=document.getElementById('result');
-  var TO='enquiries@averonglobal.com';
+  var TO='enquiries@ukplugsourcing.com';
   var i=0;
   var started=false;
   function show(n){
-    if(n>i&&window.averonTrack){ if(!started){ started=true; averonTrack('brief_start'); } averonTrack('step_complete',{step:i+1}); }
+    if(n>i&&window.ukplugTrack){ if(!started){ started=true; ukplugTrack('brief_start'); } ukplugTrack('step_complete',{step:i+1}); }
     i=Math.max(0,Math.min(steps.length-1,n));
     steps.forEach(function(s,k){ s.classList.toggle('is-on',k===i); });
     bars.forEach(function(b,k){ b.classList.toggle('is-done',k<=i); });
@@ -118,7 +122,7 @@
     var email=val('email');
     if(!email||email.indexOf('@')<0){ document.getElementById('email').focus(); document.getElementById('ok').textContent='Add an email address so we can reply.'; result.classList.add('is-on'); document.getElementById('draft').textContent=''; return; }
     var files=document.getElementById('files').files, names=[]; for(var k=0;k<files.length;k++) names.push(files[k].name);
-    var body='Hello Averon,\n\nPlease review the following packaging brief.\n\n'
+    var body='Hello UK Plug,\n\nPlease review the following packaging brief.\n\n'
       +line('Packaging',radio('family'))+line('Product',val('product'))+line('First order',val('qty'))+line('Per year',val('annual'))
       +line('Specification',val('spec'))+line('Target market',radio('market'))+line('Delivery destination',val('dest'))
       +line('Needed by',val('date'))+line('Target cost per unit',val('cost'))+(names.length?'Files attached: '+names.join(', ')+'\n':'')
@@ -128,12 +132,12 @@
     document.getElementById('mail').href='mailto:'+TO+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
     document.getElementById('ok').textContent='';
     result.classList.add('is-on'); result.scrollIntoView({behavior:'smooth',block:'nearest'});
-    if(window.averonTrack) averonTrack('brief_submit',{family:radio('family'),market:radio('market')});
+    if(window.ukplugTrack) ukplugTrack('brief_submit',{family:radio('family'),market:radio('market')});
   }
   prev.addEventListener('click',function(){ show(i-1); });
   next.addEventListener('click',function(){ if(i===steps.length-1) draft(); else show(i+1); });
   document.getElementById('stepper').addEventListener('submit',function(e){ e.preventDefault(); if(i===steps.length-1) draft(); else show(i+1); });
-  document.getElementById('files').addEventListener('change',function(e){ var f=e.target.files, n=[]; for(var k=0;k<f.length;k++) n.push(f[k].name); document.getElementById('filelist').textContent=n.length?'Chosen: '+n.join(', '):''; if(n.length&&window.averonTrack) averonTrack('file_upload',{files:n.length}); });
+  document.getElementById('files').addEventListener('change',function(e){ var f=e.target.files, n=[]; for(var k=0;k<f.length;k++) n.push(f[k].name); document.getElementById('filelist').textContent=n.length?'Chosen: '+n.join(', '):''; if(n.length&&window.ukplugTrack) ukplugTrack('file_upload',{files:n.length}); });
   document.getElementById('copy').addEventListener('click',function(){
     var t=document.getElementById('draft').textContent, ok=document.getElementById('ok');
     function fb(){ var r=document.createRange(); r.selectNodeContents(document.getElementById('draft')); var s=window.getSelection(); s.removeAllRanges(); s.addRange(r); ok.textContent='Selected. Press copy on your keyboard.'; }
