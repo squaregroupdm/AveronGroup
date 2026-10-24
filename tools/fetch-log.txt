@@ -1,10 +1,3 @@
-prod-pizza (1600, 2400)
-cand-pizza-2 (1600, 2119)
-ind-footwear (1600, 2400)
-cand-shoe-2 (1600, 2691)
-cand-shoe-3 (1600, 1067)
-prod-apparel (1600, 2400)
+ind-footwear (1600, 1067)
 ind-electronics (1600, 1067)
-cand-elec-2 (1600, 1067)
-cand-elec-3 (1600, 1067)
-fetched 9
+fetched 2
