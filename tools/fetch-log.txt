@@ -1,7 +1,10 @@
-cap-manufacturing (2000, 1130)
-gal-print (1168, 880)
-journey-produce (1248, 832)
-hero-3 (2200, 1243)
-factory-manager (1248, 832)
-journey-source (1248, 832)
-fetched 6
+prod-pizza (1600, 2400)
+cand-pizza-2 (1600, 2119)
+ind-footwear (1600, 2400)
+cand-shoe-2 (1600, 2691)
+cand-shoe-3 (1600, 1067)
+prod-apparel (1600, 2400)
+ind-electronics (1600, 1067)
+cand-elec-2 (1600, 1067)
+cand-elec-3 (1600, 1067)
+fetched 9
