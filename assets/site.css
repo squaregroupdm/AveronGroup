@@ -96,7 +96,7 @@ ul, ol { padding: 0; list-style: none; }
 .edit { font-family: var(--font-editorial); font-style: italic; font-weight: 400; font-size: var(--text-edit); line-height: 1.3; letter-spacing: 0.005em; text-wrap: balance; margin-bottom: 12px; }
 h1 { font-size: var(--text-hero); line-height: 1.02; font-weight: 500; letter-spacing: -0.025em; text-wrap: balance; }
 h2 { font-size: var(--text-h2); line-height: 1.08; font-weight: 500; letter-spacing: -0.02em; text-wrap: balance; max-width: 20ch; }
-h3 { font-size: var(--text-h3); line-height: 1.2; font-weight: 500; letter-spacing: -0.01em; text-wrap: balance; }
+h3 { font-size: var(--text-h3); line-height: 1.3; font-weight: 500; letter-spacing: -0.01em; text-wrap: balance; }
 h4 { font-size: 1.1rem; line-height: 1.3; font-weight: 600; }
 p { max-width: 38em; }
 .lead { font-size: clamp(1.05rem, 1rem + 0.3vw, 1.25rem); line-height: 1.55; }
@@ -109,7 +109,7 @@ p { max-width: 38em; }
 
 /* Glass: instruments over photographs only */
 .glass { background: var(--glass-dark); border: 1px solid var(--glass-border); backdrop-filter: blur(var(--glass-blur)); -webkit-backdrop-filter: blur(var(--glass-blur)); border-radius: 12px; color: var(--av-ivory); }
-.tag { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.02em; line-height: 1.2; }
+.tag { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; font-size: 0.78rem; font-weight: 500; letter-spacing: 0.02em; line-height: 1.3; }
 .tag i { width: 6px; height: 6px; border-radius: 50%; background: var(--av-ivory); flex: none; }
 
 /* Pills */
@@ -191,7 +191,7 @@ p { max-width: 38em; }
 .ch.is-reached .marker { background: var(--av-ivory); }
 .chlabel { display: inline-flex; align-items: center; gap: 12px; margin-bottom: 20px; }
 .chlabel .n { font-size: var(--text-xs); letter-spacing: 0.16em; font-weight: 600; font-variant-numeric: tabular-nums; color: var(--av-amber); }
-.on-light .chlabel .n, .light .chlabel .n { color: var(--av-amber-ink); }
+.on-light .chlabel .n, .on-ivory .chlabel .n, .light .chlabel .n { color: var(--av-amber-ink); }
 .chlabel .l { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; font-weight: 500; color: var(--soft); }
 .on-light .chlabel .l, .on-ivory .chlabel .l { color: var(--av-slate); }
 .chlabel .bar { width: 28px; height: 1px; background: currentColor; opacity: 0.4; }
@@ -380,7 +380,7 @@ p { max-width: 38em; }
 .footer .kicker { display: block; margin-bottom: 12px; }
 .footer li { font-size: 0.92rem; padding: 4px 0; }
 .footer li a:hover { text-decoration: underline; text-underline-offset: 3px; }
-.footer .tag-line { font-family: var(--font-editorial); font-style: italic; font-size: 1.35rem; margin-top: 14px; color: var(--soft); text-align: left; }
+.footer .tag-line { font-family: var(--font-editorial); font-style: italic; font-size: 1.35rem; line-height: 1.35; margin-top: 14px; color: var(--soft); text-align: left; }
 .footer .legal { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding-top: 20px; font-size: var(--text-xs); color: var(--soft); letter-spacing: 0.02em; }
 .footer .wordmark { height: 40px; width: auto; }
 

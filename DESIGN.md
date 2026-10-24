@@ -3,7 +3,7 @@ name: UK Plug Sourcing Limited
 description: The supply journey is the interface. Photographs are the ground; midnight and ivory are the quiet grounds between them.
 colors:
   midnight: "#0F2233"  # UK Plug navy, 24 October 2026
-  ink: "#021A38"
+  ink: "#0A1824"
   ivory: "#F6F1E8"
   white: "#FFFFFF"
   slate: "#5B6578"
@@ -201,7 +201,7 @@ A pinned six-colour brand palette (owner's brief) rendered as two grounds plus t
 - **Ivory** (#F6F1E8): the light ground and the text colour on Midnight. Body ground on inner pages, the pagehead and alternating bands, the primary pill button, the route line, the progress bar, chapter markers, focus rings on dark ground, and the nested arrow circle. Ivory Soft (Ivory at 74 percent) is the secondary text on dark ground: leads, captions, chapter titles, nav links at rest.
 
 ### Secondary
-- **Ink** (#021A38): the footer ground, the base colour beneath every photograph while it loads, and the fill of the route map SVG. Never a text colour.
+- **Ink** (#0A1824): the footer ground, the base colour beneath every photograph while it loads, and the fill of the route map SVG. Never a text colour.
 
 ### Tertiary
 - **Amber** (#D9822B on dark ground, #A85A14 as Amber Ink on light ground): the single accent, from the UK Plug profile. The route line, the progress bar, chapter numbers, the map route and focus rings on light grounds. Never a fill behind text.
